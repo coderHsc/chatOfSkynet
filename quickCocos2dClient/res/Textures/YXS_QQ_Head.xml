@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by tina (EMBRACE) -->
+<QUF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QUF.xsd">
+    <!--Fantasy-->
+    <Fantasy>
+        <Sprite id="60000001" desc="qq_head" img="qq_head|YXS_NEW_IN_GAME">
+            <Module id="120001" src="0,0,100,100" img_id="0" desc="1" />
+            <Module id="120174" src="800,0,100,100" img_id="0" desc="174" />
+            <Module id="120175" src="900,0,100,100" img_id="0" desc="175" />
+            <Module id="120176" src="0,100,100,100" img_id="0" desc="176" />
+            <Module id="120177" src="100,100,100,100" img_id="0" desc="177" />
+            <Module id="120178" src="200,100,100,100" img_id="0" desc="178" />
+            <Module id="120179" src="300,100,100,100" img_id="0" desc="179" />
+            <Module id="120180" src="400,100,100,100" img_id="0" desc="180" />
+            <Module id="120181" src="500,100,100,100" img_id="0" desc="181" />
+            <Module id="120182" src="600,100,100,100" img_id="0" desc="182" />
+            <Module id="120183" src="700,100,100,100" img_id="0" desc="183" />
+            <Module id="120184" src="800,100,100,100" img_id="0" desc="184" />
+            <Module id="120185" src="900,100,100,100" img_id="0" desc="185" />
+            <Module id="120186" src="0,200,100,100" img_id="0" desc="186" />
+            <Module id="120187" src="100,200,100,100" img_id="0" desc="187" />
+            <Module id="120188" src="200,200,100,100" img_id="0" desc="188" />
+            <Module id="120189" src="300,200,100,100" img_id="0" desc="189" />
+            <Module id="120190" src="400,200,100,100" img_id="0" desc="190" />
+            <Module id="120191" src="500,200,100,100" img_id="0" desc="191" />
+            <Module id="120192" src="600,200,100,100" img_id="0" desc="192" />
+            <Module id="120193" src="700,200,100,100" img_id="0" desc="193" />
+            <Module id="120194" src="800,200,100,100" img_id="0" desc="194" />
+            <Module id="120195" src="900,200,100,100" img_id="0" desc="195" />
+            <Module id="120196" src="0,300,100,100" img_id="0" desc="196" />
+            <Module id="120197" src="100,300,100,100" img_id="0" desc="197" />
+            <Module id="120198" src="200,300,100,100" img_id="0" desc="198" />
+            <Module id="120199" src="300,300,100,100" img_id="0" desc="199" />
+            <Module id="120200" src="400,300,100,100" img_id="0" desc="200" />
+            <Module id="120201" src="500,300,100,100" img_id="0" desc="201" />
+            <Module id="120202" src="600,300,100,100" img_id="0" desc="202" />
+            <Module id="120203" src="700,300,100,100" img_id="0" desc="203" />
+            <Module id="120204" src="800,300,100,100" img_id="0" desc="204" />
+            <Module id="120205" src="900,300,100,100" img_id="0" desc="205" />
+            <Module id="120206" src="0,400,100,100" img_id="0" desc="206" />
+            <Module id="120207" src="100,400,100,100" img_id="0" desc="207" />
+            <Module id="120208" src="200,400,100,100" img_id="0" desc="208" />
+            <Module id="120209" src="300,400,100,100" img_id="0" desc="209" />
+            <Module id="120210" src="400,400,100,100" img_id="0" desc="210" />
+            <Module id="120211" src="500,400,100,100" img_id="0" desc="211" />
+            <Module id="120212" src="600,400,100,100" img_id="0" desc="212" />
+            <Module id="120213" src="700,400,100,100" img_id="0" desc="213" />
+            <Module id="120214" src="800,400,100,100" img_id="0" desc="214" />
+            <Module id="120215" src="900,400,100,100" img_id="0" desc="215" />
+            <Module id="120216" src="0,500,100,100" img_id="0" desc="216" />
+            <Module id="120217" src="100,500,100,100" img_id="0" desc="217" />
+            <Module id="120218" src="200,500,100,100" img_id="0" desc="218" />
+            <Module id="120219" src="300,500,100,100" img_id="0" desc="219" />
+            <Module id="120220" src="400,500,100,100" img_id="0" desc="220" />
+            <Module id="120221" src="500,500,100,100" img_id="0" desc="221" />
+            <Module id="120222" src="600,500,100,100" img_id="0" desc="222" />
+            <Module id="120223" src="700,500,100,100" img_id="0" desc="223" />
+            <Module id="120224" src="800,500,100,100" img_id="0" desc="224" />
+            <Module id="120225" src="900,500,100,100" img_id="0" desc="225" />
+            <Module id="120226" src="0,600,100,100" img_id="0" desc="226" />
+            <Module id="120227" src="100,600,100,100" img_id="0" desc="227" />
+            <Module id="120228" src="200,600,100,100" img_id="0" desc="228" />
+            <Module id="120229" src="300,600,100,100" img_id="0" desc="229" />
+            <Module id="120230" src="400,600,100,100" img_id="0" desc="230" />
+            <Module id="120231" src="500,600,100,100" img_id="0" desc="231" />
+            <Module id="120232" src="600,600,100,100" img_id="0" desc="232" />
+            <Module id="120233" src="700,600,100,100" img_id="0" desc="233" />
+            <Module id="120234" src="800,600,100,100" img_id="0" desc="234" />
+            <Module id="120235" src="900,600,100,100" img_id="0" desc="235" />
+            <Module id="120236" src="0,700,100,100" img_id="0" desc="236" />
+            <Module id="120237" src="100,700,100,100" img_id="0" desc="237" />
+            <Module id="120238" src="200,700,100,100" img_id="0" desc="238" />
+            <Module id="120239" src="300,700,100,100" img_id="0" desc="239" />
+            <Module id="120240" src="400,700,100,100" img_id="0" desc="240" />
+            <Module id="120241" src="500,700,100,100" img_id="0" desc="241" />
+            <Module id="120242" src="600,700,100,100" img_id="0" desc="242" />
+            <Module id="120243" src="700,700,100,100" img_id="0" desc="243" />
+            <Module id="120244" src="800,700,100,100" img_id="0" desc="244" />
+            <Module id="120245" src="900,700,100,100" img_id="0" desc="245" />
+            <Module id="120246" src="0,800,100,100" img_id="0" desc="246" />
+            <Module id="120247" src="100,800,100,100" img_id="0" desc="247" />
+            <Module id="120248" src="200,800,100,100" img_id="0" desc="248" />
+            <Module id="120249" src="300,800,100,100" img_id="0" desc="249" />
+            <Module id="120250" src="400,800,100,100" img_id="0" desc="250" />
+            <Module id="120251" src="500,800,100,100" img_id="0" desc="251" />
+            <Module id="120252" src="600,800,100,100" img_id="0" desc="252" />
+            <Module id="120253" src="700,800,100,100" img_id="0" desc="253" />
+            <Module id="120254" src="800,800,100,100" img_id="0" desc="254" />
+            <Module id="120255" src="900,800,100,100" img_id="0" desc="255" />
+            <Module id="120256" src="0,900,100,100" img_id="0" desc="256" />
+            <Module id="120257" src="100,900,100,100" img_id="0" desc="257" />
+            <Module id="120258" src="200,900,100,100" img_id="0" desc="258" />
+            <Module id="120259" src="300,900,100,100" img_id="0" desc="259" />
+            <Module id="120260" src="400,900,100,100" img_id="0" desc="260" />
+            <Module id="120261" src="500,900,100,100" img_id="0" desc="261" />
+            <Module id="120262" src="600,900,100,100" img_id="0" desc="262" />
+            <Module id="120263" src="700,900,100,100" img_id="0" desc="263" />
+            <Module id="120264" src="800,900,100,100" img_id="0" desc="264" />
+    	    <Module id="120265" src="924,200,100,100" img_id="1" desc="265" />
+    	    <Module id="120266" src="924,302,100,100" img_id="1" desc="266" />
+        </Sprite>
+    </Fantasy>
+</QUF>

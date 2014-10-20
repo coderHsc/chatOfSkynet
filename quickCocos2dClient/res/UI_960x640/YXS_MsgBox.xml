@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by tina (EMBRACE) -->
+<QUF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QUF.xsd">
+    <RootView>
+        <TitlePanel id="MessageBox_View" ctrlid="1982210" rect="0,0,960,640" show="false">
+            <TitlePanel id="MessageBox_BK" ctrlid="1982211" render="common_bk9" rect="180,120,600,260">
+                <Label id="MessageBox_Text" ctrlid="1982212" caption="" color="255,255,255" rect="10,60,562,50" viewalign="center" />
+                <TextButton id="MessageBox_Btn_OK" ctrlid="1982213" rect="170,160,232,68" render="new_btn_ok_2" />
+                <TextButton id="MessageBox_Btn_Cancel" ctrlid="1982214" rect="170,160,232,68" render="new_btn_cancle_2" />
+            </TitlePanel>
+            <TitlePanel id="MessageBox_BK_Waiting" ctrlid="336682211" render="light_bk9" rect="270,240,420,140">
+                <Label id="MessageBox_Text_Waiting" ctrlid="336682212" caption="正在换桌，请稍候..." color="65,26,4" rect="130,50,560,40" viewalign="left" />
+                <TitlePanel id="Waiting_Icon" ctrlid="336682213" rect="32,36,68,68" ownerdraw="true" />
+            </TitlePanel>
+            <TitlePanel id="MessageBox_BK_Reconnect" ctrlid="336683214" render="light_bk9" rect="270,240,420,140">
+                <Label id="MessageBox_reconnect_Text_Waiting" ctrlid="336683215" caption="网络不稳定..." color="65,26,4" rect="130,50,560,40" viewalign="left" />
+                <TitlePanel id="reconnectWaiting_Icon" ctrlid="336683216" rect="32,36,68,68" ownerdraw="true" />
+            </TitlePanel>
+            <TitlePanel id="MessageBox_BK_Entering" ctrlid="336682217" render="light_bk9" rect="270,240,420,140">
+                <Label id="MessageBox_BK_Text_Entering" ctrlid="336682218" caption="正在加入游戏..." color="65,26,4" rect="130,50,560,40" viewalign="left" />
+                <TitlePanel id="entering_Icon" ctrlid="336682219" rect="32,36,68,68" ownerdraw="true" />
+            </TitlePanel>
+            <TitlePanel id="MessageBoxUpdate_BK" ctrlid="336682220" render="common_bk9" rect="180,120,600,280">
+              <Label id="MessageBoxUpdate_Text" ctrlid="336682221" caption="" color="255,255,255" rect="10,60,562,50" viewalign="center" />
+              <Label id="IncreUpdate_text" ctrlid="336682225" caption="使用智能升级节省流量" color="255,255,255" rect="8,110,300,40" viewalign="left" />
+              <CheckBox id="IncreUpdate_chekbox" ctrlid="336682224" rect="8,110,40,40" render="Common_RC_BtnRender" />
+              <TextButton id="MessageBoxUpdate_Btn_OK" ctrlid="336682222" rect="170,160,232,68" render="new_btn_ok_2" />
+              <TextButton id="MessageBoxUpdate_Btn_Cancel" ctrlid="336682223" rect="170,160,232,68" render="new_btn_cancle_2" />
+            </TitlePanel>
+        </TitlePanel>
+        <FeedBackView id="FeedBack_View" ctrlid="2900000" rect="176,10,670,420" show="false">
+            <TitlePanel id="FeedBackEdit_View" ctrlid="3010000" rect="0,0,670,420" render="common_bk9">
+                <TitlePanel id="title_back" ctrlid="3010003" rect="232,16,204,70" render="feedback_title_render" />
+                <Label id="FeedBackText" ctrlid="2900001" caption="您的反馈意见" viewalign="center" color="0,0,0" rect="0,30,670,50" render="title_back" />
+                <TitlePanel id="feedback_text_frame" rect="10,90,648,234" render="common_frame9_alpha" />
+                <Edit id="feedback_text_input" ctrlid="2900002" rect="18,98,632,216" style="tabstop|mulitline" />
+                <TextButton id="send_feedback_btn" ctrlid="2900003" rect="240,334,190,64" render="new_btn_send_feedback" />
+            </TitlePanel>
+            <TitlePanel id="FeedBackTip" ctrlid="301001" render="light_bk9" rect="110,200,448,120">
+                <Label id="FeedBackTipText" ctrlid="3010002" caption="感谢您对英雄杀的支持！" color="65,26,4" rect="0,0,448,120" viewalign="center" />
+            </TitlePanel>
+        </FeedBackView>
+    </RootView>
+    <Render>
+        <FanRender id="feedback_title_render">
+            <FanObj id="title_bk" fantasy="sprite|60000003|frame|33110" />
+        </FanRender>
+    </Render>
+</QUF>

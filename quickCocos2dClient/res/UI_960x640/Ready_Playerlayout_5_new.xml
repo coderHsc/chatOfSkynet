@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by tina (EMBRACE) -->
+<QUF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QUF.xsd">
+    <RootView>
+        <TitlePanel id="Ready5" ctrlid="190400" rect="0,0,960,640" penetrate="true">
+            <TextButton id="Button_Start_Game" ctrlid="122" rect="342,524,308,110" render="StartGameBtn" />
+            <TextButton id="QuickChangeBtn" ctrlid="123" rect="368,154,228,228" render="QuickChangeBtn" />
+            <ReadyUserView id="Ready5player0" ctrlid="106" viewseatid="0" rect="300,26,352,128" render="new_payer2" />
+            <ReadyUserView id="Ready5player1" ctrlid="107" viewseatid="1" rect="598,208,352,128" render="new_payer1" />
+            <ReadyUserView id="Ready5player2" ctrlid="118" viewseatid="2" rect="536,378,352,128" render="new_payer1" />
+            <ReadyUserView id="Ready5player3" ctrlid="109" viewseatid="3" rect="80,378,352,128" render="new_payer1" />
+            <ReadyUserView id="Ready5player4" ctrlid="110" viewseatid="4" rect="16,208,352,128" render="new_payer1" />
+            <ReadyUserView id="Ready5player5" ctrlid="111" viewseatid="5" rect="236,308,352,128" render="new_payer1" show="false" />
+            <ReadyUserView id="Ready5player6" ctrlid="112" viewseatid="6" rect="454,308,352,128" render="new_payer1" show="false" />
+            <ReadyUserView id="Ready5player7" ctrlid="113" viewseatid="7" rect="670,308,352,128" render="new_payer1" show="false" />
+            <TitlePanel id="userinfolayout" ctrlid="190410" rect="0,0,960,640" penetrate="true">
+                <UserInfo id="userinfo0" ctrlid="200" viewseatid="0" rect="168,122,620,380" render="common_bk9" show="false" />
+                <UserInfo id="userinfo1" ctrlid="201" viewseatid="1" rect="168,122,620,380" render="common_bk9" show="false" />
+                <UserInfo id="userinfo2" ctrlid="202" viewseatid="2" rect="168,122,620,380" render="common_bk9" show="false" />
+                <UserInfo id="userinfo3" ctrlid="203" viewseatid="3" rect="168,122,620,380" render="common_bk9" show="false" />
+                <UserInfo id="userinfo4" ctrlid="204" viewseatid="4" rect="168,122,620,380" render="common_bk9" show="false" />
+            </TitlePanel>
+        </TitlePanel>
+    </RootView>
+    <Render>
+        <FanBtnRender id="QuickChangeBtn">
+            <FanObj id="button" fantasy="sprite|60000000|frame|301" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000000|frame|302" />
+            <FanObj id="buttondisable" fantasy="sprite|60000000|frame|302" />
+            <FanObj id="image_text" fantasy="sprite|60000000|frame|304" />
+            <FanObj id="image_text_pressed" fantasy="sprite|60000000|frame|305" />
+            <FanObj id="image_text_pressed" fantasy="sprite|60000000|frame|305" />
+            <FanObj id="scene_text" fantasy="sprite|60000000|frame|308" />
+            <FanObj id="scene_text_pressed" fantasy="sprite|60000000|frame|309" />
+            <FanObj id="scene_text_pressed" fantasy="sprite|60000000|frame|309" />
+        </FanBtnRender>
+    </Render>
+</QUF>

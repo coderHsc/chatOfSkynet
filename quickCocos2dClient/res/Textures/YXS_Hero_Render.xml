@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by tina (EMBRACE) -->
+<QUF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QUF.xsd">
+    <!--Fantasy-->
+    <Fantasy>
+        <!--选将相关!-->
+        <Sprite id="100000" desc="HERO_0" img="HERO_0">
+            <Frame id="100001" desc="QIN_SHI_HUANG">
+                <FModule id="100002" src="0,0,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100003" desc="CHENG_JI_SI_HAN">
+                <FModule id="100004" src="136,0,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100005" desc="LIU_BANG">
+                <FModule id="100006" src="272,0,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100007" desc="ZHAO_KUANG_YIN">
+                <FModule id="100008" src="408,0,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100009" desc="GOU_JIAN">
+                <FModule id="100010" src="544,0,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100011" desc="ZHU_YUAN_ZHANG">
+                <FModule id="100012" src="680,0,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100013" desc="XIANG_YU">
+                <FModule id="100014" src="816,0,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100015" desc="LI_SHI_MIN">
+                <FModule id="100016" src="0,184,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100017" desc="WU_ZE_TIAN">
+                <FModule id="100018" src="136,184,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100019" desc="MU_RONG">
+                <FModule id="100020" src="272,184,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100021" desc="CAO_CAO">
+                <FModule id="100022" src="408,184,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100023" desc="CHEN_SHENG">
+                <FModule id="100024" src="544,184,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100025" desc="SHANG_YANG">
+                <FModule id="100026" src="680,184,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100027" desc="YU_JI">
+                <FModule id="100028" src="816,184,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100029" desc="LIU_BO_WEN">
+                <FModule id="100030" src="0,368,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100031" desc="YUE_FEI">
+                <FModule id="100032" src="136,368,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100033" desc="SUN_WU">
+                <FModule id="100034" src="272,368,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100035" desc="LIAN_PO">
+                <FModule id="100036" src="408,368,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100037" desc="HAN_XIN">
+                <FModule id="100038" src="544,368,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100039" desc="BAO_SI">
+                <FModule id="100040" src="680,368,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100041" desc="HUA_MU_LAN">
+                <FModule id="100042" src="816,368,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100043" desc="GUAN_YU">
+                <FModule id="100044" src="0,552,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100045" desc="YANG_YAN_ZHAO">
+                <FModule id="100046" src="136,552,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100047" desc="TAN_TAI_MING">
+                <FModule id="100048" src="272,552,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100049" desc="QIN_QIONG">
+                <FModule id="100050" src="408,552,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100051" desc="WU_SONG">
+                <FModule id="100052" src="544,552,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100053" desc="ZHAO_FEI_YAN">
+                <FModule id="100054" src="680,552,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100055" desc="SONG_JIANG">
+                <FModule id="100056" src="816,552,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100057" desc="XI_SHI">
+                <FModule id="100058" src="0,736,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100059" desc="BIAN_QUE">
+                <FModule id="100060" src="136,736,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100061" desc="CHEN_YUAN_YUAN">
+                <FModule id="100062" src="272,736,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100063" desc="LI_SHI_SHI">
+                <FModule id="100064" src="408,736,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100065" desc="REN_HUAN_ZHI">
+                <FModule id="100066" src="544,736,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100067" desc="JING_KE">
+                <FModule id="100068" src="680,736,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100069" desc="SHI_QIAN">
+                <FModule id="100070" src="816,736,136,184" dest="0,0,136,184" />
+            </Frame>
+        </Sprite>
+        <Sprite id="100071" desc="HERO_1" img="HERO_1">
+            <Frame id="100072" desc="LU_ZHI_SHEN">
+                <FModule id="100073" src="0,0,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100074" desc="LI_KUI">
+                <FModule id="100075" src="136,0,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100076" desc="CHENG_YAO_JIN">
+                <FModule id="100077" src="272,0,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100078" desc="ZHU_GE_LIANG">
+                <FModule id="100079" src="408,0,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100080" desc="LI_ZI_CHENG">
+                <FModule id="100081" src="544,0,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100082" desc="LU_ZHI">
+                <FModule id="100083" src="680,0,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100084" desc="PAN_AN">
+                <FModule id="100085" src="816,0,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100086" desc="LU_BAN">
+                <FModule id="100087" src="0,184,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100088" desc="XIAO_QIAO">
+                <FModule id="100089" src="136,184,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100090" desc="KANG_XI">
+                <FModule id="100091" src="0,368,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100092" desc="LIU_CHE">
+              <FModule id="100093" src="136,368,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100094" desc="LI_YU">
+              <FModule id="100095" src="272,184,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100096" desc="ZHANG_FEI">
+              <FModule id="100097" src="680,184,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100098" desc="YANG_YU_HUAN">
+              <FModule id="100099" src="408,184,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100100" desc="MO_ZI">
+              <FModule id="100101" src="544,184,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100102" desc="LIN_CONG">
+              <FModule id="100103" src="816,184,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100104" desc="DIAO_CHAN">
+              <FModule id="100105" src="408,368,136,184" dest="0,0,136,184" />
+            </Frame>
+            <Frame id="100106" desc="LI_BAI">
+              <FModule id="100107" src="272,368,136,184" dest="0,0,136,184" />
+            </Frame>
+        </Sprite>
+        <!--end选将相关!-->
+    </Fantasy>
+</QUF>

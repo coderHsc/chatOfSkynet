@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by tina (EMBRACE) -->
+<QUF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QUF.xsd">
+    <RootView>
+        <TitlePanel id="Panel_menu" ctrlid="190110" rect="0,640,960,172">
+            <TitlePanel id="Panel_menu_BG" ctrlid="190109" rect="0,640,960,172" show="false" render="new_game_menu_bk">
+                <TextButton id="menu_msg_Btn" ctrlid="190102" rect="28,674,126,120" render="menu_record_btn" />
+                <TextButton id="menu_chat_Btn" ctrlid="190104" rect="156,674,126,120" render="menu_chat_btn" />
+                <TextButton id="menu_auto_Btn" ctrlid="960" rect="284,674,126,120" render="menu_managed_btn" />
+                <TextButton id="menu_setting_Btn" ctrlid="190103" rect="412,674,126,120" render="menu_settting_btn" />
+                <TextButton id="menu_quick_help_Btn" ctrlid="190107" rect="540,674,126,120" render="menu_help_btn" />
+                <TextButton id="menu_feedback_Button" ctrlid="190111" rect="668,674,126,120" render="menu_feedback_btn" />
+                <TextButton id="menu_exit_game_Btn" ctrlid="190108" rect="796,674,126,120" render="menu_leave_btn" />
+            </TitlePanel>
+        </TitlePanel>
+        <!--聊天总界面!-->
+        <TitlePanel id="Chat_BG_View" ctrlid="191120" rect="0,0,960,640" show="false">
+            <TitlePanel id="Chat_REST_View" ctrlid="191121" rect="0,0,960,640">
+                <TitlePanel id="Chat_View" ctrlid="191100" render="common_bk9" rect="210,14,540,610">
+                    <TitlePanel id="Chat_enter_text_edit_back" ctrlid="191101" render="light_bk9" rect="14,14,414,60" />
+                    <Edit id="Chat_enter_text_edit" ctrlid="191104" style="tabstop" rect="20,20,400,46" lenlimit="16" taborder="proxy|2" show="false" />
+                    <TextButton id="Chat_send_btn" ctrlid="191105" rect="428,22,106,46" render="YXS_chat_send_Btn" soundeffect="false" />
+                    <TitlePanel id="Chat_quick_voice_view" ctrlid="191200" rect="20,76,504,500" penetrate="true" render="common_frame9_alpha">
+                        <TextButton id="Chat_quick_voice_btn_0" ctrlid="191201" rect="8,58,510,36" render="YXS_common_text_Btn" caption="能不能快一点呀，我等到花儿也谢了。" soundeffect="false" />
+                        <TextButton id="Chat_quick_voice_btn_1" ctrlid="191202" rect="8,94,510,36" render="YXS_common_text_Btn" caption="主公，不给力呀。" soundeffect="false" />
+                        <TextButton id="Chat_quick_voice_btn_2" ctrlid="191203" rect="8,130,510,36" render="YXS_common_text_Btn" caption="反贼们，再不跳反就没机会了。" soundeffect="false" />
+                        <TextButton id="Chat_quick_voice_btn_3" ctrlid="191204" rect="8,166,510,36" render="YXS_common_text_Btn" caption="悲剧了，我要打酱油了。" soundeffect="false" />
+                        <TextButton id="Chat_quick_voice_btn_4" ctrlid="191205" rect="8,202,510,36" render="YXS_common_text_Btn" caption="各位，真不好意思，我出去会。" soundeffect="false" />
+                        <TextButton id="Chat_quick_voice_btn_5" ctrlid="191206" rect="8,238,510,36" render="YXS_common_text_Btn" caption="你会不会玩呀？专业点！" soundeffect="false" />
+                        <TextButton id="Chat_quick_voice_btn_6" ctrlid="191207" rect="8,274,510,36" render="YXS_common_text_Btn" caption="再来一局！" soundeffect="false" />
+                        <TextButton id="Chat_quick_voice_btn_7" ctrlid="191208" rect="8,310,510,36" render="YXS_common_text_Btn" caption="小内，这都还不跳吗？" soundeffect="false" />
+                        <TextButton id="Chat_quick_voice_btn_8" ctrlid="191209" rect="8,346,510,36" render="YXS_common_text_Btn" caption="不好意思，我前面卡了。" soundeffect="false" />
+                        <TextButton id="Chat_quick_voice_btn_9" ctrlid="191210" rect="8,382,510,36" render="YXS_common_text_Btn" caption="杀错人了啊！" soundeffect="false" />
+                        <TextButton id="Chat_quick_voice_btn_10" ctrlid="191211" rect="8,418,510,36" render="YXS_common_text_Btn" caption="人不犯我我不犯人，人若犯我我必犯人！" soundeffect="false" />
+                        <TextButton id="Chat_quick_voice_btn_11" ctrlid="191212" rect="8,454,510,36" render="YXS_common_text_Btn" caption="什么状况？" soundeffect="false" />
+                    </TitlePanel>
+                    <TitlePanel id="Chat_msg_rec_view" ctrlid="191108" rect="20,76,504,500" penetrate="true" show="false" render="common_frame9_alpha">
+                        <ScrollTextView id="Chat_msg_scrollviewtext" ctrlid="191109" rect="4,62,484,430" textalign="left" fontsize="28" linespacing="2" />
+                    </TitlePanel>
+                    <TabButtom id="Chat_quick_voice_Btn" ctrlid="191106" rect="26,80,246,48" render="YXS_chat_short_words" />
+                    <TabButtom id="Chat_msg_rec_Btn" ctrlid="191107" rect="274,80,246,48" render="YXS_chat_record" />
+                </TitlePanel>
+            </TitlePanel>
+        </TitlePanel>
+        <!--end聊天总界面!-->
+        <!--消息记录总界面!-->
+        <TitlePanel id="USER_MSG_BG_View" ctrlid="191300" rect="0,0,960,640" show="false">
+            <TitlePanel id="USER_MSG_REST_View" ctrlid="191301" rect="0,0,960,640">
+                <TitlePanel id="USER_MSG_View" ctrlid="191302" render="common_bk9" rect="256,28,444,592" />
+                <TitlePanel id="USER_MSG_View" ctrlid="191302" render="common_frame9_alpha" rect="274,60,402,520">
+                    <TabButtom id="USER_MSG_all_Btn" ctrlid="191306" rect="2,4,132,48" render="YXS_record_all" />
+                    <TabButtom id="USER_MSG_self_Btn" ctrlid="191307" rect="134,4,132,48" render="YXS_record_self" />
+                    <TabButtom id="USER_MSG_lord_Btn" ctrlid="191308" rect="266,4,132,48" render="YXS_record_master" show="false" />
+                    <TitlePanel id="USER_MSG_SCROLLView" ctrlid="191309" rect="12,48,380,468" penetrate="true">
+                        <ScrollTextView id="USER_MSG_all_scrollviewtext" ctrlid="191310" rect="10,14,360,448" textalign="left" fontsize="28" linespacing="2" />
+                        <ScrollTextView id="USER_MSG_self_scrollviewtext" ctrlid="191311" rect="10,14,360,448" textalign="left" fontsize="28" linespacing="2" />
+                        <ScrollTextView id="USER_MSG_lord_scrollviewtext" ctrlid="191312" rect="10,14,360,448" textalign="left" fontsize="28" linespacing="2" />
+                    </TitlePanel>
+                </TitlePanel>
+            </TitlePanel>
+        </TitlePanel>
+        <!--end消息记录总界面!-->
+        <!--快速帮助界面!-->
+        <TitlePanel id="QUICK_HELP_ROOT_VIEW" ctrlid="191400" rect="0,0,960,640" show="false">
+            <TitlePanel id="QUICK_HELP_VIEW_BG" ctrlid="191401" rect="0,0,960,640" ownerdraw="true" />
+            <TitlePanel id="QUICK_HELP_VIEW" ctrlid="191402" rect="0,0,960,640">
+                <TitlePanel id="QUICK_HELP_LEFT_BTN_CTN" ctrlid="191410" rect="6,26,148,540">
+                    <TabButtom id="QUICK_HELP_HERO_BTN" ctrlid="191411" rect="0,0,190,64" render="YXS_common_text_Btn_5" caption="武将牌" />
+                    <TabButtom id="QUICK_HELP_BASE_BTN" ctrlid="191412" rect="0,66,190,64" render="YXS_common_text_Btn_5" caption="基本牌" />
+                    <TabButtom id="QUICK_HELP_SACK_BTN" ctrlid="191413" rect="0,132,190,64" render="YXS_common_text_Btn_5" caption="锦囊牌" />
+                    <TabButtom id="QUICK_HELP_EQUIP_BTN" ctrlid="191414" rect="0,198,190,64" render="YXS_common_text_Btn_5" caption="装备牌" />
+                    <TabButtom id="QUICK_HELP_WIN_BTN" ctrlid="191415" rect="0,264,190,64" render="YXS_common_text_Btn_5" caption="胜负条件" />
+                    <TabButtom id="QUICK_HELP_CAMP_BTN" ctrlid="191416" rect="0,330,190,64" render="YXS_common_text_Btn_5" caption="阵营介绍" />
+                    <TabButtom id="QUICK_HELP_ABOUT_BTN" ctrlid="191417" rect="0,396,190,64" render="YXS_common_text_Btn_5" caption="关于" />
+                </TitlePanel>
+                <TextButton id="QUICK_HELP_RET_BTN" ctrlid="191405" rect="14,520,122,112" render="help_new_back_btn" />
+                <!--marginhittest="5,10,5,10"-->
+                <TitlePanel id="QUICK_HELP_CENTER_VIEW" ctrlid="191420" rect="198,22,496,600" render="common_frame9_alpha">
+                    <TitlePanel id="QUICK_HELP_CENTER_RENDER_VIEW" ctrlid="191421" rect="0,0,496,600" ownerdraw="true" />
+                    <TabButtom id="QUICK_HELP_JUN_BTN" ctrlid="191422" rect="6,6,160,68" render="YXS_Quick_Help_Jun_Btn" caption="君" show="false" />
+                    <TabButtom id="QUICK_HELP_CHEN_BTN" ctrlid="191423" rect="166,6,164,68" render="YXS_Quick_Help_Chen_Btn" caption="臣" show="false" />
+                    <TabButtom id="QUICK_HELP_MIN_BTN" ctrlid="191424" rect="330,6,160,68" render="YXS_Quick_Help_Min_Btn" caption="民" show="false" />
+                </TitlePanel>
+                <TitlePanel id="QUICK_HELP_RIGHT_VIEW" ctrlid="191430" rect="698,22,252,600" render="common_frame9_alpha">
+                    <ScrollTextView id="QUICK_HELP_RIGHT_SCROLLVIEW" ctrlid="191431" rect="10,10,232,580" textalign="left" fontsize="24" linespacing="2" />
+                </TitlePanel>
+                <TitlePanel id="QUICK_HELP_HINT_VIEW" ctrlid="191440" rect="0,0,960,640" penetrate="true" ownerdraw="true" />
+            </TitlePanel>
+        </TitlePanel>
+        <!--end快速帮助界面!-->
+    </RootView>
+    <Render>
+        <!--new ui render begin-->
+        <FanRender id="GongXin_SelHua_Icon_old">
+            <FanObj id="GongXin_SelHua_Icon" fantasy="sprite|60000003|frame|32005" />
+        </FanRender>
+        <FanGrid9Render id="GongXin_SelHua_Icon">
+            <FanObj id="background" fantasy="sprite|60000003|frame|40000" />
+            <FanObj id="background" fantasy="sprite|60000003|frame|40001" />
+            <FanObj id="background" fantasy="sprite|60000003|frame|40002" />
+            <FanObj id="background" fantasy="sprite|60000003|frame|40003" />
+            <FanObj id="background" fantasy="sprite|60000003|frame|40004" />
+            <FanObj id="background" fantasy="sprite|60000003|frame|40005" />
+            <FanObj id="background" fantasy="sprite|60000003|frame|40006" />
+            <FanObj id="background" fantasy="sprite|60000003|frame|40007" />
+            <FanObj id="background" fantasy="sprite|60000003|frame|40008" />
+        </FanGrid9Render>
+        <FanBtnRender id="help_new_back_btn">
+            <FanObj id="button" fantasy="sprite|50000100|frame|120504" />
+            <FanObj id="buttonpressed" fantasy="sprite|50000100|frame|120505" />
+            <FanObj id="buttonpressed" fantasy="sprite|50000100|frame|120505" />
+            <FanObj id="buttonpressed" fantasy="sprite|50000100|frame|120505" />
+        </FanBtnRender>
+        <FanBtnRender id="YXS_common_text_Btn" fontNomal="28|STFONT|" fontPressed="28|STFONT|" fontChecked="28|STFONT|" fontDisable="28|STFONT|" colorNomal="218,193,156" colorPressed="255,251,0" colorChecked="255,251,0" colorDisabled="128,128,128">
+            <FanObj id="button" fantasy="sprite|60000003|frame|32010" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|32010" />
+            <FanObj id="buttondisabled" fantasy="sprite|60000003|frame|32010" />
+            <FanObj id="buttonchecked" fantasy="sprite|60000003|frame|32010" />
+        </FanBtnRender>
+        <!--new ui render end-->
+        <FanBtnRender id="YXS_chat_short_words">
+            <FanObj id="button" fantasy="sprite|60000003|frame|31000" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|31001" />
+            <FanObj id="buttondisabled" fantasy="sprite|60000003|frame|31000" />
+            <FanObj id="buttonchecked" fantasy="sprite|60000003|frame|31001" />
+        </FanBtnRender>
+        <FanBtnRender id="YXS_chat_record">
+            <FanObj id="button" fantasy="sprite|60000003|frame|31010" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|31011" />
+            <FanObj id="buttondisabled" fantasy="sprite|60000003|frame|31010" />
+            <FanObj id="buttonchecked" fantasy="sprite|60000003|frame|31011" />
+        </FanBtnRender>
+        <FanBtnRender id="YXS_record_all">
+            <FanObj id="button" fantasy="sprite|60000003|frame|31030" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|31031" />
+            <FanObj id="buttondisabled" fantasy="sprite|60000003|frame|31030" />
+            <FanObj id="buttonchecked" fantasy="sprite|60000003|frame|31031" />
+        </FanBtnRender>
+        <FanBtnRender id="YXS_record_self">
+            <FanObj id="button" fantasy="sprite|60000003|frame|31040" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|31041" />
+            <FanObj id="buttondisabled" fantasy="sprite|60000003|frame|31040" />
+            <FanObj id="buttonchecked" fantasy="sprite|60000003|frame|31041" />
+        </FanBtnRender>
+        <FanBtnRender id="YXS_record_master">
+            <FanObj id="button" fantasy="sprite|60000003|frame|31050" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|31051" />
+            <FanObj id="buttondisabled" fantasy="sprite|60000003|frame|31050" />
+            <FanObj id="buttonchecked" fantasy="sprite|60000003|frame|31051" />
+        </FanBtnRender>
+        <FanBtnRender id="YXS_common_text_Btn_5" fontNomal="34|STFONT|" fontPressed="34|STFONT|" fontChecked="34|STFONT|" fontDisable="34|STFONT|" colorNomal="49,20,0" colorPressed="49,20,0" colorChecked="217,193,148" colorDisabled="128,128,128">
+            <FanObj id="button" fantasy="sprite|50000100|frame|10041" />
+            <FanObj id="buttonpressed" fantasy="sprite|50000100|frame|10052" />
+            <FanObj id="buttondisabled" fantasy="sprite|50000100|frame|10041" />
+            <FanObj id="buttonchecked" fantasy="sprite|50000100|frame|10034" />
+        </FanBtnRender>
+        <FanBtnRender id="YXS_Quick_Help_Jun_Btn" fontNomal="34|STFONT|" fontPressed="34|STFONT|" fontChecked="34|STFONT|" fontDisable="34|STFONT|" colorNomal="49,20,0" colorPressed="49,20,0" colorChecked="134,14,0" colorDisabled="128,128,128">
+            <FanObj id="button" fantasy="sprite|50000100|frame|10035" />
+            <FanObj id="buttonpressed" fantasy="sprite|50000100|frame|10035" />
+            <FanObj id="buttondisabled" fantasy="sprite|50000100|frame|10035" />
+            <FanObj id="buttonchecked" fantasy="sprite|50000100|frame|10038" />
+        </FanBtnRender>
+        <FanBtnRender id="YXS_Quick_Help_Chen_Btn" fontNomal="34|STFONT|" fontPressed="34|STFONT|" fontChecked="34|STFONT|" fontDisable="34|STFONT|" colorNomal="49,20,0" colorPressed="49,20,0" colorChecked="134,14,0" colorDisabled="128,128,128">
+            <FanObj id="button" fantasy="sprite|50000100|frame|10037" />
+            <FanObj id="buttonpressed" fantasy="sprite|50000100|frame|10037" />
+            <FanObj id="buttondisabled" fantasy="sprite|50000100|frame|10037" />
+            <FanObj id="buttonchecked" fantasy="sprite|50000100|frame|10040" />
+        </FanBtnRender>
+        <FanBtnRender id="YXS_Quick_Help_Min_Btn" fontNomal="34|STFONT|" fontPressed="34|STFONT|" fontChecked="34|STFONT|" fontDisable="34|STFONT|" colorNomal="49,20,0" colorPressed="49,20,0" colorChecked="134,14,0" colorDisabled="128,128,128">
+            <FanObj id="button" fantasy="sprite|50000100|frame|10036" />
+            <FanObj id="buttonpressed" fantasy="sprite|50000100|frame|10036" />
+            <FanObj id="buttondisabled" fantasy="sprite|50000100|frame|10036" />
+            <FanObj id="buttonchecked" fantasy="sprite|50000100|frame|10039" />
+        </FanBtnRender>
+        <FanBtnRender id="YXS_chat_send_Btn">
+            <FanObj id="button" fantasy="sprite|60000003|frame|31020" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|31021" />
+        </FanBtnRender>
+        <FanRender id="new_game_menu_btn">
+            <FanObj id="game_menu_btn" fantasy="sprite|60000003|frame|10000" />
+            <FanObj id="game_menu_btn" fantasy="sprite|60000003|frame|10001" />
+            <FanObj id="game_menu_btn" fantasy="sprite|60000003|frame|10002" />
+            <FanObj id="game_menu_btn" fantasy="sprite|60000003|frame|10003" />
+            <FanObj id="game_menu_btn" fantasy="sprite|60000003|frame|10004" />
+        </FanRender>
+        <FanRender id="new_game_menu_bk">
+            <FanObj id="game_menu_btn" fantasy="sprite|60000003|frame|10005" />
+        </FanRender>
+        <FanBtnRender id="menu_managed_btn">
+            <FanObj id="button" fantasy="sprite|60000003|frame|11001" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11002" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11003" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11003" />
+        </FanBtnRender>
+        <FanBtnRender id="menu_chat_btn">
+            <FanObj id="button" fantasy="sprite|60000003|frame|11011" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11012" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11011" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11011" />
+        </FanBtnRender>
+        <FanBtnRender id="menu_settting_btn">
+            <FanObj id="button" fantasy="sprite|60000003|frame|11021" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11022" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11021" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11021" />
+        </FanBtnRender>
+        <FanBtnRender id="menu_help_btn">
+            <FanObj id="button" fantasy="sprite|60000003|frame|11031" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11032" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11031" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11031" />
+        </FanBtnRender>
+        <FanBtnRender id="menu_leave_btn">
+            <FanObj id="button" fantasy="sprite|60000003|frame|11041" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11042" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11041" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11041" />
+        </FanBtnRender>
+        <FanBtnRender id="menu_record_btn">
+            <FanObj id="button" fantasy="sprite|60000003|frame|11051" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11052" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11002" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11002" />
+        </FanBtnRender>
+        <FanBtnRender id="menu_feedback_btn">
+            <FanObj id="button" fantasy="sprite|60000003|frame|11061" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11062" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11062" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000003|frame|11062" />
+        </FanBtnRender>
+        <FanRender id="tip_dlg_bk_render">
+            <FanObj id="game_menu_btn" fantasy="sprite|60000003|frame|33110" />
+        </FanRender>
+    </Render>
+    <Fantasy>
+        <Sprite id="60000003" desc="new_game_menu" img="YXS_MENU_IN_GAME">
+            <Module id="2111" src="616,624,216,70" desc="zhanbu_dlg_lable" />
+            <Module id="2112" src="830,622,192,70" desc="qiyi_dlg_lable" />
+            <Module id="2113" src="400,622,216,70" desc="fudi_dlg_lable" />
+            <Module id="2114" src="742,822,216,70" desc="sheshen_dlg_lable" />
+            <Module id="2115" src="184,622,212,70" desc="gongxin_dlg_lable" />
+            <Module id="10000" src="134,224,132,48" desc="menu_btn_down" />
+            <Module id="10001" src="402,224,132,48" desc="menu_btn_down_pressed" />
+            <Module id="10002" src="0,224,132,48" desc="menu_btn_up" />
+            <Module id="10003" src="268,224,132,48" desc="menu_btn_up_pressed" />
+            <Module id="10004" src="820,0,140,54" desc="menu_btn_background" />
+            <Module id="10005" src="0,52,960,174" desc="menu_background" />
+            <Module id="11001" src="0,272,126,120" desc="menu_managed" />
+            <Module id="11002" src="0,394,126,120" desc="menu_managed_pressed" />
+            <Module id="11003" src="0,516,126,120" desc="menu_managed_disable" />
+            <Module id="11011" src="128,272,126,120" desc="menu_chat" />
+            <Module id="11012" src="128,394,126,120" desc="menu_chat_pressed" />
+            <Module id="11021" src="256,272,126,120" desc="menu_setting" />
+            <Module id="11022" src="256,394,126,120" desc="menu_setting_pressed" />
+            <Module id="11031" src="384,272,126,120" desc="menu_help" />
+            <Module id="11032" src="384,394,126,120" desc="menu_help_pressed" />
+            <Module id="11041" src="512,272,126,120" desc="menu_leave" />
+            <Module id="11042" src="512,394,126,120" desc="menu_leave_pressed" />
+            <Module id="11051" src="640,272,126,120" desc="menu_record" />
+            <Module id="11052" src="640,394,126,120" desc="menu_record_pressed" />
+            <Module id="11061" src="0,764,126,120" desc="menu_feedback" />
+            <Module id="11062" src="0,886,126,120" desc="menu_feedback_pressed" />
+            <Module id="11063" src="956,326,68,68" desc="card_top" />
+            <Module id="11064" src="956,256,68,68" desc="card_bottom" />
+            <Module id="1200" src="0,638,114,58" desc="hero_info_zhugong_text" />
+            <Module id="1201" src="116,638,114,58" desc="hero_info_fanzei_text" />
+            <Module id="1202" src="232,638,114,58" desc="hero_info_neijian_text" />
+            <Module id="1203" src="348,638,114,58" desc="hero_info_zhongchen_text" />
+            <Module id="1204" src="0,638,180,52" desc="hero_name_frame" />
+            <Module id="1205" src="0,696,214,70" desc="title_user_info" />
+            <Module id="1206" src="768,256,92,92" desc="role_btn_zhong" />
+            <Module id="1207" src="862,256,92,92" desc="role_btn_fan" />
+            <Module id="1208" src="768,350,92,92" desc="role_btn_nei" />
+            <Module id="1209" src="862,350,92,92" desc="role_btn_nil" />
+            <Module id="1210" src="296,808,180,146" desc="hero_Portrait_frame" />
+            <Module id="1211" src="194,768,100,108" desc="hero_Portrait_frame_small" />
+            <Module id="1212" src="478,808,46,134" desc="hero_role_back" />
+            <Module id="1213" src="678,808,48,102" desc="hero_role_zhu" />
+            <Module id="1214" src="528,808,48,106" desc="hero_role_zhong" />
+            <Module id="1215" src="578,808,48,106" desc="hero_role_fan" />
+            <Module id="1216" src="628,808,48,106" desc="hero_role_nei" />
+            <Module id="1217" src="728,834,44,80" desc="hero_role_null" />
+            <Module id="1218" src="0,586,34,58" desc="role_zhu_small" />
+            <Module id="1219" src="36,586,34,58" desc="role_zhong_small" />
+            <Module id="1220" src="72,586,34,58" desc="role_fan_small" />
+            <Module id="1221" src="108,586,34,58" desc="role_nei_small" />
+            <Module id="1222" src="108,586,34,58" desc="role_null_small" />
+            <Module id="11052" src="654,404,96,96" desc="menu_record_pressed" />
+            <Module id="31000" src="296,636,246,48" desc="chat_short_word" />
+            <Module id="31001" src="296,964,246,48" desc="chat_short_word_pressed" />
+            <Module id="31010" src="542,636,246,48" desc="chat_record" />
+            <Module id="31011" src="542,964,246,48" desc="chat_record_pressed" />
+            <Module id="31020" src="642,224,106,46" desc="chat_send" />
+            <Module id="31021" src="536,224,106,46" desc="chat_send_pressed" />
+            <Module id="31030" src="530,516,132,48" desc="record_all" />
+            <Module id="31031" src="530,566,132,48" desc="record_all_pressed" />
+            <Module id="31040" src="664,516,132,48" desc="record_self" />
+            <Module id="31041" src="664,566,132,48" desc="record_self_pressed" />
+            <Module id="31050" src="798,516,132,48" desc="record_master" />
+            <Module id="31051" src="798,566,132,48" desc="record_master_pressed" />
+            <Module id="31052" src="932,516,58,46" desc="cardscrollleft" />
+            <Module id="31053" src="932,516,58,46" desc="cardscrollleftpress" />
+            <Module id="31053" src="398,620,214,70" desc="BALANCE_TEXT_LORD_WIN" />
+            <!--<Module id="31053" src="90,445,106,35" desc="BALANCE_TEXT_FAN_WIN"/>-->
+            <Module id="31053" src="296,954,214,70" desc="BALANCE_TEXT_JIAN_WIN" />
+            <Module id="31053" src="728,822,214,70" desc="BALANCE_TEXT_ZHONG_WIN" />
+            <Module id="1984101" src="760,692,64,128" desc="zhugongbig" />
+            <Module id="1984102" src="826,692,64,128" desc="zhongchenbig" />
+            <Module id="1984103" src="892,692,64,128" desc="neijianbig" />
+            <Module id="1984104" src="958,692,64,128" desc="fanzeibig" />
+            <Module id="1984105" src="958,822,64,128" desc="nullbig" />
+            <Module id="31060" src="88,894,44,44" desc="balance_win" />
+            <Module id="31061" src="134,894,44,44" desc="balance_lose" />
+            <Module id="32001" src="296,692,114,114" desc="heitao" />
+            <Module id="32002" src="412,692,114,114" desc="hongtao" />
+            <Module id="32003" src="528,692,114,114" desc="meihua" />
+            <Module id="32004" src="644,692,114,114" desc="fangkuai" />
+            <Frame id="32005" desc="GongXin_Sel_Hua">
+                <FModule id="101501" src="194,880,50,50" dest="0,0,50,50" />
+                <FModule id="101602" src="194,880,50,50" dest="50,0,50,50" flip="x" />
+                <FModule id="101703" src="194,880,50,50" dest="0,50,50,50" flip="y" />
+                <FModule id="101804" src="194,880,50,50" dest="50,50,50,50" flip="x|y" />
+            </Frame>
+            <Module id="32010" src="0,0,0,0" desc="null" />
+            <Module id="33110" src="0,692,204,70" desc="tip_dlg_bk" />
+            <Frame id="32011" desc="LORD_SELECTED">
+                <FModule id="0" src="962,0,32,100" />
+            </Frame>
+            <Module id="40000" src="194,882,16,16" desc="left_top" />
+            <Module id="40001" src="214,882,16,16" desc="top" />
+            <Module id="40002" src="266,882,16,16" desc="right_top" />
+            <Module id="40003" src="194,910,16,16" desc="left" />
+            <Module id="40004" src="214,910,16,16" desc="center" />
+            <Module id="40005" src="266,910,16,16" desc="right" />
+            <Module id="40006" src="194,950,16,16" desc="left_bottom" />
+            <Module id="40007" src="214,950,16,16" desc="bottom" />
+            <Module id="40008" src="266,950,16,16" desc="right_bottom" />
+        </Sprite>
+    </Fantasy>
+</QUF>

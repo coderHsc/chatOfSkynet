@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by tina (EMBRACE) -->
+<QUF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QUF.xsd">
+    <RootView>
+        <TitlePanel id="Panel_MainGame" ctrlid="19999" rect="0,0,960,640">
+            <TitlePanel id="InGamePlayerlayout" ctrlid="700" rect="0,0,960,640" render="in_game_background">
+                <TitlePanel id="playerframe_bk" ctrlid="702" rect="0,470,960,172" render="playerframe_bk" penetrate="true"/>
+            </TitlePanel>
+            <TitlePanel id="skillBtnRgn" ctrlid="701" rect="180,484,84,154" />
+            <Box id="OutCardStatus_process_bar" ctrlid="900" rect="80,360,780,114" penetrate="true" fixMargin="left|right|bottom">
+                <ProcessBar id="OperationProcessBar" ctrlid="521" rect="100,114,644,10" render="in_GameProcessBar"/>
+            </Box>
+            <DiscardsView id="DiscardsView" ctrlid="509" rect="264,166,400,148" penetrate="true" />
+            <CardSelector id="CardSelector" ctrlid="508" rect="84,470,864,168" fixMargin="left|right|bottom"/>
+            <!--卡牌配置器界面!-->
+            <TextButton id="cardtable_Btn_Force_GiveUp" ctrlid="100104" caption="强制弃牌" rect="10,80,186,80" render="common_btn" show="false" />
+            <TextButton id="cardtable_Btn_Get_Cards" ctrlid="100105" caption="获取卡牌" rect="770,80,186,80" render="common_btn" show="false" />
+            <!--end卡牌配置器界面!-->
+            <TitlePanel id="Time_Ctrl_Background_InGame" ctrlid="20110618" rect="880,68,80,40">
+                <Label id="Time_Ctrl_InGame" ctrlid="20110617" rect="0,6,80,28" caption="10:24" render="Time_Ctrl_Render" viewalign="center" />
+            </TitlePanel>
+            <Label id="ProcessBarOwnerDrawUpdate" ctrlid="10000000" ownerdraw="true" rect="0,0,2,2" />`
+        </TitlePanel>
+        <!--选将界面!-->
+        <TitlePanel id="selHero" ctrlid="100000" rect="0,0,960,640">
+            <TitlePanel id="Sel_hero_view_bk" ctrlid="100001" render="common_bk9" rect="30,50,900,440">
+                <Label id="Sel_hero_text0" ctrlid="100008" caption="您本局身份是" render="SSH_Label" color="255,255,255" rect="144,28,500,50" />
+                <Label id="Sel_hero_text1" ctrlid="100009" caption="主公" render="SSH_Label" color="255,210,0" rect="390,28,500,50" />
+                <Label id="Sel_hero_text2" ctrlid="100010" caption=",请选择武将" render="SSH_Label" color="255,255,255" rect="470,28,480,50" />
+            </TitlePanel>
+            <TitlePanel id="Sel_hero_view" ctrlid="100002" rect="30,50,900,440" ownerdraw="true">
+                <TitlePanel id="Sel_hero_frame" ctrlid="100003" render="selheroframe9" rect="0,0,500,340" penetrate="true" />
+                <ProcessBar id="SelHeroProcessBar" ctrlid="100006" rect="184,82,530,18" render="Common_New_Green_ProcessBar" />
+                <TextButton id="Button_OK" ctrlid="100007" rect="336,340,232,68" render="new_btn_ok_2" />
+            </TitlePanel>
+        </TitlePanel>
+        <!--end选将界面!-->
+        <!--3v3选将界面!-->
+        <TitlePanel id="3v3selHero" ctrlid="320000" rect="0,0,960,640">
+            <TitlePanel id="3v3Sel_hero_view_bk" ctrlid="320001" render="common_bk9" rect="30,24,900,560">
+                <Label id="3v3Sel_hero_text0" ctrlid="320006" caption="您本局身份是" render="SSH_Label" color="255,255,255" rect="300,0,500,50" />
+                <Label id="3v3Sel_hero_text1" ctrlid="320007" caption="主公" render="SSH_Label" color="255,210,0" rect="550,0,350,50" />
+            </TitlePanel>
+            <TitlePanel id="3v3Sel_hero_view" ctrlid="320002" rect="30,50,900,560" ownerdraw="true">
+                <TitlePanel id="3v3Sel_hero_frame" ctrlid="320003" render="selheroframe9" rect="0,0,500,340" penetrate="true" />
+                <ProcessBar id="3v3SelHeroProcessBar" ctrlid="320004" rect="50,30,800,18" render="Common_New_Green_ProcessBar" />
+                <TextButton id="3v3Button_OK" ctrlid="320005" rect="336,500,232,68" render="new_btn_ok_2" />
+            </TitlePanel>
+        </TitlePanel>
+        <!--3v3end选将界面!-->
+        <!--霸王弓打马界面!-->
+        <TitlePanel id="DaMa" ctrlid="100200" rect="0,0,960,640" penetrate="true">
+            <TitlePanel id="DaMa_view_bk" ctrlid="100201" render="common_bk9" rect="250,130,460,412">
+                <TitlePanel id="dama_Progress" ctrlid="34111" ownerdraw="true" rect="0,78,2,2" />
+                <YXS_TITLE id="dama_Dlg_title" ctrlid="35112" render="YXS_title_render" viewalign="center" rect="110,14,218,72" />
+                <ProcessBar id="dama_time_progress" ctrlid="345006" rect="15,98,430,34" render="Common_New_Big_Green_ProcessBar" show="true" />
+                <Label id="DaMa_text" ctrlid="100205" caption="请选择一匹马" render="WUGU_Label" viewalign="center" color="255,227,174" rect="15,89,430,50" />
+            </TitlePanel>
+            <TitlePanel id="DaMa_view" ctrlid="100202" rect="250,130,460,412" ownerdraw="true">
+                <TextButton id="DaMa_Button_Cancel" ctrlid="100206" rect="114,322,232,68" render="new_btn_cancle_2" />
+            </TitlePanel>
+        </TitlePanel>
+        <!--end霸王弓打马界面!-->
+        <!--攻心界面!-->
+        <TitlePanel id="GongXin" ctrlid="100300" rect="0,0,960,640" penetrate="true">
+            <TitlePanel id="GongXin_view_bk" ctrlid="100301" render="common_bk9" rect="154,60,650,482">
+                <TitlePanel id="gongxin_Progress" ctrlid="351111" ownerdraw="true" rect="0,0,2,2" />
+                <YXS_TITLE id="gongxin_Dlg_title" ctrlid="351114" render="YXS_title_render" viewalign="center" rect="110,6,218,72" />
+                <ProcessBar id="gongxin_time_progress" ctrlid="355006" rect="20,80,460,34" render="Common_New_Big_Green_ProcessBar" show="true" />
+                <Label id="GongXin_text" ctrlid="100305" rich="true" caption='&lt;font color=&quot;0xffaee3ff&quot;&gt;请选择一张牌&lt;/font&gt;' render="WUGU_Label" viewalign="center" color="255,255,255" rect="0,68,650,50" />
+                <Label id="GongXin_HeiTao_Icon" ctrlid="100306" render="GongXin_HeiTao_Icon" rect="90,300,114,114" />
+                <Label id="GongXin_HongTao_Icon" ctrlid="100307" render="GongXin_HongTao_Icon" rect="210,300,114,114" />
+                <Label id="GongXin_MeiHua_Icon" ctrlid="100308" render="GongXin_MeiHua_Icon" rect="330,300,114,114" />
+                <Label id="GongXin_FangKuai_Icon" ctrlid="100309" render="GongXin_FangKuai_Icon" rect="450,300,114,114" />
+                <Label id="GongXin_SelHua_Icon" ctrlid="100310" render="GongXin_SelHua_Icon" rect="90,300,114,114" />
+            </TitlePanel>
+            <TitlePanel id="GongXin_view" ctrlid="100302" rect="154,60,650,482" ownerdraw="true" />
+        </TitlePanel>
+        <!--end攻心界面!-->
+        <!--五谷丰登界面!-->
+        <TitlePanel id="Wugu_Dlg" ctrlid="300000" rect="0,0,960,640" show="false" penetrate="true">
+            <TitlePanel id="Wugu_Dlg_BK" ctrlid="300001" render="common_bk9" rect="60,48,580,400">
+                <CardSelectorPop id="CardSelectorPop" ctrlid="301115" rect="62,200,454,280" render="common_bk9" />
+                <Label id="Wugu_Dlg_OK_ID" ctrlid="300016" ownerdraw="true" rect="0,0,0,0" />
+                <ProcessBar id="Wugu_time_progress" ctrlid="305006" rect="80,86,530,34" render="Common_New_Big_Green_ProcessBar" show="true" />
+                <Label id="Wugu_Dlg_Info" ctrlid="300004" caption="" render="WUGU_Label" viewalign="center" rect="130,86,80,50" />
+                <YXS_TITLE id="Wugu_Dlg_title" ctrlid="301114" render="YXS_title_render" viewalign="center" rect="110,10,218,72" />
+                <TitlePanel id="Wugu_Progress" ctrlid="301111" ownerdraw="true" rect="0,0,2,2" />
+            </TitlePanel>
+            <Label id="Wugu_Dlg_Mask" ctrlid="320001" show="false" rect="0,0,0,0" />
+        </TitlePanel>
+        <!--end 五谷丰登界面!-->
+        <!--釜底抽薪过河拆桥,探囊取物,起义界面!-->
+        <TitlePanel id="Pull_View" ctrlid="310000" rect="0,0,960,640" show="false" penetrate="true">
+            <TitlePanel id="Pull_View_BK" ctrlid="310001" render="common_bk9" rect="60,48,580,300">
+                <TitlePanel id="pull_Progress" ctrlid="311111" ownerdraw="true" rect="0,0,2,2" />
+                <ProcessBar id="pull_time_progress" ctrlid="315006" rect="80,60,530,34" render="Common_New_Big_Green_ProcessBar" show="true" />
+                <YXS_TITLE id="pull_Dlg_title" ctrlid="311114" render="YXS_title_render" viewalign="center" rect="110,10,218,72" />
+                <Label id="Pull_View_Info" ctrlid="310004" caption="" render="PullView_Label" viewalign="center" rect="70,66,370,50" />
+                <CardSelectorPop id="CardSelectorPopPull" ctrlid="310015" rect="62,170,454,280" render="common_bk9" />
+				<TextButton id="Pull_View_Button_OK" ctrlid="310117" rect="84,120,232,68"  show="false" render="new_btn_ok_2" />
+            </TitlePanel>
+            <Label id="PULL_VIEW_OK_ID" ctrlid="310016" ownerdraw="true" rect="0,0,0,0" />
+        </TitlePanel>
+
+        <!--睿德界面!-->
+        <TitlePanel id="Ruide_View" ctrlid="330000" rect="0,0,960,640" show="false" penetrate="true">
+          <TitlePanel id="Ruide_View_BK" ctrlid="330001" render="common_bk9" rect="60,48,580,300">
+            <TitlePanel id="Ruide_Progress" ctrlid="291111" ownerdraw="true" rect="0,0,2,2" />
+            <ProcessBar id="Ruide_time_progress" ctrlid="295006" rect="80,60,530,34" render="Common_New_Big_Green_ProcessBar" show="true" />
+            <YXS_TITLE id="Ruide_Dlg_title" ctrlid="291114" render="YXS_title_render" viewalign="center" rect="110,10,218,72" />
+            <Label id="Ruide_View_Info" ctrlid="330004" caption="" render="PullView_Label" viewalign="center" rect="70,66,370,50" />
+            <CardSelectorPop id="CardSelectorPopRuide" ctrlid="330015" rect="62,170,454,280" render="common_bk9" />
+            <TextButton id="Ruide_View_Button_OK" ctrlid="330117" rect="84,120,232,68" show="false" render="new_btn_ok_2" />
+          </TitlePanel>
+          <Label id="Ruide_VIEW_OK_ID" ctrlid="330016" ownerdraw="true" rect="0,0,0,0" />
+        </TitlePanel>
+        <!--睿德界面!-->
+      
+        <!--end 釜底抽薪过河拆桥界面!-->
+        <!--占卜界面-->
+        <TitlePanel id="Zhanbu_View" ctrlid="5000" rect="0,0,960,640" show="false">
+            <GuanxingDlg id="Zhanbu_View_BK" ctrlid="5001" render="common_bk9" rect="100,10,788,540" render2="common_frame9_alpha">
+                <TextButton id="CONTROL_ZHANBU_OK_BTN_ID" ctrlid="5002" rect="280,450,232,68" render="new_btn_ok_2" />
+            </GuanxingDlg>
+            <TitlePanel id="zhanbu_Progress" ctrlid="311112" ownerdraw="true" rect="0,0,2,2" />
+            <ProcessBar id="zhanbu_time_progress" ctrlid="315007" rect="124,84,730,34" render="Common_New_Big_Green_ProcessBar" show="true" />
+            <YXS_TITLE id="zhanbu_Dlg_title" ctrlid="311115" render="YXS_title_render" viewalign="center" rect="110,10,218,72" />
+            <Label id="zhanbu_text" ctrlid="5003" rich="true" caption='&lt;font color=&quot;0xffaee3ff&quot;&gt;请拖动调整牌的位置&lt;/font&gt;' render="WUGU_Label" viewalign="center" color="255,255,255" rect="180,76,650,50" />
+        </TitlePanel>
+        <!--end 占卜界面-->
+        <!--舍身界面!-->
+        <TitlePanel id="SheShen_View" ctrlid="310017" rect="0,0,960,640" show="false" penetrate="true">
+            <TitlePanel id="SheShen_View_BK" ctrlid="310018" render="common_bk9" rect="60,48,580,300">
+                <TitlePanel id="sheshen_Progress" ctrlid="321111" ownerdraw="true" rect="0,0,2,2" />
+                <ProcessBar id="sheshen_time_progress" ctrlid="325006" rect="80,60,530,34" render="Common_New_Big_Green_ProcessBar" show="true" />
+                <YXS_TITLE id="sheshen_Dlg_title" ctrlid="321114" render="YXS_title_render" viewalign="center" rect="110,10,218,72" />
+                <Label id="SheShen_View_Info" ctrlid="310021" caption="" render="SheShenView_Label" viewalign="center" rect="70,10,370,50" />
+                <CardSelectorPop id="CardSelectorPopSS" ctrlid="310022" rect="62,170,454,280" render="common_bk9" />
+                <TextButton id="SheShen_View_OK_Btn" ctrlid="310023" rect="0,0,232,68" render="new_btn_ok_2" />
+            </TitlePanel>
+        </TitlePanel>
+        <!--end 舍身界面!-->
+        <!--起义界面!-->
+        <TitlePanel id="QiYi_View" ctrlid="310024" rect="0,0,960,640" show="false" penetrate="true">
+            <TitlePanel id="QiYi_View_BK" ctrlid="310025" render="common_bk9" rect="60,48,580,300">
+                <TitlePanel id="qiyi_Progress" ctrlid="331111" ownerdraw="true" rect="0,0,2,2" />
+                <ProcessBar id="qiyi_time_progress" ctrlid="335006" rect="80,60,530,34" render="Common_New_Big_Green_ProcessBar" show="true" />
+                <YXS_TITLE id="qiyi_Dlg_title" ctrlid="331114" render="YXS_title_render" viewalign="center" rect="110,6,218,72" />
+                <Label id="QiYi_View_Info" ctrlid="310028" caption="" render="QiYiView_Label" viewalign="center" rect="70,10,370,50" />
+                <CardSelectorPop id="CardSelectorPopQiYiUp" ctrlid="310029" rect="62,170,454,280" render="common_bk9" />
+                <CardSelectorPop id="CardSelectorPopQiYiDown" ctrlid="310030" rect="62,170,454,280" render="common_bk9" />
+                <Label id="QiYi_View_Up_Icon" ctrlid="310031" rect="62,60,60,30" render="QiYiView_Icon" viewalign="center" />
+                <Label id="QiYi_View_Down_Icon" ctrlid="310032" rect="62,60,60,30" render="QiYiView_Icon" viewalign="center" />
+                <TextButton id="QiYi_View_OK_Btn" ctrlid="310033" rect="0,0,232,68" render="new_btn_ok_2" />
+            </TitlePanel>
+        </TitlePanel>
+        <!--end 起义界面!-->
+        <TitlePanel id="control_layer" ctrlid="100503" rect="0,0,960,640" penetrate="true">
+            <Box id="OutCardStateButtons" ctrlid="510" rect="80,360,780,114" penetrate="true">
+                <TextButton id="CONTROL_OUT_CARD_ID" ctrlid="511" rect="180,0,190,82" render="OutCardButtonRender" />
+                <TextButton id="CONTROL_END_OUT_ID" ctrlid="512" rect="420,0,190,82" render="EndOutCardButtonRender" />
+                <NumButtom id="CONTROL_GIVE_UP_ID" ctrlid="513" rect="300,0,190,82" render="DropCardButtonRender" />
+                <TextButton id="CONTROL_ASK_OK_BTN_ID" ctrlid="516" rect="180,0,190,82" render="InGameOKBtnRender" />
+                <TextButton id="CONTROL_ASK_CANCEL_BTN_ID" ctrlid="517" rect="420,0,190,82" render="InGameCancelBtnRender" />
+                <NumButtom id="CONTROL_GIVE_UP_ON_OUT_BTN" ctrlid="518" rect="180,0,190,82" render="DropCardButtonRender" />
+                <TextButton id="CONTROL_CANCEL_OUT_BTN_ID" ctrlid="519" rect="420,0,190,82" render="GiveUpButtonRender" />
+                <TextButton id="CONTROL_GIVE_UP_CANCEL_BTN" ctrlid="520" rect="420,0,190,82" render="InGameCancelBtnRender" />
+                <TextButton id="CONTROL_WUXIE_NO_TURN_BTN" ctrlid="530" rect="480,0,190,82" render="NoUseWuXieButtonRender" />
+                <TextButton id="CONTROL_SKILL_OK_BTN_ID" ctrlid="514" rect="180,0,190,82" render="InGameOKBtnRender" />
+                <TextButton id="CONTROL_SKILL_CANCEL_BTN_ID" ctrlid="515" rect="420,0,190,82" render="InGameCancelBtnRender" />
+                <TextButton id="CONTROL_SKILL_FEIGONG_PROTECT_BTN_ID" ctrlid="531" rect="90,0,190,82" render="FeiGongBaoHu" />
+                <TextButton id="CONTROL_SKILL_FEIGONG_FORBID_ATTACK_BTN_ID" ctrlid="532" rect="308,0,190,82" render="FeiGongFangYu" />
+                <TextButton id="CONTROL_SKILL_CALCEL_FEIGONG_BTN_ID" ctrlid="533" rect="526,0,190,82" render="InGameCancelBtnRender" />
+                <Label id="operation_info" ctrlid="100109" rect="-40,-34,920,30" viewalign="center" color="255,223,146" />
+                <Label id="skill_info" ctrlid="100110" rect="-40,-64,920,30" viewalign="center" color="255,223,146" penetrate="true" />
+            </Box>
+            <!--新技能界面!-->
+            <TitlePanel id="skill_view" ctrlid="220500" rect="0,0,960,640" show="false" />
+            <YXS_NewUI_Skill_Ctrl id="skill_ctrl" ctrlid="100502" render="skill" rect="0,388,134,258" />
+            <!--end新技能界面!-->
+        </TitlePanel>
+        <!--卡牌配置器界面!-->
+        <TitlePanel id="cardtable" ctrlid="100100" rect="80,20,800,460">
+            <TitlePanel id="cardtable_bk" ctrlid="100101" render="common_bk9" rect="0,0,800,460">
+                <Label id="cardtable_text" ctrlid="100102" caption="卡牌表" color="255,255,255" rect="352,10,500,50" />
+            </TitlePanel>
+            <TitlePanel id="cardtable_view" ctrlid="100103" rect="0,0,800,400" ownerdraw="true" />
+            <TextButton id="cardtable_Btn_Up" ctrlid="100106" caption="上页" rect="40,360,190,64" render="common_btn" />
+            <TextButton id="cardtable_Btn_Down" ctrlid="100107" caption="下页" rect="560,360,190,64" render="common_btn" />
+            <TextButton id="cardtable_Btn_OK" ctrlid="100108" caption="确定" rect="290,360,190,64" render="common_btn" />
+        </TitlePanel>
+        <!--end卡牌配置器界面!-->
+        <!--Tips-->
+        <TipDlg id="HEROTips_View_BK" ctrlid="5101" rect="0,0,960,640" render="common_bk9" show="false">
+            <Box id="HeroTipsLayout" ctrlid="5106" rect="0,0,960,640" show="false" penetrate="true">
+                <ScrollTextView id="HeroTipText" ctrlid="5102" rect="28,160,674,240" textalign="left" fontsize="24" linespacing="2" />
+            </Box>
+            <Box id="CardTipsLayout" ctrlid="5120" rect="0,0,960,640" show="false" penetrate="true">
+                <ScrollTextView id="CardTipText" ctrlid="5121" rect="146,52,532,180" textalign="left" fontsize="24" linespacing="2" />
+            </Box>
+            <Box id="EquipTipsExLayout" ctrlid="5130" rect="0,0,960,640" show="false" penetrate="true">
+                <ScrollTextView id="EquipExText" ctrlid="5135" rect="320,20,390,330" textalign="left" fontsize="24" linespacing="2" />
+            </Box>
+        </TipDlg>
+        <!--endTips-->
+        <!--动画界面!-->
+        <TitlePanel id="Animation" ctrlid="100400" rect="0,0,960,640" penetrate="true">
+            <TitlePanel id="Animation_view" ctrlid="100401" rect="0,0,960,640" ownerdraw="true" penetrate="true" />
+        </TitlePanel>
+        <!--end动画界面!-->
+        <!--自己的托管界面!-->
+        <TitlePanel id="managed_view" ctrlid="100500" rect="0,0,960,640" penetrate="true">
+            <YXS_NewUI_Menu_Btn id="Game_menu_Btn" ctrlid="20110615" rect="824,584,130,46" render="new_game_menu_btn" fixMargin="right|bottom"/>
+            <TitlePanel id="managed_bk_view" ctrlid="101500" rect="0,0,960,640" show="false" />
+            <YXS_Managed_Panel id="managed_panel" ctrlid="100501" render="managed_bk" rect="0,440,960,200" />
+        </TitlePanel>
+        <!--end自己的托管界面!-->
+    </RootView>
+    <Render>
+        <!--new ui render begin-->
+      <FanRender id="in_game_background">
+        <FanObj id="in_game_background" fantasy="sprite|60000100|frame|135" />
+      </FanRender>
+      <FanGrid3Render id="playerframe_bk">
+        <FanObj id="playerframe_bk" fantasy="sprite|60000100|frame|5305" />
+        <FanObj id="playerframe_bk" fantasy="sprite|60000100|frame|5306" />
+        <FanObj id="playerframe_bk" fantasy="sprite|60000100|frame|5307" />
+      </FanGrid3Render>
+        <FanProcessBarShineRender id="in_GameProcessBar1">
+            <FanObj id="background_bar" fantasy="sprite|60000100|frame|2001" />
+            <FanObj id="process_bar" fantasy="sprite|60000100|frame|2002" />
+        </FanProcessBarShineRender>
+        <FanProcessBarRender id="in_GameProcessBar">
+            <FanObj id="background_bar" fantasy="sprite|60000100|frame|2003" />
+            <FanObj id="process_bar" fantasy="sprite|60000100|frame|2004" />
+        </FanProcessBarRender>
+        <FanRender id="roleinfo9">
+            <FanObj id="background" fantasy="sprite|60000100|frame|136" />
+        </FanRender>
+        <FanRender id="roleinfo9_3v3">
+            <FanObj id="background" fantasy="sprite|60000100|frame|219" />
+        </FanRender>
+        <!--new ui render end-->
+        <FanBtnRender id="EndOutCardButtonRender">
+            <FanObj id="normal" fantasy="sprite|60000100|frame|170" />
+            <FanObj id="press" fantasy="sprite|60000100|frame|179" />
+            <FanObj id="disable" fantasy="sprite|60000100|frame|170" />
+            <FanObj id="check" fantasy="sprite|60000100|frame|179" />
+        </FanBtnRender>
+        <FanBtnRender id="GiveUpButtonRender">
+            <FanObj id="normal" fantasy="sprite|60000100|frame|173" />
+            <FanObj id="press" fantasy="sprite|60000100|frame|181" />
+            <FanObj id="disable" fantasy="sprite|60000100|frame|173" />
+            <FanObj id="check" fantasy="sprite|60000100|frame|181" />
+        </FanBtnRender>
+        <FanBtnRender id="InGameCancelBtnRender">
+            <FanObj id="normal" fantasy="sprite|60000100|frame|173" />
+            <FanObj id="press" fantasy="sprite|60000100|frame|181" />
+            <FanObj id="disable" fantasy="sprite|60000100|frame|173" />
+            <FanObj id="check" fantasy="sprite|60000100|frame|181" />
+        </FanBtnRender>
+        <FanBtnRender id="InGameOKBtnRender">
+            <FanObj id="normal" fantasy="sprite|60000100|frame|172" />
+            <FanObj id="press" fantasy="sprite|60000100|frame|180" />
+            <FanObj id="disable" fantasy="sprite|60000100|frame|188" />
+            <FanObj id="check" fantasy="sprite|60000100|frame|180" />
+        </FanBtnRender>
+        <FanBtnRender id="OutCardButtonRender">
+            <FanObj id="normal" fantasy="sprite|60000100|frame|174" />
+            <FanObj id="press" fantasy="sprite|60000100|frame|182" />
+            <FanObj id="disable" fantasy="sprite|60000100|frame|189" />
+            <FanObj id="check" fantasy="sprite|60000100|frame|182" />
+        </FanBtnRender>
+        <FanBtnRender id="DropCardButtonRender">
+            <FanObj id="normal" fantasy="sprite|60000100|frame|175" />
+            <FanObj id="press" fantasy="sprite|60000100|frame|183" />
+            <FanObj id="disable" fantasy="sprite|60000100|frame|187" />
+            <FanObj id="check" fantasy="sprite|60000100|frame|183" />
+        </FanBtnRender>
+        <FanBtnRender id="NoUseWuXieButtonRender">
+            <FanObj id="normal" fantasy="sprite|60000100|frame|178" />
+            <FanObj id="press" fantasy="sprite|60000100|frame|186" />
+            <FanObj id="disable" fantasy="sprite|60000100|frame|178" />
+            <FanObj id="check" fantasy="sprite|60000100|frame|186" />
+        </FanBtnRender>
+        <FanBtnRender id="FeiGongBaoHu">
+          <FanObj id="normal" fantasy="sprite|60000100|frame|311" />
+          <FanObj id="press" fantasy="sprite|60000100|frame|312" />
+          <FanObj id="disable" fantasy="sprite|60000100|frame|313" />
+          <FanObj id="check" fantasy="sprite|60000100|frame|312" />
+        </FanBtnRender>
+        <FanBtnRender id="FeiGongFangYu">
+          <FanObj id="normal" fantasy="sprite|60000100|frame|314" />
+          <FanObj id="press" fantasy="sprite|60000100|frame|315" />
+          <FanObj id="disable" fantasy="sprite|60000100|frame|316" />
+          <FanObj id="check" fantasy="sprite|60000100|frame|315" />
+        </FanBtnRender>
+        <Label id="EquipLabel" font="12|STFONT|" color="255,255,255" ColorChange="false" />
+        <Label id="HeronameLabel" font="18|STFONT|" color="255,255,255" ColorChange="false" />
+        <Label id="HandCarCountLabel" font="20|STFONT|" color="255,255,255" ColorChange="false" />
+        <!--攻心界面相关!-->
+        <FanRender id="GongXin_HeiTao_Icon">
+            <FanObj id="GongXin_HeiTao_Icon" fantasy="sprite|60000003|frame|32001" />
+        </FanRender>
+        <FanRender id="GongXin_HongTao_Icon">
+            <FanObj id="GongXin_HongTao_Icon" fantasy="sprite|60000003|frame|32002" />
+        </FanRender>
+        <FanRender id="GongXin_MeiHua_Icon">
+            <FanObj id="GongXin_MeiHua_Icon" fantasy="sprite|60000003|frame|32003" />
+        </FanRender>
+        <FanRender id="GongXin_FangKuai_Icon">
+            <FanObj id="GongXin_FangKuai_Icon" fantasy="sprite|60000003|frame|32004" />
+        </FanRender>
+        <Label id="SSH_Label" font="40|STFONT|" color="105,92,41" ColorChange="false" />
+        <Label id="WUGU_Label" font="20|STFONT|" color="105,92,41" ColorChange="false" />
+        <Label id="PullView_Label" font="20|STFONT|" color="105,92,41" ColorChange="false" />
+        <Label id="SheShenView_Label" font="20|STFONT|" color="105,92,41" ColorChange="false" />
+        <Label id="QiYiView_Label" font="20|STFONT|" color="105,92,41" ColorChange="false" />
+        <Label id="QiYiView_Icon" font="20|STFONT|" color="105,92,41" ColorChange="false" />
+        <!--end选将界面相关!-->
+        <FanRender id="DeterminCardAni">
+            <FanObj id="DeterminCardAni" fantasy="sprite|500|frame|5001" />
+        </FanRender>
+        <FanRender id="skill">
+            <FanObj id="skill_bg" fantasy="sprite|60000100|frame|3" />
+            <FanObj id="skill_btn_hightlight" fantasy="sprite|60000100|frame|2" />
+            <FanObj id="skill_handle_hightlight" fantasy="sprite|60000100|frame|1" />
+            <FanObj id="skill_btn_pop" fantasy="sprite|60000100|frame|4" />
+            <FanObj id="skill_btn_onuse" fantasy="sprite|60000100|frame|5" />
+        </FanRender>
+        <!--测试托管!-->
+      <FanGrid3Render id="managed_bk">
+        <FanObj id="managed_bg" fantasy="sprite|60000100|frame|98" />
+        <FanObj id="managed_bg" fantasy="sprite|60000100|frame|99" />
+        <FanObj id="managed_bg" fantasy="sprite|60000100|frame|100" />
+        <FanObj id="managed_bg" fantasy="sprite|60000100|frame|101" />
+      </FanGrid3Render>
+        <FanProcessBarShineRender id="Common_New_Green_ProcessBar">
+            <FanObj id="background_bar" fantasy="sprite|60000100|frame|13001" />
+            <FanObj id="process_bar" fantasy="sprite|60000100|frame|13002" />
+        </FanProcessBarShineRender>
+        <FanProcessBarShineRender id="Common_New_Big_Green_ProcessBar">
+            <FanObj id="big_green_pro_bar" fantasy="sprite|60000100|frame|13003" />
+            <FanObj id="big_green_pro" fantasy="sprite|60000100|frame|13004" />
+        </FanProcessBarShineRender>
+        <FanRender id="wu_gu_label_render">
+            <FanObj id="wu_gu_lable" fantasy="sprite|60000100|frame|5304" />
+        </FanRender>
+        <FanRender id="zhan_bu_label_render">
+            <FanObj id="zhan_bu_label" fantasy="sprite|60000003|frame|2111" />
+        </FanRender>
+        <FanRender id="qiyi_label_render">
+            <FanObj id="qiyi_label" fantasy="sprite|60000003|frame|2112" />
+        </FanRender>
+        <FanRender id="fudi_label_render">
+            <FanObj id="fudi_label" fantasy="sprite|60000003|frame|2113" />
+        </FanRender>
+        <FanRender id="sheshen_label_render">
+            <FanObj id="sheshen_label" fantasy="sprite|60000003|frame|2114" />
+        </FanRender>
+        <FanRender id="gong_xin_label_render">
+            <FanObj id="gong_xin_label" fantasy="sprite|60000003|frame|2115" />
+        </FanRender>
+        <FanRender id="YXS_title_render">
+            <FanObj id="title_bk" fantasy="sprite|60000003|frame|33110" />
+        </FanRender>
+    </Render>
+    <Fantasy>
+        <Sprite id="60000100" img="YXS_NEW_IN_GAME|YXS_NEW_IN_GAME_BACKGROUND|YXS_NEW_IN_GAME1" desc="YXS_NEW_IN_GAME">
+            <Module id="0" src="236,200,82,64" img_id="0" desc="skill_panel_handle" />
+            <Module id="1" src="314,200,110,86" img_id="0" desc="skill_panel_handle_highlight" />
+            <Module id="2" src="256,288,124,44" img_id="0" desc="skill_btn_mask" />
+            <Module id="3" src="430,200,134,258" img_id="0" desc="skill_panel" />
+            <Module id="4" src="232,374,164,86" img_id="0" desc="skill_btn_pop" />
+            <Module id="5" src="256,462,124,44" img_id="0" desc="NewModule5" />
+            <Module id="98" src="0,0,80,200" img_id="0" desc="managed_left" />
+            <Module id="99" src="80,0,80,200" img_id="0" desc="managed_center" />
+            <Module id="100" src="660,0,300,200" img_id="0" desc="managed_right" />
+            <Module id="101" src="580,204,340,136" img_id="0" desc="managed_Text" />
+            <Module id="102" src="110,200,122,120" img_id="0" desc="skill_btn1" />
+            <Module id="103" src="84,296,16,16" img_id="0" desc="HP" />
+            <Module id="104" src="84,314,16,16" img_id="0" desc="HP1" />
+            <Module id="105" src="144,588,28,28" img_id="0" desc="jun" />
+            <Module id="106" src="174,588,28,28" img_id="0" desc="chen" />
+            <Module id="107" src="204,588,28,28" img_id="0" desc="min" />
+            <Module id="108" src="0,586,34,58" img_id="0" desc="zhugong" />
+            <Module id="109" src="36,586,34,58" img_id="0" desc="zhongchen" />
+            <Module id="110" src="72,586,34,58" img_id="0" desc="fanzei" />
+            <Module id="111" src="108,586,34,58" img_id="0" desc="neijian" />
+            <Module id="112" src="0,1022,2,2" img_id="0" desc="null" />
+            <Module id="113" src="0,822,86,140" img_id="0" desc="rolepanel" />
+            <Module id="114" src="88,822,64,72" img_id="0" desc="shengyu" />
+            <Module id="115" src="154,822,208,68" img_id="0" desc="zhongchenzhengwang" />
+            <Module id="116" src="364,822,208,68" img_id="0" desc="fanzeizhengwang" />
+            <Module id="117" src="574,822,208,68" img_id="0" desc="neijianzhengwang" />
+            <Module id="118" src="784,822,208,68" img_id="0" desc="zhengwang" />
+            <Module id="119" src="0,462,218,124" img_id="0" desc="playerframe1" />
+            <Module id="120" src="88,426,14,18" img_id="0" desc="whiteNum0" />
+            <Module id="121" src="102,426,14,18" img_id="0" desc="whiteNum1" />
+            <Module id="122" src="116,426,14,18" img_id="0" desc="whiteNum2" />
+            <Module id="123" src="130,426,14,18" img_id="0" desc="whiteNum3" />
+            <Module id="124" src="144,426,14,18" img_id="0" desc="whiteNum4" />
+            <Module id="125" src="158,426,14,18" img_id="0" desc="whiteNum5" />
+            <Module id="126" src="172,426,14,18" img_id="0" desc="whiteNum6" />
+            <Module id="127" src="186,426,14,18" img_id="0" desc="whiteNum7" />
+            <Module id="128" src="200,426,14,18" img_id="0" desc="whiteNum8" />
+            <Module id="129" src="214,426,14,18" img_id="0" desc="whiteNum9" />
+            <Module id="130" src="112,390,20,26" img_id="0" desc="whiteNumBack" />
+            <Module id="131" src="630,946,16,16" img_id="0" desc="SPADE" />
+            <Module id="132" src="150,390,14,14" img_id="0" desc="HEARTS" />
+            <Module id="133" src="612,946,16,16" img_id="0" desc="PLUMBLOSSOM" />
+            <Module id="134" src="182,390,14,14" img_id="0" desc="DIAMONDS" />
+            <Module id="135" src="0,0,960,640" img_id="1" desc="in_game_background" />
+            <Module id="136" src="0,820,86,140" img_id="0" desc="roleinfopanel" />
+            <Module id="137" src="66,426,12,22" img_id="0" desc="small_progressbackleft" />
+            <Module id="138" src="78,426,6,22" img_id="0" desc="small_progressbackmiddle" />
+            <Module id="139" src="74,450,6,8" img_id="0" desc="small_progressleft" />
+            <Module id="140" src="80,450,4,8" img_id="0" desc="small_progressmiddle" />
+            <Module id="141" src="110,940,4,10" img_id="0" desc="progressbackleft" />
+            <Module id="142" src="114,940,4,10" img_id="0" desc="progressbackmiddle" />
+            <Module id="143" src="110,952,4,8" img_id="0" desc="progressleft" />
+            <Module id="144" src="114,952,2,8" img_id="0" desc="progressmiddle" />
+            <Module id="145" src="116,952,44,8" img_id="0" desc="progressright" />
+            <Module id="146" src="862,922,128,32" img_id="0" desc="equip_back" />
+            <Module id="147" src="862,956,128,32" img_id="0" desc="equip_back_sel" />
+            <Module id="148" src="862,890,60,32" img_id="0" desc="equip_back_small" />
+            <Module id="149" src="924,890,60,32" img_id="0" desc="equip_back_small_sel" />
+            <Module id="150" src="662,946,12,14" img_id="0" desc="equip_black_num_a" />
+            <Module id="151" src="674,946,12,14" img_id="0" desc="equip_black_num_2" />
+            <Module id="152" src="688,946,12,14" img_id="0" desc="equip_black_num_3" />
+            <Module id="153" src="700,946,12,14" img_id="0" desc="equip_black_num_4" />
+            <Module id="154" src="714,946,12,14" img_id="0" desc="equip_black_num_5" />
+            <Module id="155" src="726,946,12,14" img_id="0" desc="equip_black_num_6" />
+            <Module id="156" src="740,946,12,14" img_id="0" desc="equip_black_num_7" />
+            <Module id="157" src="752,946,12,14" img_id="0" desc="equip_black_num_8" />
+            <Module id="158" src="766,946,12,14" img_id="0" desc="equip_black_num_9" />
+            <Module id="159" src="778,946,14,14" img_id="0" desc="equip_black_num_10" />
+            <Module id="160" src="792,946,12,14" img_id="0" desc="equip_black_num_j" />
+            <Module id="161" src="804,946,12,14" img_id="0" desc="equip_black_num_q" />
+            <Module id="162" src="818,946,12,14" img_id="0" desc="equip_black_num_k" />
+            <Module id="170" src="0,640,188,82" img_id="1" desc="canceloutcardbtn" />
+            <Module id="172" src="0,724,188,82" img_id="1" desc="confirmbtn" />
+            <Module id="173" src="0,808,188,82" img_id="1" desc="cancelbtn" />
+            <Module id="174" src="0,892,188,82" img_id="1" desc="outcardbtn" />
+            <Module id="175" src="188,640,190,82" img_id="1" desc="discardcardbtn" />
+            <Module id="176" src="188,724,190,82" img_id="1" desc="selallbtn" />
+            <Module id="177" src="188,808,190,82" img_id="1" desc="weizhi" />
+            <Module id="178" src="188,892,190,82" img_id="1" desc="wuxienouseinturn" />
+            <Module id="179" src="378,640,190,82" img_id="1" desc="canceloutcardbtn_press" />
+            <Module id="180" src="378,724,190,82" img_id="1" desc="confirmbtn_press" />
+            <Module id="181" src="378,808,190,82" img_id="1" desc="cancelbtn_press" />
+            <Module id="182" src="378,892,190,82" img_id="1" desc="outcardbtn_press" />
+            <Module id="183" src="568,640,190,82" img_id="1" desc="discardcardbtn_press" />
+            <Module id="184" src="568,724,190,82" img_id="1" desc="selallbtn_press" />
+            <Module id="185" src="568,808,190,82" img_id="1" desc="weizhi_press" />
+            <Module id="186" src="568,892,190,82" img_id="1" desc="wuxienouseinturn_press" />
+            <Module id="187" src="758,640,190,82" img_id="1" desc="discardcardbtn_disable" />
+            <Module id="188" src="758,724,190,82" img_id="1" desc="confirmbtn_disable" />
+            <Module id="189" src="758,808,190,82" img_id="1" desc="outcardbtn_disable" />
+            <Module id="190" src="0,976,22,34" img_id="1" desc="giveupcardnum0" />
+            <Module id="191" src="22,976,22,34" img_id="1" desc="giveupcardnum1" />
+            <Module id="192" src="44,976,22,34" img_id="1" desc="giveupcardnum2" />
+            <Module id="193" src="66,976,22,34" img_id="1" desc="giveupcardnum3" />
+            <Module id="194" src="88,976,22,34" img_id="1" desc="giveupcardnum4" />
+            <Module id="195" src="110,976,22,34" img_id="1" desc="giveupcardnum5" />
+            <Module id="196" src="132,976,22,34" img_id="1" desc="giveupcardnum6" />
+            <Module id="197" src="154,976,22,34" img_id="1" desc="giveupcardnum7" />
+            <Module id="198" src="176,976,22,34" img_id="1" desc="giveupcardnum8" />
+            <Module id="199" src="198,976,22,34" img_id="1" desc="giveupcardnum9" />
+            <Module id="200" src="642,616,24,28" img_id="0" desc="zhu_small" />
+            <Module id="201" src="668,616,24,28" img_id="0" desc="zhong_small" />
+            <Module id="202" src="694,616,24,28" img_id="0" desc="fan_small" />
+            <Module id="203" src="720,616,24,28" img_id="0" desc="nei_small" />
+            <Module id="204" src="746,616,24,28" img_id="0" desc="null_small" />
+            <Module id="210" src="910,568,34,34" img_id="0" desc="jun_big" />
+            <Module id="211" src="946,568,34,34" img_id="0" desc="chen_big" />
+            <Module id="212" src="982,568,34,34" img_id="0" desc="min_big" />
+            <Module id="213" src="232,200,408,406" img_id="0" desc="skill_bg" />
+            <Module id="214" src="652,202,372,352" img_id="0" desc="skill_select" />
+            <Module id="215" src="0,202,96,92" img_id="0" desc="skill_btn" />
+            <Module id="216" src="110,204,116,116" img_id="0" desc="skill_btn_pressed" />
+            <Module id="217" src="110,322,116,66" img_id="0" desc="left_arrow" />
+            <Module id="218" src="0,342,64,118" img_id="0" desc="right_arrow" />
+            <Module id="219" src="430,476,86,76" img_id="0" desc="roleinfopanel_3v3" />
+            <Module id="300" src="180,890,212,70" img_id="0" desc="BALANCE_TEXT_FAN_WIN" />
+            <Module id="301" src="88,894,44,44" img_id="0" desc="BALANCE_WIN" />
+            <Module id="302" src="134,894,44,44" img_id="0" desc="BALANCE_LOSE" />
+            <Module id="310" src="144,616,36,26" img_id="0" desc="lanzuan" />
+            <Module id="311" src="0,0,188,82" img_id="2" desc="feigong_baohu_normal" />
+            <Module id="312" src="194,0,188,82" img_id="2" desc="feigong_baohu_press" />
+            <Module id="313" src="392,0,188,82" img_id="2" desc="feigong_baohu_disable" />
+            <Module id="314" src="0,84,188,82" img_id="2" desc="feigong_fangyu_normal" />
+            <Module id="315" src="194,84,188,82" img_id="2" desc="feigong_fangyu_press" />
+            <Module id="316" src="392,84,188,82" img_id="2" desc="feigong_fangyu_disable" />
+            <Module id="2137" src="0,962,10,18" img_id="0" desc="green_bar_left" />
+            <Module id="2138" src="10,962,10,18" img_id="0" desc="green_bar_middle" />
+            <Module id="2139" src="376,962,10,18" img_id="0" desc="green_pro_left" />
+            <Module id="2140" src="388,962,10,18" img_id="0" desc="green_pro_middle" />
+            <Module id="2141" src="234,608,10,32" img_id="0" desc="big_green_bar_left" />
+            <Module id="2142" src="252,608,10,32" img_id="0" desc="big_green_bar_middle" />
+            <Module id="2143" src="438,608,6,32" img_id="0" desc="big_pro_left" />
+            <Module id="2144" src="458,608,2,32" img_id="0" desc="big_pro_middle" />
+            <Module id="2145" src="630,608,6,32" img_id="0" desc="big_pro_right" />
+            <Module id="5200" src="0,962,188,18" img_id="0" desc="scale_smal_progressbar" />
+            <Module id="5201" src="192,962,184,18" img_id="0" desc="scale_smal_progress" />
+            <Module id="5300" src="252,608,186,34" img_id="0" desc="scale_big_progress_bar" />
+            <Module id="5301" src="612,890,184,32" img_id="0" desc="scale_big_progress" />
+            <Module id="5302" src="224,624,130,56" img_id="0" desc="gong_xin_lable" />
+            <Module id="5303" src="654,626,130,56" img_id="0" desc="zhan_bu_label" />
+            <Module id="5304" src="394,890,218,72" img_id="0" desc="wu_gu_lable" />
+            <Module id="5305" src="0,648,186,172" img_id="0" desc="playerframe_left" />
+            <Module id="5306" src="187,648,134,172" img_id="0" desc="playerframe_center" />
+            <Module id="5307" src="814,648,146,172" img_id="0" desc="playerframe_right" />
+            <Module id="911100000" src="0,648,960,172" img_id="0" desc="playerframe" />
+            <Frame id="2000" desc="background">
+                <FModule id="0" objid="135" src="0,0,960,640" dest="0,0,960,640" color="0xffffffff" />
+                <FModule id="0" objid="911100000" src="0,0,960,172" dest="0,470,960,172" color="0xffffffff" />
+            </Frame>
+            <Frame id="2001" desc="progressbarsmall">
+                <FModule id="0" objid="137" src="0,0,12,22" dest="0,0,12,22" color="0xffffffff" />
+                <FModule id="0" objid="138" src="0,0,6,22" dest="0,0,6,22" color="0xffffffff" />
+                <FModule id="0" objid="137" src="0,0,12,22" dest="0,0,12,22" color="0xffffffff" flip="x" />
+            </Frame>
+            <Frame id="2002" desc="progresssmall">
+                <FModule id="0" objid="139" src="0,0,6,8" dest="8,6,8,8" color="0xffffffff" />
+                <FModule id="0" objid="140" src="0,0,4,8" dest="8,6,4,8" color="0xffffffff" />
+                <FModule id="0" objid="139" src="0,0,6,8" dest="8,6,8,8" color="0xffffffff" flip="x" />
+            </Frame>
+            <Frame id="2003" desc="progressbar">
+                <FModule id="0" objid="141" src="0,0,4,10" dest="0,0,4,10" color="0xffffffff" />
+                <FModule id="0" objid="142" src="0,0,4,10" dest="4,0,636,10" color="0xffffffff"/>
+                <FModule id="0" objid="141" src="0,0,4,10" dest="640,0,4,10" color="0xffffffff" flip="x"/>
+            </Frame>
+            <Frame id="2004" desc="progress">
+                <FModule id="0" objid="143" src="0,0,4,8" dest="0,0,4,8" color="0xffffffff" />
+                <FModule id="0" objid="144" src="0,0,2,8" dest="4,0,596,8" color="0xffffffff"/>
+                <FModule id="0" objid="145" src="0,0,44,8" dest="600,0,44,8" color="0xffffffff"/>
+            </Frame>
+            <Frame id="2005" desc="LORD_SELECTED">
+                <FModule id="0" src="962,0,32,100" dest="0,0,32,100" color="0xffffffff" />
+            </Frame>
+            <Frame id="13001" desc="gree_progressbar">
+                <FModule id="0" objid="2137" src="0,0,10,18" dest="0,0,10,18" color="0xffffffff" />
+                <FModule id="0" objid="2138" src="0,0,10,18" dest="0,0,10,18" color="0xffffffff" />
+                <FModule id="0" objid="2137" src="0,0,10,18" dest="0,0,10,18" color="0xffffffff" flip="x" />
+            </Frame>
+            <Frame id="13002" desc="gree_progress">
+                <FModule id="0" objid="2139" src="0,0,10,18" dest="0,0,10,18" color="0xffffffff" />
+                <FModule id="0" objid="2140" src="0,0,10,18" dest="0,0,10,18" color="0xffffffff" />
+                <FModule id="0" objid="2139" src="0,0,10,18" dest="0,0,10,18" color="0xffffffff" flip="x" />
+            </Frame>
+            <Frame id="13003" desc="big_gree_progressbar">
+                <FModule id="0" objid="2141" src="0,0,10,32" dest="0,0,10,32" color="0xffffffff" />
+                <FModule id="0" objid="2142" src="0,0,10,32" dest="0,0,10,32" color="0xffffffff" />
+                <FModule id="0" objid="2141" src="0,0,10,32" dest="0,0,10,32" color="0xffffffff" flip="x" />
+            </Frame>
+            <Frame id="13004" desc="big_gree_progress">
+                <FModule id="0" objid="2143" src="0,0,6,32" dest="0,0,6,32" color="0xffffffff" />
+                <FModule id="0" objid="2144" src="0,0,2,32" dest="0,0,2,32" color="0xffffffff" />
+                <FModule id="0" objid="2145" src="0,0,6,32" dest="0,0,6,32" color="0xffffffff" />
+            </Frame>
+        </Sprite>
+    </Fantasy>
+</QUF>

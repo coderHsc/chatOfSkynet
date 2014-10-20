@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by tina (EMBRACE) -->
+<QUF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QUF.xsd">
+    <RootView btnok="Button_login_Login" btnesc="Panel_Btn_exit">
+        <!--<TitlePanel id="Panel_IN_BK_Iphone" ctrlid="1100099" rect="0,0,480,320" render="IN_Game_BK_iphone_render">
+        </TitlePanel>-->
+    </RootView>
+    <!--backround iphone!-->
+    <Render>
+        <!--<FanRender id="IN_Game_BK_iphone_render">
+			<FanObj id="background" fantasy="sprite|3366500|frame|3344134" />
+		</FanRender>-->
+    </Render>
+    <Fantasy>
+        <!--<Sprite id="3366500" desc="YXS_IN_Game" img="YXS_IN_Game">
+			<Module id="336635" src="102,115,21,8" dest="0,0,21,8"/>
+			<Frame id="3344134" desc="BF_Game_BK_iphone_render">
+				<FModule id="0" src="0,273,480,239" dest="0,0,480,239" />
+				<FModule id="1" src="0,0,360,81" dest="0,239,360,81"/>
+				<FModule id="2" src="392,0,120,81" dest="360,239,120,81"/>
+				<FModule id="3" objid="336635" dest="0,231,21,8"/>
+				<FModule id="4" objid="336635" dest="459,231,21,8" flip="x"/>
+			</Frame>
+		</Sprite>-->
+    </Fantasy>
+</QUF>

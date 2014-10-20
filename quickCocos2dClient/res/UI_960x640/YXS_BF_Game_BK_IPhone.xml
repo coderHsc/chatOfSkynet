@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by tina (EMBRACE) -->
+<QUF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QUF.xsd">
+    <RootView btnok="Button_login_Login" btnesc="Panel_Btn_exit">
+        <TitlePanel id="Panel_BF_BK_Iphone" ctrlid="1100098" rect="0,0,960,640" render="BF_Game_BK_iphone_render" />
+    </RootView>
+    <!--backround iphone!-->
+    <Render>
+        <FanRender id="BF_Game_BK_iphone_render">
+            <FanObj id="background" fantasy="sprite|3366400|frame|133" />
+        </FanRender>
+    </Render>
+    <!--backround iphone end!-->
+    <Fantasy>
+        <Sprite id="3366400" desc="HKSelectSession" img="YXS_SelectSession">
+            <Frame id="133" desc="BF_Game_BK_iphone_render">
+                <FModule id="0" src="0,360,960,640" dest="0,0,960,640" />
+            </Frame>
+        </Sprite>
+    </Fantasy>
+</QUF>

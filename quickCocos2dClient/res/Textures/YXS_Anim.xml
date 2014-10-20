@@ -1,0 +1,1483 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by tina (EMBRACE) -->
+<QUF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QUF.xsd">
+    <Render>
+        <FanRender id="bladeSelect">
+            <FanObj id="bladeSelect" fantasy="sprite|13100|frame|336633" />
+        </FanRender>
+        <FanRender id="bladeSelect_big">
+            <FanObj id="bladeSelect_big" fantasy="sprite|13100|frame|336634" />
+        </FanRender>
+        <FanRender id="xiadan">
+            <FanObj id="xiadan" fantasy="sprite|13100|frame|5001" />
+        </FanRender>
+        <FanRender id="huadiweilao">
+            <FanObj id="huadiweilao" fantasy="sprite|13100|frame|5002" />
+        </FanRender>
+        <FanRender id="zirong">
+            <FanObj id="zirong" fantasy="sprite|13100|frame|5003" />
+        </FanRender>
+        <FanRender id="ruide">
+          <FanObj id="ruide" fantasy="sprite|13101|frame|5030" />
+        </FanRender>
+        <FanRender id="shoupenglei">
+            <FanObj id="shoupenglei" fantasy="sprite|13100|frame|5004" />
+        </FanRender>
+        <FanRender id="menshen">
+            <FanObj id="menshen" fantasy="sprite|13100|frame|5005" />
+        </FanRender>
+        <FanRender id="determine">
+            <FanObj id="determine" fantasy="sprite|13100|frame|5006" />
+        </FanRender>
+        <FanRender id="greenbox">
+            <FanObj id="greenbox" fantasy="sprite|13100|frame|5007" />
+        </FanRender>
+        <FanRender id="yellowbox">
+            <FanObj id="yellowbox" fantasy="sprite|13100|frame|5008" />
+        </FanRender>
+        <FanRender id="offline">
+            <FanObj id="offline" fantasy="sprite|13099|frame|6000" />
+        </FanRender>
+        <FanRender id="shaoxue">
+            <FanObj id="shaoxue" fantasy="sprite|13100|frame|5010" />
+        </FanRender>
+        <FanRender id="taopao">
+            <FanObj id="taopao" fantasy="sprite|13100|frame|5011" />
+        </FanRender>
+        <FanRender id="greenboxmyself">
+            <FanObj id="greenboxmyself" fantasy="sprite|13100|frame|5012" />
+        </FanRender>
+        <FanRender id="yellowboxmyself">
+            <FanObj id="yellowboxmyself" fantasy="sprite|13100|frame|5013" />
+        </FanRender>
+        <FanRender id="robot">
+            <FanObj id="robot" fantasy="sprite|13100|frame|5015" />
+        </FanRender>
+        <FanRender id="huadiweilao_face_big">
+            <FanObj id="huadiweilao_face_big" fantasy="sprite|13100|frame|5016" />
+        </FanRender>
+        <FanRender id="huadiweilao_face">
+            <FanObj id="huadiweilao_face" fantasy="sprite|13100|frame|5017" />
+        </FanRender>
+        <FanRender id="baozhasmall">
+            <FanObj id="baozhasmall" fantasy="sprite|13099|frame|5018" />
+        </FanRender>
+        <FanRender id="baozhabig">
+            <FanObj id="baozhasmall" fantasy="sprite|13099|frame|5019" />
+        </FanRender>
+        <FanRender id="beikansmall">
+            <FanObj id="beikansmall" fantasy="sprite|13099|frame|5020" />
+        </FanRender>
+        <FanRender id="beikanbig">
+            <FanObj id="beikanbig" fantasy="sprite|13099|frame|5021" />
+        </FanRender>
+        <FanRender id="beikanani_0">
+            <FanObj id="beikanbig" fantasy="sprite|13099|frame|5021" />
+        </FanRender>
+        <FanRender id="beikanani_1">
+            <FanObj id="beikansmall" fantasy="sprite|13099|frame|5020" />
+        </FanRender>
+        <FanRender id="beikanani_2">
+            <FanObj id="beikansmall" fantasy="sprite|13099|frame|5020" />
+        </FanRender>
+        <FanRender id="beikanani_3">
+            <FanObj id="beikansmall" fantasy="sprite|13099|frame|5020" />
+        </FanRender>
+        <FanRender id="beikanani_4">
+            <FanObj id="beikansmall" fantasy="sprite|13099|frame|5020" />
+        </FanRender>
+        <FanRender id="beikanani_5">
+            <FanObj id="beikansmall" fantasy="sprite|13099|frame|5020" />
+        </FanRender>
+        <FanRender id="beikanani_6">
+            <FanObj id="beikansmall" fantasy="sprite|13099|frame|5020" />
+        </FanRender>
+        <FanRender id="beikanani_7">
+            <FanObj id="beikansmall" fantasy="sprite|13099|frame|5020" />
+        </FanRender>
+        <FanRender id="DiceAni">
+            <FanObj id="DiceAni" fantasy="sprite|13099|frame|5022" />
+        </FanRender>
+        <!--求药外框小图9宮!-->
+        <FanGrid9Render id="ask_yao_9_0">
+            <FanObj id="background" fantasy="sprite|13100|frame|3400" />
+            <FanObj id="background" fantasy="sprite|13100|frame|3401" />
+            <FanObj id="background" fantasy="sprite|13100|frame|3402" />
+            <FanObj id="background" fantasy="sprite|13100|frame|3403" />
+        </FanGrid9Render>
+        <!--求药外框大图9宮!-->
+        <FanGrid9Render id="ask_yao_9_1">
+            <FanObj id="background" fantasy="sprite|13100|frame|3404" />
+            <FanObj id="background" fantasy="sprite|13100|frame|3405" />
+            <FanObj id="background" fantasy="sprite|13100|frame|3406" />
+            <FanObj id="background" fantasy="sprite|13100|frame|3407" />
+        </FanGrid9Render>
+        <!--群攻小图9宮!-->
+        <FanGrid9Render id="attackall9_0">
+            <FanObj id="background" fantasy="sprite|13100|frame|3408" />
+            <FanObj id="background" fantasy="sprite|13100|frame|3409" />
+            <FanObj id="background" fantasy="sprite|13100|frame|3410" />
+            <FanObj id="background" fantasy="sprite|13100|frame|3411" />
+        </FanGrid9Render>
+        <!--群攻大图9宮!-->
+        <FanGrid9Render id="attackall9_1">
+            <FanObj id="background" fantasy="sprite|13100|frame|3412" />
+            <FanObj id="background" fantasy="sprite|13100|frame|3413" />
+            <FanObj id="background" fantasy="sprite|13100|frame|3414" />
+            <FanObj id="background" fantasy="sprite|13100|frame|3415" />
+        </FanGrid9Render>
+    </Render>
+    <Fantasy>
+        <Sprite id="13099" desc="Animation2" img="YXS_Anim2">
+            <Module id="3000000" desc="diaoxian1" src="506,532,42,16" />
+            <Module id="3000001" desc="diaoxian2" src="550,532,42,16" />
+            <Module id="3000002" desc="diaoxian3" src="506,552,42,16" />
+            <Module id="3000003" desc="diaoxian4" src="550,552,42,16" />
+            <Module id="3000004" desc="diaoxian5" src="506,572,42,16" />
+            <Animation id="6000" desc="offline">
+                <AFrame id="0" frame="3000000" maintain="2" />
+                <AFrame id="0" frame="3000001" maintain="2" />
+                <AFrame id="0" frame="3000002" maintain="2" />
+                <AFrame id="0" frame="3000003" maintain="2" />
+                <AFrame id="0" frame="3000004" maintain="2" />
+            </Animation>
+            <!--  baozhasmall!-->
+            <Frame id="1744821" desc="baozhasmall1">
+                <FModule id="1" src="0,0,90,94" />
+            </Frame>
+            <Frame id="1744822" desc="baozhasmall2">
+                <FModule id="1" src="90,0,90,94" />
+            </Frame>
+            <Frame id="1744823" desc="baozhasmall3">
+                <FModule id="1" src="180,0,90,94" />
+            </Frame>
+            <Frame id="1744824" desc="baozhasmall4">
+                <FModule id="1" src="270,0,90,94" />
+            </Frame>
+            <Frame id="1744825" desc="baozhasmall5">
+                <FModule id="1" src="360,0,90,94" />
+            </Frame>
+            <Frame id="1744826" desc="baozhasmall6">
+                <FModule id="1" src="450,0,90,94" />
+            </Frame>
+            <Frame id="1744827" desc="baozhasmall7">
+                <FModule id="1" src="540,0,90,94" />
+            </Frame>
+            <Frame id="1744828" desc="baozhasmall8">
+                <FModule id="1" src="630,0,90,94" />
+            </Frame>
+            <Frame id="1744829" desc="baozhasmall9">
+                <FModule id="1" src="720,0,90,94" />
+            </Frame>
+            <Frame id="1744830" desc="baozhasmall10">
+                <FModule id="1" src="810,0,90,94" />
+            </Frame>
+            <Frame id="1744831" desc="baozhasmall11">
+                <FModule id="1" src="900,0,90,94" />
+            </Frame>
+            <Frame id="1744832" desc="baozhasmall12">
+                <FModule id="1" src="0,94,90,94" />
+            </Frame>
+            <Frame id="1744833" desc="baozhasmall13">
+                <FModule id="1" src="90,94,90,94" dest="0,0,90,94" />
+            </Frame>
+            <Frame id="1744834" desc="baozhasmall14">
+                <FModule id="1" src="180,94,90,94" dest="0,0,90,94" />
+            </Frame>
+            <Frame id="1744835" desc="baozhasmall15">
+                <FModule id="1" src="270,94,90,94" dest="0,0,90,94" />
+            </Frame>
+            <Frame id="1744836" desc="baozhasmall16">
+                <FModule id="1" src="360,94,90,94" dest="0,0,90,94" />
+            </Frame>
+            <Frame id="1744837" desc="baozhasmall17">
+                <FModule id="1" src="450,94,90,94" dest="0,0,90,94" />
+            </Frame>
+            <Frame id="1744838" desc="baozhasmall18">
+                <FModule id="1" src="540,94,90,94" dest="0,0,90,94" />
+            </Frame>
+            <Frame id="1744839" desc="baozhasmall19">
+                <FModule id="1" src="630,94,90,94" dest="0,0,90,94" />
+            </Frame>
+            <Frame id="1744840" desc="baozhasmall20">
+                <FModule id="1" src="720,94,90,94" dest="0,0,90,94" />
+            </Frame>
+            <Frame id="1744841" desc="baozhasmall21">
+                <FModule id="1" src="810,94,90,94" dest="0,0,90,94" />
+            </Frame>
+            <!--  baozhasmall end!-->
+            <!--  baozhabig!-->
+            <Frame id="1644821" desc="baozhabig1">
+                <FModule id="1" src="504,460,52,70" dest="50,20,52,70" />
+            </Frame>
+            <Frame id="1644822" desc="baozhabig2">
+                <FModule id="1" src="556,460,54,70" dest="50,24,54,70" />
+            </Frame>
+            <Frame id="1644823" desc="baozhabig3">
+                <FModule id="1" src="610,460,58,74" dest="48,18,58,74" />
+            </Frame>
+            <Frame id="1644824" desc="baozhabig4">
+                <FModule id="1" src="668,460,94,74" dest="40,34,94,74" />
+            </Frame>
+            <Frame id="1644825" desc="baozhabig5">
+                <FModule id="1" src="762,460,126,98" dest="26,22,126,98" />
+            </Frame>
+            <Frame id="1644826" desc="baozhabig6">
+                <FModule id="1" src="0,188,168,136" />
+            </Frame>
+            <Frame id="1644827" desc="baozhabig7">
+                <FModule id="1" src="168,188,168,136" />
+            </Frame>
+            <Frame id="1644828" desc="baozhabig8">
+                <FModule id="1" src="336,188,168,136" />
+            </Frame>
+            <Frame id="1644829" desc="baozhabig9">
+                <FModule id="1" src="504,188,168,136" />
+            </Frame>
+            <Frame id="1644830" desc="baozhabig10">
+                <FModule id="1" src="672,188,168,136" />
+            </Frame>
+            <Frame id="1644831" desc="baozhabig11">
+                <FModule id="1" src="840,188,168,136" />
+            </Frame>
+            <Frame id="1644832" desc="baozhabig12">
+                <FModule id="1" src="0,324,168,136" />
+            </Frame>
+            <Frame id="1644833" desc="baozhabig13">
+                <FModule id="1" src="168,324,168,136" />
+            </Frame>
+            <Frame id="1644834" desc="baozhabig14">
+                <FModule id="1" src="336,324,168,136" />
+            </Frame>
+            <Frame id="1644835" desc="baozhabig15">
+                <FModule id="1" src="504,324,168,136" />
+            </Frame>
+            <Frame id="1644836" desc="baozhabig16">
+                <FModule id="1" src="672,324,168,136" />
+            </Frame>
+            <Frame id="1644837" desc="baozhabig17">
+                <FModule id="1" src="840,324,168,136" />
+            </Frame>
+            <Frame id="1644838" desc="baozhabig18">
+                <FModule id="1" src="0,460,168,136" />
+            </Frame>
+            <Frame id="1644839" desc="baozhabig19">
+                <FModule id="1" src="168,460,168,136" />
+            </Frame>
+            <Frame id="1644840" desc="baozhabig20">
+                <FModule id="1" src="336,460,168,136" />
+            </Frame>
+            <!--  baozhabig end!-->
+            <!--  beikansmall!-->
+            <Frame id="1544821" desc="beikansmall1">
+                <FModule id="1" src="946,94,44,44" dest="46,0,44,44" />
+            </Frame>
+            <Frame id="1544822" desc="beikansmall2">
+                <FModule id="1" src="946,140,44,44" dest="46,0,44,44" />
+            </Frame>
+            <Frame id="1544823" desc="beikansmall3">
+                <FModule id="1" src="90,680,90,90" dest="0,0,90,90" />
+            </Frame>
+            <Frame id="1544824" desc="beikansmall4">
+                <FModule id="1" src="180,680,90,90" dest="0,0,90,90" />
+            </Frame>
+            <Frame id="1544825" desc="beikansmall5">
+                <FModule id="1" src="270,680,90,90" dest="0,0,90,90" />
+            </Frame>
+            <Frame id="1544826" desc="beikansmall6">
+                <FModule id="1" src="360,680,90,90" dest="0,0,90,90" />
+            </Frame>
+            <Frame id="1544827" desc="beikansmall7">
+                <FModule id="1" src="450,680,90,90" dest="0,0,90,90" />
+            </Frame>
+            <Frame id="1544828" desc="beikansmall8">
+                <FModule id="1" src="900,94,44,44" dest="46,0,44,44" />
+            </Frame>
+            <Frame id="1544829" desc="beikansmall9">
+                <FModule id="1" src="900,140,44,44" dest="46,0,44,44" />
+            </Frame>
+            <Frame id="1544830" desc="beikansmall10">
+                <FModule id="1" src="0,680,90,90" dest="0,0,90,90" />
+            </Frame>
+            <Frame id="1544831" desc="beikansmall11">
+                <FModule id="1" src="540,680,90,90" dest="0,0,90,90" />
+            </Frame>
+            <Frame id="1544832" desc="beikansmall12">
+                <FModule id="1" src="630,680,90,90" dest="0,0,90,90" />
+            </Frame>
+            <!--  beikansmall end!-->
+            <!--  beikanbig!-->
+            <Frame id="1444821" desc="beikanbig1">
+                <FModule id="1" src="840,596,84,64" dest="84,0,84,64" />
+            </Frame>
+            <Frame id="1444822" desc="beikanbig2">
+                <FModule id="1" src="924,596,84,64" dest="84,0,84,64" />
+            </Frame>
+            <Frame id="1444823" desc="beikanbig3">
+                <FModule id="1" src="0,596,84,82" dest="0,48,84,82" />
+                <FModule id="2" src="84,596,84,82" dest="84,0,84,82" />
+            </Frame>
+            <Frame id="1444824" desc="beikanbig4">
+                <FModule id="1" src="168,596,84,82" dest="0,48,84,82" />
+                <FModule id="2" src="252,596,84,82" dest="84,0,84,82" />
+            </Frame>
+            <Frame id="1444825" desc="beikanbig5">
+                <FModule id="1" src="168,596,84,82" dest="0,48,84,82" />
+                <FModule id="2" src="252,596,84,82" dest="84,0,84,82" />
+            </Frame>
+            <Frame id="1444826" desc="beikanbig6">
+                <FModule id="1" src="168,596,84,82" dest="0,48,84,82" />
+                <FModule id="2" src="252,596,84,82" dest="84,0,84,82" />
+            </Frame>
+            <Frame id="1444827" desc="beikanbig7">
+                <FModule id="1" src="168,596,84,82" dest="0,48,84,82" />
+                <FModule id="2" src="252,596,84,82" dest="84,0,84,82" />
+            </Frame>
+            <Frame id="1444828" desc="beikanbig8">
+                <FModule id="1" src="840,662,84,64" dest="84,0,84,64" />
+            </Frame>
+            <Frame id="1444829" desc="beikanbig9">
+                <FModule id="1" src="924,638,84,64" dest="84,0,84,64" />
+            </Frame>
+            <Frame id="1444830" desc="beikanbig10">
+                <FModule id="1" src="336,596,84,82" dest="0,48,84,82" />
+                <FModule id="2" src="420,596,84,82" dest="84,0,84,82" />
+            </Frame>
+            <Frame id="1444831" desc="beikanbig11">
+                <FModule id="1" src="504,596,84,82" dest="0,48,84,82" />
+                <FModule id="2" src="588,596,84,82" dest="84,0,84,82" />
+            </Frame>
+            <Frame id="1444832" desc="beikanbig12">
+                <FModule id="1" src="672,596,84,82" dest="0,48,84,82" />
+                <FModule id="2" src="756,596,84,82" dest="84,0,84,82" />
+            </Frame>
+            <!--  beikanbig end!-->
+            <!--  DiceAni!-->
+            <Frame id="1344821" desc="DiceAni1">
+                <FModule id="1" src="0,794,70,70" />
+            </Frame>
+            <Frame id="1344822" desc="DiceAni2">
+                <FModule id="1" src="70,794,70,70" />
+            </Frame>
+            <Frame id="1344823" desc="DiceAni3">
+                <FModule id="1" src="140,794,70,70" />
+            </Frame>
+            <Frame id="1344824" desc="DiceAni4">
+                <FModule id="1" src="210,794,70,70" />
+            </Frame>
+            <Frame id="1344825" desc="DiceAni5">
+                <FModule id="1" src="280,794,70,70" />
+            </Frame>
+            <Frame id="1344826" desc="DiceAni6">
+                <FModule id="1" src="350,794,70,70" />
+            </Frame>
+            <!--  DiceAni end!-->
+            <Animation id="5018" desc="baozhasmall">
+                <AFrame id="0" maintain="1" />
+                <AFrame id="0" frame="1744821" maintain="1" />
+                <AFrame id="0" frame="1744822" maintain="1" />
+                <AFrame id="0" frame="1744823" maintain="1" />
+                <AFrame id="0" frame="1744824" maintain="1" />
+                <AFrame id="0" frame="1744825" maintain="1" />
+                <AFrame id="0" frame="1744826" maintain="1" />
+                <AFrame id="0" frame="1744827" maintain="1" />
+                <AFrame id="0" frame="1744828" maintain="1" />
+                <AFrame id="0" frame="1744829" maintain="1" />
+                <AFrame id="0" frame="1744830" maintain="1" />
+                <AFrame id="0" frame="1744831" maintain="1" />
+                <AFrame id="0" frame="1744832" maintain="1" />
+                <AFrame id="0" frame="1744833" maintain="1" />
+                <AFrame id="0" frame="1744834" maintain="1" />
+                <AFrame id="0" frame="1744835" maintain="1" />
+                <AFrame id="0" frame="1744836" maintain="1" />
+                <AFrame id="0" frame="1744837" maintain="1" />
+                <AFrame id="0" frame="1744838" maintain="1" />
+                <AFrame id="0" frame="1744839" maintain="1" />
+                <AFrame id="0" frame="1744840" maintain="1" />
+                <AFrame id="0" frame="1744841" maintain="1" />
+            </Animation>
+            <Animation id="5019" desc="baozhabig">
+                <AFrame id="0" maintain="1" />
+                <AFrame id="0" frame="1644821" maintain="1" />
+                <AFrame id="0" frame="1644822" maintain="1" />
+                <AFrame id="0" frame="1644823" maintain="1" />
+                <AFrame id="0" frame="1644824" maintain="1" />
+                <AFrame id="0" frame="1644825" maintain="1" />
+                <AFrame id="0" frame="1644826" maintain="1" />
+                <AFrame id="0" frame="1644827" maintain="1" />
+                <AFrame id="0" frame="1644828" maintain="1" />
+                <AFrame id="0" frame="1644829" maintain="1" />
+                <AFrame id="0" frame="1644830" maintain="1" />
+                <AFrame id="0" frame="1644831" maintain="1" />
+                <AFrame id="0" frame="1644832" maintain="1" />
+                <AFrame id="0" frame="1644833" maintain="1" />
+                <AFrame id="0" frame="1644834" maintain="1" />
+                <AFrame id="0" frame="1644835" maintain="1" />
+                <AFrame id="0" frame="1644836" maintain="1" />
+                <AFrame id="0" frame="1644837" maintain="1" />
+                <AFrame id="0" frame="1644838" maintain="1" />
+                <AFrame id="0" frame="1644839" maintain="1" />
+                <AFrame id="0" frame="1644840" maintain="1" />
+            </Animation>
+            <Animation id="5020" desc="beikansmall">
+                <AFrame id="0" maintain="1" />
+                <AFrame id="0" frame="1544821" maintain="1" />
+                <AFrame id="0" frame="1544822" maintain="1" />
+                <AFrame id="0" frame="1544823" maintain="1" />
+                <AFrame id="0" frame="1544824" maintain="1" />
+                <AFrame id="0" frame="1544825" maintain="1" />
+                <AFrame id="0" frame="1544826" maintain="1" />
+                <AFrame id="0" frame="1544827" maintain="1" />
+                <AFrame id="0" frame="1544828" maintain="1" />
+                <AFrame id="0" frame="1544829" maintain="1" />
+                <AFrame id="0" frame="1544830" maintain="1" />
+                <AFrame id="0" frame="1544831" maintain="1" />
+                <AFrame id="0" frame="1544832" maintain="1" />
+            </Animation>
+            <Animation id="5021" desc="beikanbig">
+                <AFrame id="0" maintain="1" />
+                <AFrame id="0" frame="1444821" maintain="1" />
+                <AFrame id="0" frame="1444822" maintain="1" />
+                <AFrame id="0" frame="1444823" maintain="1" />
+                <AFrame id="0" frame="1444824" maintain="1" />
+                <AFrame id="0" frame="1444825" color="0xA0FFFFFF" maintain="1" />
+                <AFrame id="0" frame="1444826" color="0x80FFFFFF" maintain="1" />
+                <AFrame id="0" frame="1444827" color="0x40FFFFFF" maintain="1" />
+                <AFrame id="0" frame="1444828" maintain="1" />
+                <AFrame id="0" frame="1444829" maintain="1" />
+                <AFrame id="0" frame="1444830" maintain="1" />
+                <AFrame id="0" frame="1444831" maintain="1" />
+                <AFrame id="0" frame="1444832" maintain="1" />
+            </Animation>
+            <Animation id="5022" desc="DiceAni">
+                <AFrame id="0" maintain="1" />
+                <AFrame id="0" frame="1344821" maintain="1" />
+                <AFrame id="0" frame="1344822" maintain="1" />
+                <AFrame id="0" frame="1344823" maintain="1" />
+                <AFrame id="0" frame="1344824" maintain="1" />
+                <AFrame id="0" frame="1344825" maintain="1" />
+                <AFrame id="0" frame="1344826" maintain="1" />
+                <AFrame id="0" frame="1344821" maintain="1" />
+                <AFrame id="0" frame="1344822" maintain="1" />
+                <AFrame id="0" frame="1344823" maintain="1" />
+                <AFrame id="0" frame="1344824" maintain="1" />
+                <AFrame id="0" frame="1344825" maintain="1" />
+                <AFrame id="0" frame="1344826" maintain="1" />
+                <AFrame id="0" frame="1344821" maintain="1" />
+                <AFrame id="0" frame="1344822" maintain="1" />
+                <AFrame id="0" frame="1344823" maintain="1" />
+                <AFrame id="0" frame="1344824" maintain="1" />
+                <AFrame id="0" frame="1344825" maintain="1" />
+                <AFrame id="0" frame="1344826" maintain="1" />
+            </Animation>
+        </Sprite>
+        <Sprite id="13100" desc="Animation" img="YXS_Anim">
+            <Module id="3101" src="0,0,26,26" desc="xiadan1" />
+            <Module id="3102" src="26,0,26,26" desc="xiadan2" />
+            <Module id="3103" src="52,0,26,26" desc="xiadan3" />
+            <Module id="3104" src="78,0,26,26" desc="xiadan4" />
+            <Module id="3105" src="104,0,26,26" desc="xiadan5" />
+            <Module id="3106" src="130,0,26,26" desc="xiadan6" />
+            <Module id="3107" src="156,0,26,26" desc="xiadan7" />
+            <Module id="3111" src="182,0,26,26" desc="huadiweilaoSmall1" />
+            <Module id="3112" src="208,0,26,26" desc="huadiweilaoSmall2" />
+            <Module id="3113" src="234,0,26,26" desc="huadiweilaoSmall3" />
+            <Module id="3141" src="260,0,26,26" desc="menshen1" />
+            <Module id="3142" src="286,0,26,26" desc="menshen2" />
+            <Module id="3151" src="312,0,26,26" desc="Determine1" />
+            <Module id="3152" src="338,0,26,26" desc="Determine2" />
+            <Module id="3153" src="364,0,26,26" desc="Determine3" />
+            <Module id="3154" src="390,0,26,26" desc="Determine4" />
+            <Module id="3155" src="416,0,26,26" desc="Determine5" />
+            <Module id="3156" src="442,0,26,26" desc="Determine6" />
+            <Module id="3157" src="468,0,26,26" desc="Determine7" />
+            <Module id="3131" src="0,26,26,26" desc="shoupenglei1" />
+            <Module id="3132" src="26,26,26,26" desc="shoupenglei2" />
+            <Module id="3133" src="52,26,26,26" desc="shoupenglei3" />
+            <Module id="3121" src="78,26,26,26" desc="zirong1" />
+            <Module id="3122" src="104,26,26,26" desc="zirong2" />
+            <Module id="3123" src="130,26,26,26" desc="zirong3" />
+            <Module id="3161" src="278,244,4,122" desc="greenboxleft1" />
+            <Module id="3162" src="320,244,4,122" desc="greenboxright1" />
+            <Module id="3163" src="0,428,224,4" desc="greenboxtop1" />
+            <Module id="3164" src="0,470,224,4" desc="greenboxbottom1" />
+            <Module id="3171" src="282,244,4,122" desc="greenboxleft2" />
+            <Module id="3172" src="324,244,4,122" desc="greenboxright2" />
+            <Module id="3173" src="0,432,224,4" desc="greenboxtop2" />
+            <Module id="3174" src="0,474,224,4" desc="greenboxbottom2" />
+            <Module id="3181" src="286,244,4,122" desc="greenboxleft3" />
+            <Module id="3182" src="328,244,4,122" desc="greenboxright3" />
+            <Module id="3183" src="0,436,224,4" desc="greenboxtop3" />
+            <Module id="3184" src="0,478,224,4" desc="greenboxbottom3" />
+            <Module id="3191" src="290,244,4,122" desc="greenboxleft4" />
+            <Module id="3192" src="332,244,4,122" desc="greenboxright4" />
+            <Module id="3193" src="0,440,224,4" desc="greenboxtop4" />
+            <Module id="3194" src="0,482,224,4" desc="greenboxbottom4" />
+            <Module id="3201" src="294,244,4,122" desc="greenboxleft5" />
+            <Module id="3202" src="336,244,4,122" desc="greenboxright5" />
+            <Module id="3203" src="0,444,224,4" desc="greenboxtop5" />
+            <Module id="3204" src="0,486,224,4" desc="greenboxbottom5" />
+            <Module id="3211" src="298,244,4,122" desc="greenboxleft6" />
+            <Module id="3212" src="340,244,4,122" desc="greenboxright6" />
+            <Module id="3213" src="0,448,224,4" desc="greenboxtop6" />
+            <Module id="3214" src="0,490,224,4" desc="greenboxbottom6" />
+            <Module id="3221" src="302,244,4,122" desc="greenboxleft7" />
+            <Module id="3222" src="344,244,4,122" desc="greenboxright7" />
+            <Module id="3223" src="0,452,224,4" desc="greenboxtop7" />
+            <Module id="3224" src="0,494,224,4" desc="greenboxbottom7" />
+            <Module id="3231" src="306,244,4,122" desc="greenboxleft8" />
+            <Module id="3232" src="348,244,4,122" desc="greenboxright8" />
+            <Module id="3233" src="0,456,224,4" desc="greenboxtop8" />
+            <Module id="3234" src="0,498,224,4" desc="greenboxbottom8" />
+            <Module id="3241" src="310,244,4,122" desc="greenboxleft9" />
+            <Module id="3242" src="352,244,4,122" desc="greenboxright9" />
+            <Module id="3243" src="0,460,224,4" desc="greenboxtop9" />
+            <Module id="3244" src="0,502,224,4" desc="greenboxbottom9" />
+            <Module id="3251" src="314,244,4,122" desc="greenboxleft10" />
+            <Module id="3252" src="356,244,4,122" desc="greenboxright10" />
+            <Module id="3253" src="0,464,224,4" desc="greenboxtop10" />
+            <Module id="3254" src="0,506,224,4" desc="greenboxbottom10" />
+            <Module id="3261" src="360,244,4,122" desc="yellowboxleft1" />
+            <Module id="3262" src="402,244,4,122" desc="yellowboxright1" />
+            <Module id="3263" src="224,428,224,4" desc="yellowboxtop1" />
+            <Module id="3264" src="224,470,224,4" desc="yellowboxbottom1" />
+            <Module id="3271" src="364,244,4,122" desc="yellowboxleft2" />
+            <Module id="3272" src="406,244,4,122" desc="yellowboxright2" />
+            <Module id="3273" src="224,432,224,4" desc="yellowboxtop2" />
+            <Module id="3274" src="224,474,224,4" desc="yellowboxbottom2" />
+            <Module id="3281" src="368,244,4,122" desc="yellowboxleft3" />
+            <Module id="3282" src="410,244,4,122" desc="yellowboxright3" />
+            <Module id="3283" src="224,436,224,4" desc="yellowboxtop3" />
+            <Module id="3284" src="224,478,224,4" desc="yellowboxbottom3" />
+            <Module id="3291" src="372,244,4,122" desc="yellowboxleft4" />
+            <Module id="3292" src="414,244,4,122" desc="yellowboxright4" />
+            <Module id="3293" src="224,440,224,4" desc="yellowboxtop4" />
+            <Module id="3294" src="224,482,224,4" desc="yellowboxbottom4" />
+            <Module id="3301" src="376,244,4,122" desc="yellowboxleft5" />
+            <Module id="3302" src="418,244,4,122" desc="yellowboxright5" />
+            <Module id="3303" src="224,444,224,4" desc="yellowboxtop5" />
+            <Module id="3304" src="224,486,224,4" desc="yellowboxbottom5" />
+            <Module id="3311" src="380,244,4,122" desc="yellowboxleft6" />
+            <Module id="3312" src="422,244,4,122" desc="yellowboxright6" />
+            <Module id="3313" src="224,448,224,4" desc="yellowboxtop6" />
+            <Module id="3314" src="224,490,224,4" desc="yellowboxbottom6" />
+            <Module id="3321" src="384,244,4,122" desc="yellowboxleft7" />
+            <Module id="3322" src="426,244,4,122" desc="yellowboxright7" />
+            <Module id="3323" src="224,452,224,4" desc="yellowboxtop7" />
+            <Module id="3324" src="224,494,224,4" desc="yellowboxbottom7" />
+            <Module id="3331" src="388,244,4,122" desc="yellowboxleft8" />
+            <Module id="3332" src="430,244,4,122" desc="yellowboxright8" />
+            <Module id="3333" src="224,456,224,4" desc="yellowboxtop8" />
+            <Module id="3334" src="224,498,224,4" desc="yellowboxbottom8" />
+            <Module id="3341" src="392,244,4,122" desc="yellowboxleft9" />
+            <Module id="3342" src="434,244,4,122" desc="yellowboxright9" />
+            <Module id="3343" src="224,460,224,4" desc="yellowboxtop9" />
+            <Module id="3344" src="224,502,224,4" desc="yellowboxbottom9" />
+            <Module id="3351" src="396,244,4,122" desc="yellowboxleft10" />
+            <Module id="3352" src="438,244,4,122" desc="yellowboxright10" />
+            <Module id="3353" src="224,464,224,4" desc="yellowboxtop10" />
+            <Module id="3354" src="224,506,224,4" desc="yellowboxbottom10" />
+            <Module id="4161" src="278,246,4,162" desc="greenboxmyselfleft1" />
+            <Module id="4162" src="320,246,4,162" desc="greenboxmyselfright1" />
+            <Module id="4163" src="18,428,180,4" desc="greenboxmyselftop1" />
+            <Module id="4164" src="16,470,180,4" desc="greenboxmyselfbottom1" />
+            <Module id="4171" src="282,246,4,162" desc="greenboxmyselfleft2" />
+            <Module id="4172" src="324,246,4,162" desc="greenboxmyselfright2" />
+            <Module id="4173" src="18,452,180,4" desc="greenboxmyselftop2" />
+            <Module id="4174" src="16,474,180,4" desc="greenboxmyselfbottom2" />
+            <Module id="4181" src="286,246,4,162" desc="greenboxmyselfleft3" />
+            <Module id="4182" src="328,246,4,162" desc="greenboxmyselfright3" />
+            <Module id="4183" src="18,436,180,4" desc="greenboxmyselftop3" />
+            <Module id="4184" src="16,478,180,4" desc="greenboxmyselfbottom3" />
+            <Module id="4191" src="290,246,4,162" desc="greenboxmyselfleft4" />
+            <Module id="4192" src="332,246,4,162" desc="greenboxmyselfright4" />
+            <Module id="4193" src="18,440,180,4" desc="greenboxmyselftop4" />
+            <Module id="4194" src="16,482,180,4" desc="greenboxmyselfbottom4" />
+            <Module id="4201" src="294,246,4,162" desc="greenboxmyselfleft5" />
+            <Module id="4202" src="336,246,4,162" desc="greenboxmyselfright5" />
+            <Module id="4203" src="18,444,180,4" desc="greenboxmyselftop5" />
+            <Module id="4204" src="16,486,180,4" desc="greenboxmyselfbottom5" />
+            <Module id="4211" src="298,246,4,162" desc="greenboxmyselfleft6" />
+            <Module id="4212" src="340,246,4,162" desc="greenboxmyselfright6" />
+            <Module id="4213" src="18,448,180,4" desc="greenboxmyselftop6" />
+            <Module id="4214" src="16,490,180,4" desc="greenboxmyselfbottom6" />
+            <Module id="4221" src="302,246,4,162" desc="greenboxmyselfleft7" />
+            <Module id="4222" src="344,246,4,162" desc="greenboxmyselfright7" />
+            <Module id="4223" src="18,452,180,4" desc="greenboxmyselftop7" />
+            <Module id="4224" src="16,494,180,4" desc="greenboxmyselfbottom7" />
+            <Module id="4231" src="306,246,4,162" desc="greenboxmyselfleft8" />
+            <Module id="4232" src="348,246,4,162" desc="greenboxmyselfright8" />
+            <Module id="4233" src="18,456,180,4" desc="greenboxmyselftop8" />
+            <Module id="4234" src="16,498,180,4" desc="greenboxmyselfbottom8" />
+            <Module id="4241" src="310,246,4,162" desc="greenboxmyselfleft9" />
+            <Module id="4242" src="352,246,4,162" desc="greenboxmyselfright9" />
+            <Module id="4243" src="18,460,180,4" desc="greenboxmyselftop9" />
+            <Module id="4244" src="16,502,180,4" desc="greenboxmyselfbottom9" />
+            <Module id="4251" src="314,246,4,162" desc="greenboxmyselfleft10" />
+            <Module id="4252" src="356,246,4,162" desc="greenboxmyselfright10" />
+            <Module id="4253" src="18,464,180,4" desc="greenboxmyselftop10" />
+            <Module id="4254" src="16,506,180,4" desc="greenboxmyselfbottom10" />
+            <Module id="4261" src="360,246,4,162" desc="yellowboxmyselfleft1" />
+            <Module id="4262" src="402,246,4,162" desc="yellowboxmyselfright1" />
+            <Module id="4263" src="242,428,180,4" desc="yellowboxmyselftop1" />
+            <Module id="4264" src="240,470,180,4" desc="yellowboxmyselfbottom1" />
+            <Module id="4271" src="364,246,4,162" desc="yellowboxmyselfleft2" />
+            <Module id="4272" src="406,246,4,162" desc="yellowboxmyselfright2" />
+            <Module id="4273" src="242,432,180,4" desc="yellowboxmyselftop2" />
+            <Module id="4274" src="240,474,180,4" desc="yellowboxmyselfbottom2" />
+            <Module id="4281" src="368,246,4,162" desc="yellowboxmyselfleft3" />
+            <Module id="4282" src="410,246,4,162" desc="yellowboxmyselfright3" />
+            <Module id="4283" src="242,436,180,4" desc="yellowboxmyselftop3" />
+            <Module id="4284" src="240,478,180,4" desc="yellowboxmyselfbottom3" />
+            <Module id="4291" src="372,246,4,162" desc="yellowboxmyselfleft4" />
+            <Module id="4292" src="414,246,4,162" desc="yellowboxmyselfright4" />
+            <Module id="4293" src="242,440,180,4" desc="yellowboxmyselftop4" />
+            <Module id="4294" src="240,482,180,4" desc="yellowboxmyselfbottom4" />
+            <Module id="4301" src="376,246,4,162" desc="yellowboxmyselfleft5" />
+            <Module id="4302" src="418,246,4,162" desc="yellowboxmyselfright5" />
+            <Module id="4303" src="242,444,180,4" desc="yellowboxmyselftop5" />
+            <Module id="4304" src="240,486,180,4" desc="yellowboxmyselfbottom5" />
+            <Module id="4311" src="380,246,4,162" desc="yellowboxmyselfleft6" />
+            <Module id="4312" src="422,246,4,162" desc="yellowboxmyselfright6" />
+            <Module id="4313" src="242,448,180,4" desc="yellowboxmyselftop6" />
+            <Module id="4314" src="240,490,180,4" desc="yellowboxmyselfbottom6" />
+            <Module id="4321" src="384,246,4,162" desc="yellowboxmyselfleft7" />
+            <Module id="4322" src="426,246,4,162" desc="yellowboxmyselfright7" />
+            <Module id="4323" src="242,452,180,4" desc="yellowboxmyselftop7" />
+            <Module id="4324" src="240,494,180,4" desc="yellowboxmyselfbottom7" />
+            <Module id="4331" src="388,246,4,162" desc="yellowboxmyselfleft8" />
+            <Module id="4332" src="430,246,4,162" desc="yellowboxmyselfright8" />
+            <Module id="4333" src="242,456,180,4" desc="yellowboxmyselftop8" />
+            <Module id="4334" src="240,498,180,4" desc="yellowboxmyselfbottom8" />
+            <Module id="4341" src="392,246,4,162" desc="yellowboxmyselfleft9" />
+            <Module id="4342" src="434,246,4,162" desc="yellowboxmyselfright9" />
+            <Module id="4343" src="242,460,180,4" desc="yellowboxmyselftop9" />
+            <Module id="4344" src="240,502,180,4" desc="yellowboxmyselfbottom9" />
+            <Module id="4351" src="396,246,4,162" desc="yellowboxmyselfleft10" />
+            <Module id="4352" src="438,246,4,162" desc="yellowboxmyselfright10" />
+            <Module id="4353" src="242,464,180,4" desc="yellowboxmyselftop10" />
+            <Module id="4354" src="240,506,180,4" desc="yellowboxmyselfbottom10" />
+            <Module id="3361" src="0,494,42,16" desc="offline1" />
+            <Module id="3362" src="42,494,42,16" desc="offline2" />
+            <Module id="3363" src="84,494,42,16" desc="offline3" />
+            <Module id="3364" src="126,494,42,16" desc="offline4" />
+            <Module id="3365" src="168,494,42,16" desc="offline5" />
+            <Module id="3366" src="0,52,50,52" desc="shaoxue1" />
+            <Module id="3367" src="50,52,50,52" desc="shaoxue2" />
+            <Module id="3368" src="100,52,50,52" desc="shaoxue3" />
+            <Module id="3369" src="150,52,50,52" desc="shaoxue4" />
+            <Module id="3370" src="200,52,50,52" desc="shaoxue5" />
+            <Module id="3371" src="250,52,50,52" desc="shaoxue6" />
+            <Module id="3372" src="300,52,50,52" desc="shaoxue7" />
+            <Module id="3373" src="350,52,50,52" desc="shaoxue8" />
+            <Module id="3374" src="400,52,50,52" desc="shaoxue9" />
+            <Module id="3375" src="450,52,50,52" desc="shaoxue10" />
+            <Module id="3376" src="0,104,50,52" desc="shaoxue11" />
+            <Module id="3377" src="50,104,50,52" desc="shaoxue12" />
+            <Module id="3378" src="100,104,50,52" desc="shaoxue13" />
+            <Module id="3379" src="150,104,50,52" desc="shaoxue14" />
+            <Module id="3380" src="200,104,50,52" desc="shaoxue15" />
+            <Module id="3381" src="156,26,48,24" desc="taopao1" />
+            <Module id="3382" src="204,26,48,24" desc="taopao2" />
+            <Module id="3383" src="252,26,48,24" desc="taopao3" />
+            <Module id="3384" src="300,26,48,24" desc="taopao4" />
+            <Module id="3385" src="348,26,48,24" desc="taopao5" />
+            <Module id="3386" src="396,26,48,24" desc="taopao6" />
+            <Module id="3387" src="444,26,48,24" desc="taopao7" />
+            <!--求药外框小图9宮!-->
+            <!--<Module id="3400" src="228,172,10,10" desc="hurt_coner_0" />
+            <Module id="3401" src="238,172,10,10" desc="hurt_top_0" />
+            <Module id="3402" src="228,182,10,10" desc="hurt_left_0" />
+            <Module id="3403" src="238,182,10,10" desc="hurt_center_0" />-->
+            <Module id="3400" src="450,260,20,20" desc="hurt_coner_0" />
+            <Module id="3401" src="470,260,20,20" desc="hurt_top_0" />
+            <Module id="3402" src="450,280,20,20" desc="hurt_left_0" />
+            <Module id="3403" src="470,280,20,20" desc="hurt_center_0" />
+            <!--求药外框大图9宮!-->
+            <!--<Module id="3404" src="228,120,15,15" desc="hurt_coner_1" />
+            <Module id="3405" src="243,120,10,15" desc="hurt_top_1" />
+            <Module id="3406" src="228,135,15,10" desc="hurt_left_1" />
+            <Module id="3407" src="243,135,10,10" desc="hurt_center_1" />-->
+            <Module id="3404" src="450,260,20,20" desc="hurt_coner_1" />
+            <Module id="3405" src="470,260,20,20" desc="hurt_coner_1" />
+            <Module id="3406" src="450,280,20,20" desc="hurt_coner_1" />
+            <Module id="3407" src="470,280,20,20" desc="hurt_coner_1" />
+            <!--群攻小图9宮!-->
+            <Module id="3408" src="450,316,20,20" desc="attack_all_coner_0" />
+            <Module id="3409" src="470,316,20,20" desc="attack_all_top_0" />
+            <Module id="3410" src="450,336,20,20" desc="attack_all_left_0" />
+            <Module id="3411" src="470,336,20,20" desc="attack_all_center_0" />
+            <!--群攻大图9宮!-->
+            <Module id="3412" src="450,316,20,20" desc="attack_all_coner_1" />
+            <Module id="3413" src="470,316,20,20" desc="attack_all_top_1" />
+            <Module id="3414" src="450,336,20,20" desc="attack_all_left_1" />
+            <Module id="3415" src="470,336,20,20" desc="attack_all_center_1" />
+            <!--画地为牢大资源!-->
+            <Module id="3416" src="254,186,36,136" desc="lao_face_big_1_left" />
+            <Module id="3417" src="18,186,66,136" desc="lao_face_big_2_left" />
+            <Module id="3418" src="0,186,84,136" desc="lao_face_big_3_left" />
+            <Module id="3419" src="4,186,80,136" desc="lao_face_big_4_left" />
+            <Module id="3420" src="0,186,84,136" desc="lao_face_big_5_left" />
+            <Module id="3421" src="422,106,84,136" desc="lao_face_big_6_left" />
+            <Module id="3422" src="338,106,84,136" desc="lao_face_big_7_left" />
+            <Module id="3423" src="254,106,84,136" desc="lao_face_big_8_left" />
+            <Module id="3424" src="168,186,84,136" desc="lao_face_big_9_left" />
+            <Module id="3425" src="84,186,84,136" desc="lao_face_big_10_left" />
+            <!--画地为牢小资源!-->
+            <Module id="3426" src="22,322,24,94" desc="lao_face_1_left" />
+            <Module id="3427" src="6,322,40,94" desc="lao_face_2_left" />
+            <Module id="3428" src="0,322,46,94" desc="lao_face_3_left" />
+            <Module id="3429" src="6,322,40,94" desc="lao_face_4_left" />
+            <Module id="3430" src="0,322,46,94" desc="lao_face_5_left" />
+            <Module id="3431" src="230,322,46,94" desc="lao_face_6_left" />
+            <Module id="3432" src="184,322,46,94" desc="lao_face_7_left" />
+            <Module id="3433" src="138,322,46,94" desc="lao_face_8_left" />
+            <Module id="3434" src="92,322,46,94" desc="lao_face_9_left" />
+            <Module id="3435" src="46,322,46,94" desc="lao_face_10_left" />
+            <Frame id="701" desc="xiadan1">
+                <FModule id="0" objid="3101" />
+            </Frame>
+            <Frame id="702" desc="xiadan2">
+                <FModule id="0" objid="3102" />
+            </Frame>
+            <Frame id="703" desc="xiadan3">
+                <FModule id="0" objid="3103" />
+            </Frame>
+            <Frame id="704" desc="xiadan4">
+                <FModule id="0" objid="3104" />
+            </Frame>
+            <Frame id="705" desc="xiadan5">
+                <FModule id="0" objid="3105" />
+            </Frame>
+            <Frame id="706" desc="xiadan6">
+                <FModule id="0" objid="3106" />
+            </Frame>
+            <Frame id="707" desc="xiadan7">
+                <FModule id="0" objid="3107" />
+            </Frame>
+            <Frame id="711" desc="huadiweilao1">
+                <FModule id="0" objid="3111" />
+            </Frame>
+            <Frame id="712" desc="huadiweilao2">
+                <FModule id="0" objid="3112" />
+            </Frame>
+            <Frame id="713" desc="huadiweilao3">
+                <FModule id="0" objid="3113" />
+            </Frame>
+            <Frame id="721" desc="zirong1">
+                <FModule id="0" objid="3121" />
+            </Frame>
+            <Frame id="722" desc="zirong2">
+                <FModule id="0" objid="3122" />
+            </Frame>
+            <Frame id="723" desc="zirong3">
+                <FModule id="0" objid="3123" />
+            </Frame>
+            <Frame id="731" desc="shoupenglei1">
+                <FModule id="0" objid="3131" />
+            </Frame>
+            <Frame id="732" desc="shoupenglei2">
+                <FModule id="0" objid="3132" />
+            </Frame>
+            <Frame id="733" desc="shoupenglei3">
+                <FModule id="0" objid="3133" />
+            </Frame>
+            <Frame id="741" desc="menshen1">
+                <FModule id="0" objid="3141" />
+            </Frame>
+            <Frame id="742" desc="menshen2">
+                <FModule id="0" objid="3142" />
+            </Frame>
+            <Frame id="751" desc="Determine1">
+                <FModule id="0" objid="3151" />
+            </Frame>
+            <Frame id="752" desc="Determine2">
+                <FModule id="0" objid="3152" />
+            </Frame>
+            <Frame id="753" desc="Determine3">
+                <FModule id="0" objid="3153" />
+            </Frame>
+            <Frame id="754" desc="Determine4">
+                <FModule id="0" objid="3154" />
+            </Frame>
+            <Frame id="755" desc="Determine5">
+                <FModule id="0" objid="3155" />
+            </Frame>
+            <Frame id="756" desc="Determine6">
+                <FModule id="0" objid="3156" />
+            </Frame>
+            <Frame id="757" desc="Determine7">
+                <FModule id="0" objid="3157" />
+            </Frame>
+            <Frame id="761" desc="greenbox1">
+                <FModule id="1" objid="3161" dest="0,4,4,122" />
+                <FModule id="2" objid="3162" dest="220,4,4,122" />
+                <FModule id="3" objid="3163" dest="0,0,224,4" />
+                <FModule id="4" objid="3164" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="762" desc="greenbox2">
+                <FModule id="1" objid="3171" dest="0,4,4,122" />
+                <FModule id="2" objid="3172" dest="220,4,4,122" />
+                <FModule id="3" objid="3173" dest="0,0,224,4" />
+                <FModule id="4" objid="3174" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="763" desc="greenbox3">
+                <FModule id="1" objid="3181" dest="0,4,4,122" />
+                <FModule id="2" objid="3182" dest="220,4,4,122" />
+                <FModule id="3" objid="3183" dest="0,0,224,4" />
+                <FModule id="4" objid="3184" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="764" desc="greenbox4">
+                <FModule id="1" objid="3191" dest="0,4,4,122" />
+                <FModule id="2" objid="3192" dest="220,4,4,122" />
+                <FModule id="3" objid="3193" dest="0,0,224,4" />
+                <FModule id="4" objid="3194" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="765" desc="greenbox5">
+                <FModule id="1" objid="3201" dest="0,4,4,122" />
+                <FModule id="2" objid="3202" dest="220,4,4,122" />
+                <FModule id="3" objid="3203" dest="0,0,224,4" />
+                <FModule id="4" objid="3204" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="766" desc="greenbox6">
+                <FModule id="1" objid="3211" dest="0,4,4,122" />
+                <FModule id="2" objid="3212" dest="220,4,4,122" />
+                <FModule id="3" objid="3213" dest="0,0,224,4" />
+                <FModule id="4" objid="3214" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="767" desc="greenbox7">
+                <FModule id="1" objid="3221" dest="0,4,4,122" />
+                <FModule id="2" objid="3222" dest="220,4,4,122" />
+                <FModule id="3" objid="3223" dest="0,0,224,4" />
+                <FModule id="4" objid="3224" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="768" desc="greenbox8">
+                <FModule id="1" objid="3231" dest="0,4,4,122" />
+                <FModule id="2" objid="3232" dest="220,4,4,122" />
+                <FModule id="3" objid="3233" dest="0,0,224,4" />
+                <FModule id="4" objid="3234" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="769" desc="greenbox9">
+                <FModule id="1" objid="3241" dest="0,4,4,122" />
+                <FModule id="2" objid="3242" dest="220,4,4,122" />
+                <FModule id="3" objid="3243" dest="0,0,224,4" />
+                <FModule id="4" objid="3244" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="770" desc="greenbox10">
+                <FModule id="1" objid="3251" dest="0,4,4,122" />
+                <FModule id="2" objid="3252" dest="220,4,4,122" />
+                <FModule id="3" objid="3253" dest="0,0,224,4" />
+                <FModule id="4" objid="3254" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="771" desc="yellowbox1">
+                <FModule id="1" objid="3261" dest="0,4,4,122" />
+                <FModule id="2" objid="3262" dest="220,4,4,122" />
+                <FModule id="3" objid="3263" dest="0,0,224,4" />
+                <FModule id="4" objid="3264" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="772" desc="yellowbox2">
+                <FModule id="1" objid="3271" dest="0,4,4,122" />
+                <FModule id="2" objid="3272" dest="220,4,4,122" />
+                <FModule id="3" objid="3273" dest="0,0,224,4" />
+                <FModule id="4" objid="3274" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="773" desc="yellowbox3">
+                <FModule id="1" objid="3281" dest="0,4,4,122" />
+                <FModule id="2" objid="3282" dest="220,4,4,122" />
+                <FModule id="3" objid="3283" dest="0,0,224,4" />
+                <FModule id="4" objid="3284" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="774" desc="yellowbox4">
+                <FModule id="1" objid="3291" dest="0,4,4,122" />
+                <FModule id="2" objid="3292" dest="220,4,4,122" />
+                <FModule id="3" objid="3293" dest="0,0,224,4" />
+                <FModule id="4" objid="3294" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="775" desc="yellowbox5">
+                <FModule id="1" objid="3301" dest="0,4,4,122" />
+                <FModule id="2" objid="3302" dest="220,4,4,122" />
+                <FModule id="3" objid="3303" dest="0,0,224,4" />
+                <FModule id="4" objid="3304" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="776" desc="yellowbox6">
+                <FModule id="1" objid="3311" dest="0,4,4,122" />
+                <FModule id="2" objid="3312" dest="220,4,4,122" />
+                <FModule id="3" objid="3313" dest="0,0,224,4" />
+                <FModule id="4" objid="3314" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="777" desc="yellowbox7">
+                <FModule id="1" objid="3321" dest="0,4,4,122" />
+                <FModule id="2" objid="3322" dest="220,4,4,122" />
+                <FModule id="3" objid="3323" dest="0,0,224,4" />
+                <FModule id="4" objid="3324" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="778" desc="yellowbox8">
+                <FModule id="1" objid="3331" dest="0,4,4,122" />
+                <FModule id="2" objid="3332" dest="220,4,4,122" />
+                <FModule id="3" objid="3333" dest="0,0,224,4" />
+                <FModule id="4" objid="3334" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="779" desc="yellowbox9">
+                <FModule id="1" objid="3341" dest="0,4,4,122" />
+                <FModule id="2" objid="3342" dest="220,4,4,122" />
+                <FModule id="3" objid="3343" dest="0,0,224,4" />
+                <FModule id="4" objid="3344" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="780" desc="yellowbox10">
+                <FModule id="1" objid="3351" dest="0,4,4,122" />
+                <FModule id="2" objid="3352" dest="220,4,4,122" />
+                <FModule id="3" objid="3353" dest="0,0,224,4" />
+                <FModule id="4" objid="3354" dest="0,124,224,4" />
+            </Frame>
+            <Frame id="781" desc="offline1">
+                <FModule id="0" objid="3361" />
+            </Frame>
+            <Frame id="782" desc="offline2">
+                <FModule id="0" objid="3362" />
+            </Frame>
+            <Frame id="783" desc="offline3">
+                <FModule id="0" objid="3363" />
+            </Frame>
+            <Frame id="784" desc="offline4">
+                <FModule id="0" objid="3364" />
+            </Frame>
+            <Frame id="785" desc="offline5">
+                <FModule id="0" objid="3365" />
+            </Frame>
+            <!-- shaoxue!-->
+            <Frame id="786" desc="shaoxue1">
+                <FModule id="0" objid="3366" />
+            </Frame>
+            <Frame id="787" desc="shaoxue2">
+                <FModule id="0" objid="3367" />
+            </Frame>
+            <Frame id="788" desc="shaoxue3">
+                <FModule id="0" objid="3368" />
+            </Frame>
+            <Frame id="789" desc="shaoxue4">
+                <FModule id="0" objid="3369" />
+            </Frame>
+            <Frame id="790" desc="shaoxue5">
+                <FModule id="0" objid="3370" />
+            </Frame>
+            <Frame id="791" desc="shaoxue6">
+                <FModule id="0" objid="3371" />
+            </Frame>
+            <Frame id="792" desc="shaoxue7">
+                <FModule id="0" objid="3372" />
+            </Frame>
+            <Frame id="793" desc="shaoxue8">
+                <FModule id="0" objid="3373" />
+            </Frame>
+            <Frame id="794" desc="shaoxue9">
+                <FModule id="0" objid="3374" />
+            </Frame>
+            <Frame id="795" desc="shaoxue10">
+                <FModule id="0" objid="3375" />
+            </Frame>
+            <Frame id="796" desc="shaoxue11">
+                <FModule id="0" objid="3376" />
+            </Frame>
+            <Frame id="797" desc="shaoxue12">
+                <FModule id="0" objid="3377" />
+            </Frame>
+            <Frame id="798" desc="shaoxue13">
+                <FModule id="0" objid="3378" />
+            </Frame>
+            <Frame id="799" desc="shaoxue14">
+                <FModule id="0" objid="3379" />
+            </Frame>
+            <Frame id="800" desc="shaoxue15">
+                <FModule id="0" objid="3380" />
+            </Frame>
+            <!-- taopao!-->
+            <Frame id="801" desc="taopao1">
+                <FModule id="0" objid="3381" />
+            </Frame>
+            <Frame id="802" desc="taopao2">
+                <FModule id="0" objid="3382" />
+            </Frame>
+            <Frame id="803" desc="taopao3">
+                <FModule id="0" objid="3383" />
+            </Frame>
+            <Frame id="804" desc="taopao4">
+                <FModule id="0" objid="3384" />
+            </Frame>
+            <Frame id="805" desc="taopao5">
+                <FModule id="0" objid="3385" />
+            </Frame>
+            <Frame id="806" desc="taopao6">
+                <FModule id="0" objid="3386" />
+            </Frame>
+            <Frame id="807" desc="taopao7">
+                <FModule id="0" objid="3387" />
+            </Frame>
+            <Frame id="808" desc="taopao8">
+                <FModule id="0" objid="3384" />
+            </Frame>
+            <Frame id="809" desc="taopao9">
+                <FModule id="0" objid="3387" />
+            </Frame>
+            <Frame id="901" desc="lao_face_big_1">
+                <FModule id="0" objid="3416" dest="0,0,36,136" />
+                <FModule id="1" objid="3416" dest="132,0,36,136" flip="x" />
+            </Frame>
+            <Frame id="902" desc="lao_face_big_2">
+                <FModule id="0" objid="3417" dest="0,0,66,136" />
+                <FModule id="1" objid="3417" dest="102,0,66,136" flip="x" />
+            </Frame>
+            <Frame id="903" desc="lao_face_big_3">
+                <FModule id="0" objid="3418" dest="0,0,84,136" />
+                <FModule id="1" objid="3418" dest="84,0,84,136" flip="x" />
+            </Frame>
+            <Frame id="904" desc="lao_face_big_4">
+                <FModule id="0" objid="3419" dest="0,0,80,136" />
+                <FModule id="1" objid="3419" dest="88,0,80,136" flip="x" />
+            </Frame>
+            <Frame id="905" desc="lao_face_big_5">
+                <FModule id="0" objid="3420" dest="0,0,84,136" />
+                <FModule id="1" objid="3420" dest="84,0,84,136" flip="x" />
+            </Frame>
+            <Frame id="906" desc="lao_face_big_6">
+                <FModule id="0" objid="3421" dest="0,0,84,136" />
+                <FModule id="1" objid="3421" dest="84,0,84,136" flip="x" />
+            </Frame>
+            <Frame id="907" desc="lao_face_big_7">
+                <FModule id="0" objid="3422" dest="0,0,84,136" />
+                <FModule id="1" objid="3422" dest="84,0,84,136" flip="x" />
+            </Frame>
+            <Frame id="908" desc="lao_face_big_8">
+                <FModule id="0" objid="3423" dest="0,0,84,136" />
+                <FModule id="1" objid="3423" dest="84,0,84,136" flip="x" />
+            </Frame>
+            <Frame id="909" desc="lao_face_big_9">
+                <FModule id="0" objid="3424" dest="0,0,84,136" />
+                <FModule id="1" objid="3424" dest="84,0,84,136" flip="x" />
+            </Frame>
+            <Frame id="910" desc="lao_face_big_10">
+                <FModule id="0" objid="3425" dest="0,0,84,136" />
+                <FModule id="1" objid="3425" dest="84,0,84,136" flip="x" />
+            </Frame>
+            <Frame id="911" desc="lao_face_1">
+                <FModule id="0" objid="3426" dest="0,0,24,94" />
+                <FModule id="1" objid="3426" dest="68,0,24,94" flip="x" />
+            </Frame>
+            <Frame id="912" desc="lao_face_2">
+                <FModule id="0" objid="3427" dest="0,0,40,94" />
+                <FModule id="1" objid="3427" dest="52,0,40,94" flip="x" />
+            </Frame>
+            <Frame id="913" desc="lao_face_3">
+                <FModule id="0" objid="3428" dest="0,0,46,94" />
+                <FModule id="1" objid="3428" dest="46,0,46,94" flip="x" />
+            </Frame>
+            <Frame id="914" desc="lao_face_4">
+                <FModule id="0" objid="3429" dest="0,0,40,94" />
+                <FModule id="1" objid="3429" dest="52,0,40,94" flip="x" />
+            </Frame>
+            <Frame id="915" desc="lao_face_5">
+                <FModule id="0" objid="3430" dest="0,0,46,94" />
+                <FModule id="1" objid="3430" dest="46,0,46,94" flip="x" />
+            </Frame>
+            <Frame id="916" desc="lao_face_6">
+                <FModule id="0" objid="3431" dest="0,0,46,94" />
+                <FModule id="1" objid="3431" dest="46,0,46,94" flip="x" />
+            </Frame>
+            <Frame id="917" desc="lao_face_7">
+                <FModule id="0" objid="3432" dest="0,0,46,94" />
+                <FModule id="1" objid="3432" dest="46,0,46,94" flip="x" />
+            </Frame>
+            <Frame id="918" desc="lao_face_8">
+                <FModule id="0" objid="3433" dest="0,0,46,94" />
+                <FModule id="1" objid="3433" dest="46,0,46,94" flip="x" />
+            </Frame>
+            <Frame id="919" desc="lao_face_9">
+                <FModule id="0" objid="3434" dest="0,0,46,94" />
+                <FModule id="1" objid="3434" dest="46,0,46,94" flip="x" />
+            </Frame>
+            <Frame id="920" desc="lao_face_10">
+                <FModule id="0" objid="3435" dest="0,0,46,94" />
+                <FModule id="1" objid="3435" dest="46,0,46,94" flip="x" />
+            </Frame>
+            <Frame id="1944811" desc="greenboxmyself1">
+                <FModule id="1" objid="4161" dest="0,4,4,162" />
+                <FModule id="2" objid="4162" dest="176,4,4,162" />
+                <FModule id="3" objid="4163" dest="0,0,180,4" />
+                <FModule id="4" objid="4164" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944812" desc="greenboxmyself2">
+                <FModule id="1" objid="4171" dest="0,4,4,162" />
+                <FModule id="2" objid="4172" dest="176,4,4,162" />
+                <FModule id="3" objid="4173" dest="0,0,180,4" />
+                <FModule id="4" objid="4174" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944813" desc="greenboxmyself3">
+                <FModule id="1" objid="4181" dest="0,4,4,162" />
+                <FModule id="2" objid="4182" dest="176,4,4,162" />
+                <FModule id="3" objid="4183" dest="0,0,180,4" />
+                <FModule id="4" objid="4184" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944814" desc="greenboxmyself4">
+                <FModule id="1" objid="4191" dest="0,4,4,162" />
+                <FModule id="2" objid="4192" dest="176,4,4,162" />
+                <FModule id="3" objid="4193" dest="0,0,180,4" />
+                <FModule id="4" objid="4194" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944815" desc="greenboxmyself5">
+                <FModule id="1" objid="4201" dest="0,4,4,162" />
+                <FModule id="2" objid="4202" dest="176,4,4,162" />
+                <FModule id="3" objid="4203" dest="0,0,180,4" />
+                <FModule id="4" objid="4204" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944816" desc="greenboxmyself6">
+                <FModule id="1" objid="4211" dest="0,4,4,162" />
+                <FModule id="2" objid="4212" dest="176,4,4,162" />
+                <FModule id="3" objid="4213" dest="0,0,180,4" />
+                <FModule id="4" objid="4214" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944817" desc="greenboxmyself7">
+                <FModule id="1" objid="4221" dest="0,4,4,162" />
+                <FModule id="2" objid="4222" dest="176,4,4,162" />
+                <FModule id="3" objid="4223" dest="0,0,180,4" />
+                <FModule id="4" objid="4224" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944818" desc="greenboxmyself8">
+                <FModule id="1" objid="4231" dest="0,4,4,162" />
+                <FModule id="2" objid="4232" dest="176,4,4,162" />
+                <FModule id="3" objid="4233" dest="0,0,180,4" />
+                <FModule id="4" objid="4234" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944819" desc="greenboxmyself9">
+                <FModule id="1" objid="4241" dest="0,4,4,162" />
+                <FModule id="2" objid="4242" dest="176,4,4,162" />
+                <FModule id="3" objid="4243" dest="0,0,180,4" />
+                <FModule id="4" objid="4244" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944820" desc="greenboxmyself10">
+                <FModule id="1" objid="4251" dest="0,4,4,162" />
+                <FModule id="2" objid="4252" dest="176,4,4,162" />
+                <FModule id="3" objid="4253" dest="0,0,180,4" />
+                <FModule id="4" objid="4254" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944821" desc="yellowboxmyself1">
+                <FModule id="1" objid="4261" dest="0,4,4,162" />
+                <FModule id="2" objid="4262" dest="176,4,4,162" />
+                <FModule id="3" objid="4263" dest="0,0,180,4" />
+                <FModule id="4" objid="4264" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944822" desc="yellowboxmyself2">
+                <FModule id="1" objid="4271" dest="0,4,4,162" />
+                <FModule id="2" objid="4272" dest="176,4,4,162" />
+                <FModule id="3" objid="4273" dest="0,0,180,4" />
+                <FModule id="4" objid="4274" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944823" desc="yellowboxmyself3">
+                <FModule id="1" objid="4281" dest="0,4,4,162" />
+                <FModule id="2" objid="4282" dest="176,4,4,162" />
+                <FModule id="3" objid="4283" dest="0,0,180,4" />
+                <FModule id="4" objid="4284" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944824" desc="yellowboxmyself4">
+                <FModule id="1" objid="4291" dest="0,4,4,162" />
+                <FModule id="2" objid="4292" dest="176,4,4,162" />
+                <FModule id="3" objid="4293" dest="0,0,180,4" />
+                <FModule id="4" objid="4294" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944825" desc="yellowboxmyself5">
+                <FModule id="1" objid="4301" dest="0,4,4,162" />
+                <FModule id="2" objid="4302" dest="176,4,4,162" />
+                <FModule id="3" objid="4303" dest="0,0,180,4" />
+                <FModule id="4" objid="4304" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944826" desc="yellowboxmyself6">
+                <FModule id="1" objid="4311" dest="0,4,4,162" />
+                <FModule id="2" objid="4312" dest="176,4,4,162" />
+                <FModule id="3" objid="4313" dest="0,0,180,4" />
+                <FModule id="4" objid="4314" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944827" desc="yellowboxmyself7">
+                <FModule id="1" objid="4321" dest="0,4,4,162" />
+                <FModule id="2" objid="4322" dest="176,4,4,162" />
+                <FModule id="3" objid="4323" dest="0,0,180,4" />
+                <FModule id="4" objid="4324" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944828" desc="yellowboxmyself8">
+                <FModule id="1" objid="4331" dest="0,4,4,162" />
+                <FModule id="2" objid="4332" dest="176,4,4,162" />
+                <FModule id="3" objid="4333" dest="0,0,180,4" />
+                <FModule id="4" objid="4334" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944829" desc="yellowboxmyself9">
+                <FModule id="1" objid="4341" dest="0,4,4,162" />
+                <FModule id="2" objid="4342" dest="176,4,4,162" />
+                <FModule id="3" objid="4343" dest="0,0,180,4" />
+                <FModule id="4" objid="4344" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1944830" desc="yellowboxmyself10">
+                <FModule id="1" objid="4351" dest="0,4,4,162" />
+                <FModule id="2" objid="4352" dest="176,4,4,162" />
+                <FModule id="3" objid="4353" dest="0,0,180,4" />
+                <FModule id="4" objid="4354" dest="0,166,180,4" />
+            </Frame>
+            <Frame id="1844821" desc="robot1">
+                <FModule id="1" src="0,158,28,28" dest="0,0,28,28" />
+            </Frame>
+            <Frame id="1844822" desc="robot2">
+                <FModule id="1" src="28,158,28,28" dest="0,0,28,28" />
+            </Frame>
+            <Frame id="1844823" desc="robot3">
+                <FModule id="1" src="56,158,28,28" dest="0,0,28,28" />
+            </Frame>
+            <Frame id="1844824" desc="robot4">
+                <FModule id="1" src="84,158,28,28" dest="0,0,28,28" />
+            </Frame>
+            <Frame id="1844825" desc="robot5">
+                <FModule id="1" src="112,158,28,28" dest="0,0,28,28" />
+            </Frame>
+            <Frame id="1844826" desc="robot6">
+                <FModule id="1" src="140,158,28,28" dest="0,0,28,28" />
+            </Frame>
+            <Frame id="1844827" desc="robot7">
+                <FModule id="1" src="168,158,28,28" dest="0,0,28,28" />
+            </Frame>
+            <Frame id="1844828" desc="robot8">
+                <FModule id="1" src="196,158,28,28" dest="0,0,28,28" />
+            </Frame>
+            <Frame id="1844829" desc="robot9">
+                <FModule id="1" src="224,158,28,28" dest="0,0,28,28" />
+            </Frame>
+            <Frame id="336632" desc="BLADE_SELECT_FRAME">
+                <FModule id="0" objid="3400" dest="0,0,20,20" />
+                <FModule id="1" objid="3400" dest="198,0,20,20" flip="x" />
+                <FModule id="2" objid="3400" dest="0,102,20,20" flip="y" />
+                <FModule id="3" objid="3400" dest="198,102,20,20" flip="x|y" />
+                <FModule id="4" objid="3401" dest="20,0,178,20" />
+                <FModule id="5" objid="3401" dest="20,102,178,20" flip="y" />
+                <FModule id="6" objid="3402" dest="0,20,20,82" />
+                <FModule id="7" objid="3402" dest="198,20,20,82" flip="x" />
+                <FModule id="8" objid="3403" dest="20,20,178,82" />
+            </Frame>
+            <Animation id="336633" desc="blade_Select_Anim">
+                <AFrame id="0" frame="336632" color="0x10FFFFFF" maintain="1" />
+                <AFrame id="2" frame="336632" color="0x40FFFFFF" maintain="1" />
+                <AFrame id="4" frame="336632" color="0xC0FFFFFF" maintain="1" />
+                <AFrame id="5" frame="336632" color="0xFFFFFFFF" maintain="1" />
+                <AFrame id="6" frame="336632" color="0xFFFFFFFF" maintain="1" />
+                <AFrame id="6" frame="336632" color="0xFFFFFFFF" maintain="1" />
+                <AFrame id="7" frame="336632" color="0xFFFFFFFF" maintain="1" />
+                <AFrame id="8" frame="336632" color="0xC0FFFFFF" maintain="1" />
+                <AFrame id="10" frame="336632" color="0x40FFFFFF" maintain="1" />
+                <AFrame id="12" frame="336632" color="0x10FFFFFF" maintain="1" />
+            </Animation>
+            <Frame id="336635" desc="BLADE_SELECT_FRAME_big">
+                <FModule id="0" objid="3400" dest="0,0,20,20" />
+                <FModule id="1" objid="3400" dest="156,0,20,20" flip="x" />
+                <FModule id="2" objid="3400" dest="0,148,20,20" flip="y" />
+                <FModule id="3" objid="3400" dest="156,148,20,20" flip="x|y" />
+                <FModule id="4" objid="3401" dest="20,0,136,20" />
+                <FModule id="5" objid="3401" dest="20,148,136,20" flip="y" />
+                <FModule id="6" objid="3402" dest="0,20,20,148" />
+                <FModule id="7" objid="3402" dest="156,20,20,148" flip="x" />
+                <FModule id="8" objid="3403" dest="20,20,136,148" />
+            </Frame>
+            <Animation id="336634" desc="blade_Select_Anim_big">
+                <AFrame id="0" frame="336635" color="0x10FFFFFF" maintain="1" />
+                <AFrame id="2" frame="336635" color="0x40FFFFFF" maintain="1" />
+                <AFrame id="4" frame="336635" color="0xC0FFFFFF" maintain="1" />
+                <AFrame id="5" frame="336635" color="0xFFFFFFFF" maintain="1" />
+                <AFrame id="6" frame="336635" color="0xFFFFFFFF" maintain="1" />
+                <AFrame id="6" frame="336635" color="0xFFFFFFFF" maintain="1" />
+                <AFrame id="7" frame="336635" color="0xFFFFFFFF" maintain="1" />
+                <AFrame id="8" frame="336635" color="0xC0FFFFFF" maintain="1" />
+                <AFrame id="10" frame="336635" color="0x40FFFFFF" maintain="1" />
+                <AFrame id="12" frame="336635" color="0x10FFFFFF" maintain="1" />
+            </Animation>
+            <Animation id="5001" desc="xiadan">
+                <AFrame id="0" frame="701" maintain="1" />
+                <AFrame id="0" frame="702" maintain="1" />
+                <AFrame id="0" frame="703" maintain="1" />
+                <AFrame id="0" frame="704" maintain="1" />
+                <AFrame id="0" frame="705" maintain="1" />
+                <AFrame id="0" frame="706" maintain="1" />
+                <AFrame id="0" frame="707" maintain="1" />
+            </Animation>
+            <Animation id="5002" desc="huadiweilao">
+                <AFrame id="0" frame="711" maintain="2" />
+                <AFrame id="0" frame="712" maintain="2" />
+                <AFrame id="0" frame="713" maintain="2" />
+            </Animation>
+            <Animation id="5003" desc="zirong">
+                <AFrame id="0" frame="721" maintain="2" />
+                <AFrame id="0" frame="722" maintain="2" />
+                <AFrame id="0" frame="723" maintain="2" />
+            </Animation>
+            <Animation id="5004" desc="shoupenglei">
+                <AFrame id="0" frame="731" maintain="2" />
+                <AFrame id="0" frame="732" maintain="2" />
+                <AFrame id="0" frame="733" maintain="2" />
+            </Animation>
+            <Animation id="5005" desc="menshen">
+                <AFrame id="0" frame="741" maintain="3" />
+                <AFrame id="0" frame="742" maintain="3" />
+            </Animation>
+            <Animation id="5006" desc="determine">
+                <AFrame id="0" frame="751" maintain="2" />
+                <AFrame id="0" frame="752" maintain="2" />
+                <AFrame id="0" frame="753" maintain="2" />
+                <AFrame id="0" frame="754" maintain="2" />
+                <AFrame id="0" frame="755" maintain="2" />
+                <AFrame id="0" frame="756" maintain="2" />
+                <AFrame id="0" frame="757" maintain="2" />
+            </Animation>
+            <Animation id="5007" desc="greenbox">
+                <AFrame id="0" frame="761" maintain="1" />
+                <AFrame id="0" frame="762" maintain="1" />
+                <AFrame id="0" frame="763" maintain="1" />
+                <AFrame id="0" frame="764" maintain="1" />
+                <AFrame id="0" frame="765" maintain="1" />
+                <AFrame id="0" frame="766" maintain="1" />
+                <AFrame id="0" frame="767" maintain="1" />
+                <AFrame id="0" frame="768" maintain="1" />
+                <AFrame id="0" frame="769" maintain="1" />
+                <AFrame id="0" frame="770" maintain="1" />
+            </Animation>
+            <Animation id="5008" desc="yellowbox">
+                <AFrame id="0" frame="771" maintain="1" />
+                <AFrame id="0" frame="772" maintain="1" />
+                <AFrame id="0" frame="773" maintain="1" />
+                <AFrame id="0" frame="774" maintain="1" />
+                <AFrame id="0" frame="775" maintain="1" />
+                <AFrame id="0" frame="776" maintain="1" />
+                <AFrame id="0" frame="777" maintain="1" />
+                <AFrame id="0" frame="778" maintain="1" />
+                <AFrame id="0" frame="779" maintain="1" />
+                <AFrame id="0" frame="780" maintain="1" />
+            </Animation>
+            <Animation id="5009" desc="offline">
+                <AFrame id="0" frame="781" maintain="2" />
+                <AFrame id="0" frame="782" maintain="2" />
+                <AFrame id="0" frame="783" maintain="2" />
+                <AFrame id="0" frame="784" maintain="2" />
+                <AFrame id="0" frame="785" maintain="2" />
+            </Animation>
+            <Animation id="5010" desc="shaoxue">
+                <AFrame id="0" frame="786" maintain="2" />
+                <AFrame id="0" frame="787" maintain="2" />
+                <AFrame id="0" frame="788" maintain="2" />
+                <AFrame id="0" frame="789" maintain="2" />
+                <AFrame id="0" frame="790" maintain="2" />
+                <AFrame id="0" frame="791" maintain="2" />
+                <AFrame id="0" frame="792" maintain="2" />
+                <AFrame id="0" frame="793" maintain="2" />
+                <AFrame id="0" frame="794" maintain="2" />
+                <AFrame id="0" frame="795" maintain="2" />
+                <AFrame id="0" frame="796" maintain="2" />
+                <AFrame id="0" frame="797" maintain="2" />
+                <AFrame id="0" frame="798" maintain="2" />
+                <AFrame id="0" frame="799" maintain="2" />
+                <AFrame id="0" frame="800" maintain="2" />
+            </Animation>
+            <Animation id="5011" desc="taopao">
+                <AFrame id="0" frame="801" maintain="2" />
+                <AFrame id="0" frame="802" maintain="2" />
+                <AFrame id="0" frame="803" maintain="2" />
+                <AFrame id="0" frame="804" maintain="2" />
+                <AFrame id="0" frame="805" maintain="2" />
+                <AFrame id="0" frame="806" maintain="2" />
+                <AFrame id="0" frame="807" maintain="2" />
+                <AFrame id="0" frame="808" maintain="2" />
+                <AFrame id="0" frame="809" maintain="2" />
+            </Animation>
+            <Animation id="5012" desc="greenboxmyself">
+                <AFrame id="0" frame="1944811" maintain="1" />
+                <AFrame id="0" frame="1944812" maintain="1" />
+                <AFrame id="0" frame="1944813" maintain="1" />
+                <AFrame id="0" frame="1944814" maintain="1" />
+                <AFrame id="0" frame="1944815" maintain="1" />
+                <AFrame id="0" frame="1944816" maintain="1" />
+                <AFrame id="0" frame="1944817" maintain="1" />
+                <AFrame id="0" frame="1944818" maintain="1" />
+                <AFrame id="0" frame="1944819" maintain="1" />
+                <AFrame id="0" frame="1944820" maintain="1" />
+            </Animation>
+            <Animation id="5013" desc="yellowboxmyself">
+                <AFrame id="0" frame="1944821" maintain="1" />
+                <AFrame id="0" frame="1944822" maintain="1" />
+                <AFrame id="0" frame="1944823" maintain="1" />
+                <AFrame id="0" frame="1944824" maintain="1" />
+                <AFrame id="0" frame="1944825" maintain="1" />
+                <AFrame id="0" frame="1944826" maintain="1" />
+                <AFrame id="0" frame="1944827" maintain="1" />
+                <AFrame id="0" frame="1944828" maintain="1" />
+                <AFrame id="0" frame="1944829" maintain="1" />
+                <AFrame id="0" frame="1944830" maintain="1" />
+            </Animation>
+            <Animation id="5015" desc="robot">
+                <AFrame id="0" frame="1844821" maintain="2" />
+                <AFrame id="0" frame="1844822" maintain="2" />
+                <AFrame id="0" frame="1844823" maintain="2" />
+                <AFrame id="0" frame="1844824" maintain="2" />
+                <AFrame id="0" frame="1844825" maintain="2" />
+                <AFrame id="0" frame="1844826" maintain="2" />
+                <AFrame id="0" frame="1844827" maintain="2" />
+                <AFrame id="0" frame="1844828" maintain="2" />
+                <AFrame id="0" frame="1844829" maintain="2" />
+            </Animation>
+            <Animation id="5016" desc="huadiweilao_face_big">
+                <AFrame id="0" frame="901" maintain="1" />
+                <AFrame id="0" frame="902" maintain="1" />
+                <AFrame id="0" frame="903" maintain="1" />
+                <AFrame id="0" frame="904" maintain="1" />
+                <AFrame id="0" frame="905" maintain="1" />
+                <AFrame id="0" frame="906" maintain="1" />
+                <AFrame id="0" frame="907" maintain="1" />
+                <AFrame id="0" frame="908" maintain="1" />
+                <AFrame id="0" frame="909" maintain="1" />
+                <AFrame id="0" frame="910" maintain="1" />
+            </Animation>
+            <Animation id="5017" desc="huadiweilao_face">
+                <AFrame id="0" frame="911" maintain="1" />
+                <AFrame id="0" frame="912" maintain="1" />
+                <AFrame id="0" frame="913" maintain="1" />
+                <AFrame id="0" frame="914" maintain="1" />
+                <AFrame id="0" frame="915" maintain="1" />
+                <AFrame id="0" frame="916" maintain="1" />
+                <AFrame id="0" frame="917" maintain="1" />
+                <AFrame id="0" frame="918" maintain="1" />
+                <AFrame id="0" frame="919" maintain="1" />
+                <AFrame id="0" frame="920" maintain="1" />
+            </Animation>
+        </Sprite>
+
+        <Sprite id="13101" desc="Animation3" img="YXS_NEW_IN_GAME1">
+          <Module id="3124" src="0,177,22,24" desc="ruide1" />
+          <Module id="3125" src="23,177,24,24" desc="ruide2" />
+          <Module id="3126" src="48,177,24,24" desc="ruide3" />
+          <Module id="3127" src="73,177,24,24" desc="ruide4" />
+          <Module id="3128" src="98,177,24,24" desc="ruide5" />
+
+          <Frame id="724" desc="ruide1">
+            <FModule id="0" objid="3124" />
+          </Frame>
+          <Frame id="725" desc="ruide2">
+            <FModule id="0" objid="3125" />
+          </Frame>
+          <Frame id="726" desc="ruide3">
+            <FModule id="0" objid="3126" />
+          </Frame>
+          <Frame id="727" desc="ruide4">
+            <FModule id="0" objid="3127" />
+          </Frame>
+          <Frame id="728" desc="ruide5">
+            <FModule id="0" objid="3128" />
+          </Frame>
+
+          <Animation id="5030" desc="ruide">
+            <AFrame id="0" frame="724" maintain="2" />
+            <AFrame id="0" frame="725" maintain="2" />
+            <AFrame id="0" frame="726" maintain="2" />
+            <AFrame id="0" frame="727" maintain="2" />
+            <AFrame id="0" frame="728" maintain="2" />
+          </Animation>
+        </Sprite>
+    </Fantasy>
+</QUF>

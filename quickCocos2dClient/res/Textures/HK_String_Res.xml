@@ -1,0 +1,1364 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by tina (EMBRACE) -->
+<QUF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QUF.xsd">
+
+  <StringRes>
+    
+    <StrResPack id="1" desc="g_pszBaseCardName">
+      <String id="0" desc="sha">杀</String>
+      <String id="1" desc="shan">闪</String>
+      <String id="2" desc="yao">药</String>
+    </StrResPack>
+
+    <StrResPack id="2" desc="g_pszEquipName">
+      <String id="0" desc="yuruyi">玉如意</String>
+      <String id="1" desc="chitu">赤兔</String>
+      <String id="2" desc="dilu">的卢</String>
+      <String id="3" desc="wuzhui">乌骓</String>
+      <String id="4" desc="huleibo">忽雷驳</String>
+      <String id="5" desc="zuifeng">追风</String>
+      <String id="6" desc="nieying">蹑影</String>
+      <String id="7" desc="hufu">虎符</String>
+      <String id="8" desc="longlindao">龙鳞刀</String>
+      <String id="9" desc="yuchangjian">鱼肠剑</String>
+      <String id="10" desc="panlonggun">盘龙棍</String>
+      <String id="11" desc="luyeqiang">芦叶枪</String>
+      <String id="12" desc="bolangchui">博浪锤</String>
+      <String id="13" desc="langyabang">狼牙棒</String>
+      <String id="14" desc="bawanggong">霸王弓</String>
+      <String id="15" desc="duandao">短刀</String>
+      <String id="16" desc="jian">剑</String>
+      <String id="17" desc="qiang">枪</String>
+      <String id="18" desc="gong">弓</String>
+      <String id="19" desc="ma">马</String>
+      <String id="20" desc="jingongma">进攻马</String>
+      <String id="21" desc="fangyuma">防御马</String>
+    </StrResPack>
+
+    <StrResPack id="3" desc="g_pszSackName">
+      <String id="0" desc="tannangquwu">探囊取物</String>
+      <String id="1" desc="fudichouxin">釜底抽薪</String>
+      <String id="2" desc="wugufengdeng">五谷丰登</String>
+      <String id="3" desc="wuzhongshengyou">无中生有</String>
+      <String id="4" desc="juedou">决斗</String>
+      <String id="5" desc="fenghuolangyan">烽火狼烟</String>
+      <String id="6" desc="wanjianqifa">万箭齐发</String>
+      <String id="7" desc="shoupenglei">手捧雷</String>
+      <String id="8" desc="xiuyangshengxi">休养生息</String>
+      <String id="9" desc="wuxiekeji">无懈可击</String>
+      <String id="10" desc="jiedaosharen">借刀杀人</String>
+      <String id="11" desc="huadiweilao">画地为牢</String>
+    </StrResPack>
+
+
+    <StrResPack id="4" desc="g_pszSkillName">
+      <String id="0" desc="skillName_0">玉如意</String>
+      <String id="1" desc="skillName_1">虎符</String>
+      <String id="2" desc="skillName_2">龙?刀</String>
+      <String id="3" desc="skillName_3">鱼肠剑</String>
+      <String id="4" desc="skillName_4">盘龙棍</String>
+      <String id="5" desc="skillName_5">芦叶枪</String>
+      <String id="6" desc="skillName_6">博浪锤</String>
+      <String id="7" desc="skillName_7">狼牙棒</String>
+      <String id="8" desc="skillName_8">霸王弓</String>
+      <String id="9" desc="skillName_9">龙鳞刀</String>
+      <String id="10" desc="skillName_10">探囊取物</String>
+      <String id="11" desc="skillName_11">釜底抽薪</String>
+      <String id="12" desc="skillName_12">五谷丰登</String>
+      <String id="13" desc="skillName_13">无中生有</String>
+      <String id="14" desc="skillName_14">决斗</String>
+      <String id="15" desc="skillName_15">烽火狼烟</String>
+      <String id="16" desc="skillName_16">万箭齐发</String>
+      <String id="17" desc="skillName_17">手捧雷</String>
+      <String id="18" desc="skillName_18">休养生息</String>
+      <String id="19" desc="skillName_19">无懈可击</String>
+      <String id="20" desc="skillName_20">借刀杀人</String>
+      <String id="21" desc="skillName_21">画地为牢</String>
+      <String id="22" desc="skillName_22">疏财</String>
+      <String id="23" desc="skillName_23">激将</String>
+      <String id="24" desc="skillName_24">傲剑</String>
+      <String id="25" desc="skillName_25">天狼</String>
+      <String id="26" desc="skillName_26">占卜</String>
+      <String id="27" desc="skillName_27">归隐</String>
+      <String id="28" desc="skillName_28">武穆</String>
+      <String id="29" desc="skillName_29">骑射</String>
+      <String id="30" desc="skillName_30">刺客</String>
+      <String id="31" desc="skillName_31">妙计</String>
+      <String id="32" desc="skillName_32">飞贼</String>
+      <String id="33" desc="skillName_33">驭人</String>
+      <String id="34" desc="skillName_34">救援</String>
+      <String id="35" desc="skillName_35">释权</String>
+      <String id="36" desc="skillName_36">隐忍</String>
+      <String id="37" desc="skillName_37">负荆</String>
+      <String id="38" desc="skillName_38">兵仙</String>
+      <String id="39" desc="skillName_39">攻心</String>
+      <String id="40" desc="skillName_40">魅惑</String>
+      <String id="41" desc="skillName_41">沉鱼</String>
+      <String id="42" desc="skillName_42">千千</String>
+      <String id="43" desc="skillName_43">?运</String>
+      <String id="44" desc="skillName_44">集权</String>
+      <String id="45" desc="skillName_45">护主</String>
+      <String id="46" desc="skillName_46">法家</String>
+      <String id="47" desc="skillName_47">变法</String>
+      <String id="48" desc="skillName_48">复仇</String>
+      <String id="49" desc="skillName_49">起义</String>
+      <String id="50" desc="skillName_50">醉酒</String>
+      <String id="51" desc="skillName_51">法?</String>
+      <String id="52" desc="skillName_52">舍身</String>
+      <String id="53" desc="skillName_53">轻影</String>
+      <String id="54" desc="skillName_54">玉步</String>
+      <String id="55" desc="skillName_55">回春</String>
+      <String id="56" desc="skillName_56">疗伤</String>
+      <String id="57" desc="skillName_57">霸王</String>
+      <String id="58" desc="skillName_58">红颜</String>
+      <String id="59" desc="skillName_59">楚楚</String>
+      <String id="60" desc="skillName_60">治愈</String>
+      <String id="61" desc="skillName_61">迷离</String>
+      <String id="62" desc="skillName_62">狂狂</String>
+      <String id="63" desc="skillName_63">曼舞</String>
+      <String id="64" desc="skillName_64">红妆</String>
+      <String id="65" desc="skillName_65">控局</String>
+      <String id="66" desc="skillName_66">底力</String>
+      <String id="67" desc="skillName_67">神偷</String>
+      <String id="68" desc="skillName_68">绝杀</String>
+      <String id="69" desc="skillName_69">侠胆</String>
+      <String id="70" desc="skillName_70">门神</String>
+      <String id="71" desc="skillName_71">补刀</String>
+      <String id="72" desc="skillName_72">易装</String>
+      <String id="73" desc="skillName_73">烽火</String>
+      <String id="74" desc="skillName_74">兵?</String>
+      <String id="75" desc="skillName_75">奸雄</String>
+      <String id="76" desc="skillName_76">蝶魂</String>
+      <String id="77" desc="skillName_77">迁都</String>
+      <String id="78" desc="skillName_78">图强</String>
+      <String id="79" desc="skillName_79">强掠</String>
+      <String id="80" desc="skillName_80">反击</String>
+      <String id="81" desc="skillName_81">诀别</String>
+      <String id="82" desc="skillName_82">狂禅</String>
+      <String id="83" desc="skillName_83">强运</String>
+      <String id="84" desc="skillName_84">女权</String>
+      <String id="85" desc="skillName_85">三板斧</String>
+      <String id="86" desc="skillName_86">占位技能</String>
+      <String id="87" desc="skillName_87">洞察</String>
+      <String id="88" desc="skillName_88">鲁莽</String>
+      <String id="89" desc="skillName_89">勇闯</String>
+      <String id="90" desc="skillName_90">看破</String>
+      <String id="91" desc="skillName_91">鸩杀</String>
+      <String id="92" desc="skillName_92">蓄谋</String>
+      <String id="93" desc="skillName_93">悼亡</String>
+      <String id="94" desc="skillName_94">姿容</String>
+      <String id="95" desc="skillName_95">鬼斧</String>
+      <String id="96" desc="skillName_96">神工</String>
+      <String id="97" desc="skillName_97">天香</String>
+      <String id="98" desc="skillName_98">国色</String>
+      <String id="99" desc="skillName_99">轻敏</String>
+      <String id="100" desc="skillName_100">单骑</String>
+      <String id="101" desc="skillName_101">削藩</String>
+      <String id="102" desc="skillName_102">明察</String>
+      <String id="103" desc="skillName_103">看破</String>
+      <String id="104" desc="skillName_104">兵圣</String>
+      <String id="105" desc="skillName_105">威强</String>
+      <String id="106" desc="skillName_106">睿德</String>
+      <String id="107" desc="skillName_107">超脱</String>
+      <String id="108" desc="skillName_108">后主</String>
+      <String id="109" desc="skillName_109">斗神</String>
+      <String id="110" desc="skillName_110">羞花</String>
+      <String id="111" desc="skillName_111">丰艳</String>
+      <String id="112" desc="skillName_112">非攻</String>
+      <String id="113" desc="skillName_113">兼爱</String>
+      <String id="114" desc="skillName_114">豹头</String>
+      <String id="115" desc="skillName_115">离间</String>
+      <String id="116" desc="skillName_116">闭月</String>
+      <String id="117" desc="skillName_117">妙笔</String>
+      <String id="118" desc="skillName_118">谪仙</String>
+    </StrResPack>
+
+    <StrResPack id="5" desc="g_pszSkillDescText">
+      <String id="0" desc="skilldesc0">发动【玉如意】</String>
+      <String id="1" desc="skilldesc1">发动了【虎符】</String>
+      <String id="2" desc="skilldesc2">摸取一张牌</String>
+      <String id="3" desc="skilldesc3">发动了【鱼肠剑】</String>
+      <String id="4" desc="skilldesc4">发动了【盘龙棍】，向【%s】打出杀</String>
+      <String id="5" desc="skilldesc5">发动了【芦叶枪】</String>
+      <String id="6" desc="skilldesc6">发动了【博浪锤】</String>
+      <String id="7" desc="skilldesc7">发动了【狼牙棒】</String>
+      <String id="8" desc="skilldesc8">发动【霸王弓】</String>
+      <String id="9" desc="skilldesc9">发动【龙鳞刀】</String>
+      <String id="10" desc="skilldesc10">对【%s】使用【探囊取物】</String>
+      <String id="11" desc="skilldesc11">对【%s】使用【釜底抽薪】</String>
+      <String id="12" desc="skilldesc12">使用五谷丰登</String>
+      <String id="13" desc="skilldesc13">使用无中生有</String>
+      <String id="14" desc="skilldesc14">对【%s】发起决斗</String>
+      <String id="15" desc="skilldesc15">烽火狼烟</String>
+      <String id="16" desc="skilldesc16">万箭齐发</String>
+      <String id="17" desc="skilldesc17">手捧雷</String>
+      <String id="18" desc="skilldesc18">休养生息</String>
+      <String id="19" desc="skilldesc19">为【%s】使用【无懈可击】</String>
+      <String id="20" desc="skilldesc20">使用【借刀杀人】，命令【%s】杀【%s】</String>
+      <String id="21" desc="skilldesc21">向【%s】使用【画地为牢】</String>
+      <String id="22" desc="skilldesc22">发动疏财技能</String>
+      <String id="23" desc="skilldesc23">发动【激将】</String>
+      <String id="24" desc="skilldesc24">发动傲剑技能，向【%s】打出杀</String>
+      <String id="25" desc="skilldesc25">发动天狼技能，向【%s】打出杀</String>
+      <String id="26" desc="skilldesc26">发动【占卜】</String>
+      <String id="27" desc="skilldesc27">发动【归隐】</String>
+      <String id="28" desc="skilldesc28">向【%s】打出%s</String>
+      <String id="29" desc="skilldesc29">发动骑射技能</String>
+      <String id="30" desc="skilldesc30">发动【刺客】</String>
+      <String id="31" desc="skilldesc31">发动妙计技能，摸取1张牌</String>
+      <String id="32" desc="skilldesc32">发动【飞贼】</String>
+      <String id="33" desc="skilldesc33">换取%d张牌</String>
+      <String id="34" desc="skilldesc34">发动【救援】</String>
+      <String id="35" desc="skilldesc35">发动【释权】，将%s当作釜底抽薪向【%s】打出</String>
+      <String id="36" desc="skilldesc36">发动【隐忍】</String>
+      <String id="37" desc="skilldesc37">发动负荆技能，摸取2张牌</String>
+      <String id="38" desc="skilldesc38">发动兵仙技能，多摸1张牌</String>
+      <String id="39" desc="skilldesc39">发动【攻心】</String>
+      <String id="40" desc="skilldesc40">发动魅惑技能，将【%s】当作画地为牢向【%s】打出</String>
+      <String id="41" desc="skilldesc41">发动【沉鱼】</String>
+      <String id="42" desc="skilldesc42">发动【千千】</String>
+      <String id="43" desc="skilldesc43">发动?运技能，摸取一张牌</String>
+      <String id="44" desc="skilldesc44">发动集权技能，获得</String>
+      <String id="45" desc="skilldesc45">发动护主技能</String>
+      <String id="46" desc="skilldesc46">发动【法家】</String>
+      <String id="47" desc="skilldesc47">打出【%s】代替判定牌</String>
+      <String id="48" desc="skilldesc48">发动【复仇】</String>
+      <String id="49" desc="skilldesc49">发动【起义】</String>
+      <String id="50" desc="skilldesc50">发动醉酒技能</String>
+      <String id="51" desc="skilldesc51">发动法?技能，获得【%s】</String>
+      <String id="52" desc="skilldesc52">发动【舍身】</String>
+      <String id="53" desc="skilldesc53">发动【轻影】，将%s当作闪打出</String>
+      <String id="54" desc="skilldesc54">发动【玉步】</String>
+      <String id="55" desc="skilldesc55">为【%s】发动回春技能</String>
+      <String id="56" desc="skilldesc56">发动疗伤技能</String>
+      <String id="57" desc="skilldesc57">发动霸王技能</String>
+      <String id="58" desc="skilldesc58">发动红颜技能，让【%s】和【%s】决斗</String>
+      <String id="59" desc="skilldesc59">发动楚楚技能，摸取1张牌</String>
+      <String id="60" desc="skilldesc60">发动【治愈】技能</String>
+      <String id="61" desc="skilldesc61">发动迷离技能，摸取2张牌</String>
+      <String id="62" desc="skilldesc62">发动【狂狂】</String>
+      <String id="63" desc="skilldesc63">【%s】将伤害转移给【%s】，【%s】摸取%d张牌</String>
+      <String id="64" desc="skilldesc64">发动【红妆】</String>
+      <String id="65" desc="skilldesc65">发动控局技能</String>
+      <String id="66" desc="skilldesc66">发动【底力】</String>
+      <String id="67" desc="skilldesc67">发动神偷技能</String>
+      <String id="68" desc="skilldesc68">向%s发动绝杀技能</String>
+      <String id="69" desc="skilldesc69">向【%s】发动侠胆技能</String>
+      <String id="70" desc="skilldesc70">发动门神技能</String>
+      <String id="71" desc="skilldesc71">发动补刀技能</String>
+      <String id="72" desc="skilldesc72">发动易装技能</String>
+      <String id="73" desc="skilldesc73">发动烽火技能</String>
+      <String id="74" desc="skilldesc74">发动兵?技能</String>
+      <String id="75" desc="skilldesc75">发动奸雄技能</String>
+      <String id="76" desc="skilldesc76">发动蝶魂技能，跳过并摸取1张牌</String>
+      <String id="77" desc="skilldesc77">发动迁都技能</String>
+      <String id="78" desc="skilldesc78">发动图强技能，摸取一张牌</String>
+      <String id="79" desc="skilldesc79">发动强掠</String>
+      <String id="80" desc="skilldesc80">发动反击技能</String>
+      <String id="81" desc="skilldesc81">发动诀别技能</String>
+      <String id="82" desc="skilldesc82">发动狂禅技能</String>
+      <String id="83" desc="skilldesc83">发动强运技能</String>
+      <String id="84" desc="skilldesc84">发动女权技能</String>
+      <String id="85" desc="skilldesc85">发动三板斧技能</String>
+      <String id="86" desc="skilldesc86">发动占位技能</String>
+      <String id="87" desc="skilldesc87">发动洞察技能</String>
+      <String id="88" desc="skilldesc88">发动鲁莽技能</String>
+      <String id="89" desc="skilldesc89">发动勇闯技能</String>
+      <String id="90" desc="skilldesc90">发动看破技能</String>
+      <String id="91" desc="skilldesc91">向【%s】发动鸩杀技能</String>
+      <String id="92" desc="skilldesc92">发动蓄谋技能，将跳过下一行动回合</String>
+      <String id="93" desc="skilldesc93">【%s】向【%s】发动悼亡技能</String>
+      <String id="94" desc="skilldesc94">向【%s】发动姿容技能</String>
+      <String id="95" desc="skilldesc95">向【%s】发动鬼斧技能</String>
+      <String id="96" desc="skilldesc96">向【%s】发动神工技能</String>
+      <String id="97" desc="skilldesc97">发动天香技能</String>
+      <String id="98" desc="skilldesc98">发动国色技能</String>
+      <String id="99" desc="skilldesc99">发动轻敏技能</String>
+      <String id="100" desc="skilldesc100">发动单骑技能</String>
+      <String id="101" desc="skilldesc101">发动削藩技能</String>
+      <String id="102" desc="skilldesc102">发动明察技能</String>
+      <String id="103" desc="skilldesc103">向【%s】发动看破技能</String>
+      <String id="104" desc="skilldesc104">发动兵圣技能</String>
+      <String id="105" desc="skilldesc105">发动威强技能</String>
+      <String id="106" desc="skilldesc106">发动睿德技能</String>
+      <String id="107" desc="skilldesc107">发动超脱技能</String>
+      <String id="108" desc="skilldesc108">发动后主技能</String>
+      <String id="109" desc="skilldesc109">发动斗神技能</String>
+      <String id="110" desc="skilldesc110">发动羞花技能</String>
+      <String id="111" desc="skilldesc111">发动丰艳技能</String>
+      <String id="112" desc="skilldesc112">发动非攻技能</String>
+      <String id="113" desc="skilldesc113">发动兼爱技能</String>
+      <String id="114" desc="skilldesc114">发动豹头技能</String>
+      <String id="115" desc="skilldesc115">发动离间技能</String>
+      <String id="116" desc="skilldesc116">发动闭月技能</String>
+      <String id="117" desc="skilldesc117">发动妙笔技能</String>
+      <String id="118" desc="skilldesc118">发动谪仙技能</String>
+    </StrResPack>
+
+    <StrResPack id="6" desc="g_pszHeroName">
+      <String id="00" desc="qinshihuang">秦始皇</String>
+      <!--<String id="01" desc="chengjisihan">成吉思汗</String>-->
+      <String id="01" desc="chengjisihan">铁木真</String>
+      <String id="02" desc="liubang">刘邦</String>
+      <String id="03" desc="zhaokuangyin">赵匡胤</String>
+      <String id="04" desc="goujian">勾践</String>
+      <String id="05" desc="zhuyuanzhang">朱元璋</String>
+      <String id="06" desc="xiangyu">项羽</String>
+      <String id="07" desc="lishimin">李世民</String>
+      <String id="08" desc="wuzetian">武则天</String>
+      <String id="09" desc="murong">慕容</String>
+      <String id="10" desc="caocao">曹操</String>
+      <String id="11" desc="chensheng">陈胜</String>
+      <String id="12" desc="shangyang">商鞅</String>
+      <String id="13" desc="yuji">虞姬</String>
+      <String id="14" desc="liubowen">刘伯温</String>
+      <String id="15" desc="yuefei">岳飞</String>
+      <String id="16" desc="sunwu">孙武</String>
+      <String id="17" desc="lianpo">廉颇</String>
+      <String id="18" desc="hanxin">韩信</String>
+      <String id="19" desc="baosi">褒姒</String>
+      <String id="20" desc="huamulan">花木兰</String>
+      <String id="21" desc="guanyu">关羽</String>
+      <String id="22" desc="yangyanzhao">杨延昭</String>
+      <String id="23" desc="zhantaiming">澹台名</String>
+      <String id="24" desc="qinqiong">秦琼</String>
+      <String id="25" desc="wusong">武松</String>
+      <String id="26" desc="zhaofeiyan">赵飞燕</String>
+      <String id="27" desc="songjiang">宋江</String>
+      <String id="28" desc="xishi">西施</String>
+      <String id="29" desc="bianque">扁鹊</String>
+      <String id="30" desc="chenyuanyuan">陈圆圆</String>
+      <String id="31" desc="lishishi">李师师</String>
+      <String id="32" desc="renhuanzhi">任桓之</String>
+      <String id="33" desc="jingke">荆轲</String>
+      <String id="34" desc="shiqian">时迁</String>
+      <String id="35" desc="luzhishen">鲁智深</String>
+      <String id="36" desc="likui">李逵</String>
+      <String id="37" desc="chengyaojin">程咬金</String>
+      <String id="38" desc="zhugeliang">诸葛亮</String>
+      <String id="39" desc="lizicheng">李自成</String>
+      <String id="40" desc="lvzhi">吕雉</String>
+      <String id="41" desc="panan">潘安</String>
+      <String id="42" desc="luban">鲁班</String>
+      <String id="43" desc="xiaoqiao">小乔</String>
+      <String id="44" desc="kangxi">康熙</String>
+      <String id="45" desc="liuche">刘彻</String>
+      <String id="46" desc="liyu">李煜</String>
+      <String id="47" desc="zhangfei">张飞</String>
+      <String id="48" desc="yangyuhuan">杨玉环</String>
+      <String id="49" desc="mozi">墨子</String>
+      <String id="50" desc="linchong">林冲</String>
+      <String id="51" desc="diaochan">貂蝉</String>
+      <String id="52" desc="libai">李白</String>
+    </StrResPack>
+
+    <StrResPack id="7" desc="g_pszCampName">
+      <String id="0" desc="jun">君</String>
+      <String id="1" desc="chen">臣</String>
+      <String id="2" desc="min">民</String>
+    </StrResPack>
+
+    <StrResPack id="8" desc="g_pszUserInfo">
+      <String id="0" desc="escrate">逃跑率：</String>
+      <String id="1" desc="winrate">胜    率：</String>
+      <String id="2" desc="uin">QQ    号：</String>
+      <String id="3" desc="level">等    级：</String>
+      <String id="4" desc="kickbtntext">请TA离开</String>
+    </StrResPack>
+
+    <StrResPack id="9" desc="g_pszZhanBu">
+      <String id="0" desc="heaptop">牌堆顶</String>
+      <String id="1" desc="heapbottom">牌堆底</String>
+    </StrResPack>
+
+
+    <StrResPack id="10" desc="m_skillTips">
+      <String id="0" desc="SkillTip00">
+        &lt;font color=&quot;0xffffffff&quot;&gt;疏财：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以把自己的手牌发给任意角色,发两张或两张以上就自己恢复1点血,但是最多只能恢复1点。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="1" desc="SkillTip01">
+        &lt;font color=&quot;0xffffffff&quot;&gt;激将(主公技)：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;君阵营专属主公技，阵营为君的角色作为主公的时候可以使用。&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你需要出【杀】时，你可以发动【激将】。所有臣阵营角色按行动顺序依次选择是否出一张【杀】“提供”给你（视为由你出的【杀】），直到有一名角色或没有任何角色决定如此做时为止。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="2" desc="SkillTip02">
+        &lt;font color=&quot;0xffffffff&quot;&gt;傲剑：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你可以选择将红色花色的牌（手牌或装备区的牌）当作【杀】来用。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="3" desc="SkillTip03">
+        &lt;font color=&quot;0xffffffff&quot;&gt;天狼：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你每回合出【杀】的数量不受限制。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="4" desc="SkillTip04">
+        &lt;font color=&quot;0xffffffff&quot;&gt;占卜：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;到你回合时，可以先摸再观看最多5张牌（当人数少于5人时，为相应人数的牌），然后可以自由调整这5张牌的摆放顺序，再放回牌堆。可以将一部分放在牌堆顶，其余的放在牌堆底。然后进入判定-摸牌-出牌阶段。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="5" desc="SkillTip05">
+        &lt;font color=&quot;0xffffffff&quot;&gt;归隐：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你手里没牌的时候，其他人不可以主动出【杀】或者【决斗】攻击你。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="6" desc="SkillTip06">
+        &lt;font color=&quot;0xffffffff&quot;&gt;武穆：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你可以将【杀】当作【闪】来使用，【闪】当作【杀】来使用。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="7" desc="SkillTip07">
+        &lt;font color=&quot;0xffffffff&quot;&gt;骑射：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;默认视为你装备着一匹距离为1的进攻马（装备进攻马后，攻击范围在原来距离上再加1）。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="8" desc="SkillTip08">
+        &lt;font color=&quot;0xffffffff&quot;&gt;刺客：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你对别的角色出【杀】时可以选择做一次判定：若判定牌为红色花色，则此【杀】不可回避，直接命中；若判定牌为黑色花色，则此【杀】可回避，但如果对方没有出【闪】，则命中后可以选择弃掉对方一张牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="9" desc="SkillTip09">
+        &lt;font color=&quot;0xffffffff&quot;&gt;妙计：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;每当你使用一张非延时类锦囊牌时，（在锦囊牌结算前）你可以马上从牌堆中摸取一张牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="10" desc="SkillTip10">
+        &lt;font color=&quot;0xffffffff&quot;&gt;飞贼：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你使用【探囊取物】不受距离限制。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="11" desc="SkillTip11">
+        &lt;font color=&quot;0xffffffff&quot;&gt;驭人：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以选择弃掉自己任意数量的手牌和装备区的牌，立即从牌堆重新摸取相同数量的牌。每回合限使用一次。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="12" desc="SkillTip12">
+        &lt;font color=&quot;0xffffffff&quot;&gt;救援(主公技)：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;民势力专属主公技，属性为民的角色作为主公的时候可以使用。&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;“君”阵营角色在你濒死状态下对你使用【药】时，你额外恢复1点血。其他阵营角色对你出【药】无法多恢复1点血。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="13" desc="SkillTip13">
+        &lt;font color=&quot;0xffffffff&quot;&gt;释权：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你的任意一张黑色花色的牌（手牌或装备区的牌），都可以当作【釜底抽薪】来使用。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="14" desc="SkillTip14">
+        &lt;font color=&quot;0xffffffff&quot;&gt;隐忍：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;只要在自己出牌时没对别的玩家出过任何一张【杀】，则本回合结束时你可以不用弃牌（手牌上限为20张）。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="15" desc="SkillTip15">
+        &lt;font color=&quot;0xffffffff&quot;&gt;负荆：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以选择主动掉1点血，然后执行以下两项行动中的一项：1.自己马上从牌堆摸两张牌；2.指定伤你的角色马上从牌堆摸两张牌，则你的回合内该角色不能再使用【药】救你。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="16" desc="SkillTip16">
+        &lt;font color=&quot;0xffffffff&quot;&gt;兵仙：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;轮到你摸牌时，你可以摸三张牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="17" desc="SkillTip17">
+        &lt;font color=&quot;0xffffffff&quot;&gt;攻心：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以让任何一人指定一种花色，然后该玩家选择你的一张手牌并亮出。如果牌的花色和之前指定的相符，则对方获得你这张手牌；如果不符，对方掉1点血，然后获得你这张手牌。每回合限用一次。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="18" desc="SkillTip18">
+        &lt;font color=&quot;0xffffffff&quot;&gt;魅惑：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;在你出牌时，你可以将你方片花色的牌（手牌或者装备区的牌）当作【画地为牢】使用。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="19" desc="SkillTip19">
+        &lt;font color=&quot;0xffffffff&quot;&gt;沉鱼：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;有人对你出【杀】时，你可以弃掉一张牌（手牌或者装备区的牌）把这张【杀】转移给你攻击范围内的一名角色，但不能转移给对你出【杀】的这名角色。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="20" desc="SkillTip20">
+        &lt;font color=&quot;0xFF5f9b05&quot;&gt;千千：&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="21" desc="SkillTip21">
+        &lt;font color=&quot;0xffffffff&quot;&gt;?运：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="22" desc="SkillTip22">
+        &lt;font color=&quot;0xffffffff&quot;&gt;集权：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你掉血的时候，你可以选择马上获得让你掉血的那张牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="23" desc="SkillTip23">
+        &lt;font color=&quot;0xffffffff&quot;&gt;护主(主公技)：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;臣势力专属主公技，阵营为臣的角色作为主公的时候可以使用。&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你需要出一张【闪】时，你可以发动护主。所有“民”阵营角色按行动顺序依次选择是否出一张【闪】“提供”给你（视为由你出的【闪】），直到有一名角色或没有任何角色决定如此做时为止。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="24" desc="SkillTip24">
+        &lt;font color=&quot;0xffffffff&quot;&gt;法家：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你掉血以后可以抽取伤你的角色的一张牌，可以是对方的手牌，也可以是装备区的牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="25" desc="SkillTip25">
+        &lt;font color=&quot;0xffffffff&quot;&gt;变法：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;在任意玩家的判定牌生效前，你可以出一张牌（手牌或装备区的牌），替代原来的判定牌，从而改变判定结果。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="26" desc="SkillTip26">
+        &lt;font color=&quot;0xffffffff&quot;&gt;复仇：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你掉血以后可以选择进行一次判定,如果不是红桃,伤你的角色就必须选择掉1点血或者弃掉两张手牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="27" desc="SkillTip27">
+        &lt;font color=&quot;0xffffffff&quot;&gt;起义：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;在轮到你摸牌时，可以选择放弃摸牌，从两名（最多就是两名）其他玩家手里，每名角色抽一张牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="28" desc="SkillTip28">
+        &lt;font color=&quot;0xffffffff&quot;&gt;醉酒：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;在你摸牌时，如果你选择只摸一张牌，那本回合对别人出【杀】或【决斗】造成的的伤害为2（默认伤害为1）。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="29" desc="SkillTip29">
+        &lt;font color=&quot;0xFF5f9b05&quot;&gt;法?：&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="30" desc="SkillTip30">
+        &lt;font color=&quot;0xffffffff&quot;&gt;舍身：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你每掉1点血就能从牌堆中摸两张牌,可将这两张牌任意分配给其它角色，也可以自己留着。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="31" desc="SkillTip31">
+        &lt;font color=&quot;0xffffffff&quot;&gt;轻影：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;黑色花色手牌可以被你当做【闪】使用。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="32" desc="SkillTip32">
+        &lt;font color=&quot;0xffffffff&quot;&gt;玉步：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;到你摸牌前，你可以选择进行判定，如果判定牌是黑色花色的牌，就可以选择继续判定，直到判定出红色花色的牌为止。所有黑色花色的判定牌均收入你的手牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="33" desc="SkillTip33">
+        &lt;font color=&quot;0xffffffff&quot;&gt;回春：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你的回合外，能将你的红色花色的牌（手牌或者装备区的牌）来当作【药】使用。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="34" desc="SkillTip34">
+        &lt;font color=&quot;0xffffffff&quot;&gt;疗伤：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，能弃掉一张手牌，给任意一名角色恢复1点血。每回合限使用一次。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="35" desc="SkillTip35">
+        &lt;font color=&quot;0xffffffff&quot;&gt;霸王：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你出【杀】时，被杀对象需出两张【闪】才能抵消掉；决斗时你出一张【杀】，则对手需出两张【杀】。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="36" desc="SkillTip36">
+        &lt;font color=&quot;0xffffffff&quot;&gt;红颜：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以弃掉一张牌（手牌或者装备区的牌），来指定两个男性的角色进行【决斗】（此【决斗】不能被【无懈可击】抵消掉），你选定的第一个男性角色就是【决斗】中先要出【杀】的角色。每回合限用一次。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="37" desc="SkillTip37">
+        &lt;font color=&quot;0xffffffff&quot;&gt;楚楚：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;回合结束时，你可以摸一张牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="38" desc="SkillTip38">
+        &lt;font color=&quot;0xffffffff&quot;&gt;治愈：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以弃掉任意两张手牌，然后指定一名血量不满的男性角色，你和他可以各恢复1点血。每回合限用一次。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="39" desc="SkillTip39">
+        &lt;font color=&quot;0xffffffff&quot;&gt;迷离：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;每当你失去装备区中的一张牌，能马上摸两张牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="40" desc="SkillTip40">
+        &lt;font color=&quot;0xFF5f9b05&quot;&gt;狂狂：&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="41" desc="SkillTip41">
+        &lt;font color=&quot;0xffffffff&quot;&gt;曼舞：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;每当你受到伤害时，你可以弃一张红桃手牌来转移此伤害给任意一名角色，然后该角色摸X张牌；X为该角色当前已损失的体力值。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="42" desc="SkillTip42">
+        &lt;font color=&quot;0xffffffff&quot;&gt;红妆：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你的黑桃花色牌均视为红桃花色牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="43" desc="SkillTip43">
+        &lt;font color=&quot;0xffffffff&quot;&gt;控局：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你的手牌数不大于满血的血量时，是可以不用弃牌的（其他角色默认情况下手牌数不大于当前血量）；当你的手牌数小于满血的血量时，是不能被【探囊取物】或【釜底抽薪】；当你的手牌数大于你的满血的血量时，你不能被【画地为牢】。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="44" desc="SkillTip44">
+        &lt;font color=&quot;0xffffffff&quot;&gt;底力：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;摸牌时，你的摸牌数等于2+你当前掉血数。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="45" desc="SkillTip45">
+        &lt;font color=&quot;0xffffffff&quot;&gt;神偷：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你所有梅花花色的手牌都可以当作【探囊取物】使用。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="46" desc="SkillTip46">
+        &lt;font color=&quot;0xffffffff&quot;&gt;绝杀：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以选择自减一点血或弃掉一张手牌上的（或装备区内的）武器牌，指定一个目标（需在攻击范围内）直接掉1点血。每回合限用一次。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="47" desc="SkillTip47">
+        &lt;font color=&quot;0xffffffff&quot;&gt;侠胆：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以和任何一名角色拼点。若你赢，则本回合你的攻击范围无限、可以出两张【杀】、且每次出【杀】时可以指定最多两个目标。若你没赢，你本回合不能出【杀】。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="48" desc="SkillTip48">
+        &lt;font color=&quot;0xffffffff&quot;&gt;门神：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;回合结束阶段，你可以指定一个角色，则到你的下个回合开始为止，所有对该角色的【杀】和【决斗】，均视为对你打出。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="49" desc="SkillTip49">
+        &lt;font color=&quot;0xffffffff&quot;&gt;补刀：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;在你的回合外，有角色（该角色需在你的攻击范围内）被【杀】掉血后，你能对该角色打出一张【杀】，只要你的【杀】使该角色掉血了，你就可以继续出【杀】。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="50" desc="SkillTip50">
+        &lt;font color=&quot;0xffffffff&quot;&gt;易装：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以弃掉两张手牌，选定一个本局中阵亡的男性英雄，则失去你的所有技能，获得该男性英雄的所有技能，同时花木兰的血量上限变为该男性英雄的血量上限。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="51" desc="SkillTip51">
+        &lt;font color=&quot;0xffffffff&quot;&gt;烽火：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以选择弃掉一张装备区的牌，视为出一张【烽火狼烟】。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="52" desc="SkillTip52">
+        &lt;font color=&quot;0xffffffff&quot;&gt;兵圣：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="53" desc="SkillTip53">
+        &lt;font color=&quot;0xffffffff&quot;&gt;奸雄：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以出一张牌（手牌或装备区的牌），当作你本回合内前一张出的牌来使用。每回合限用一次。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="54" desc="SkillTip54">
+        &lt;font color=&quot;0xffffffff&quot;&gt;蝶魂：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当别的角色或你自己出的锦囊牌默认是指定多个角色时（也包括你自己），你可以跳过此锦囊，并立即从牌堆里摸一张牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="55" desc="SkillTip55">
+        &lt;font color=&quot;0xffffffff&quot;&gt;迁都：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以选择弃掉两张黑色花色的手牌，选定任意一名存活的角色，和该角色对调位置。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="56" desc="SkillTip56">
+        &lt;font color=&quot;0xffffffff&quot;&gt;图强：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;在自己的回合外，你每出一张【闪】，可立即从牌堆摸一张牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="57" desc="SkillTip57">
+        &lt;font color=&quot;0xffffffff&quot;&gt;强掠：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;如果你打出的【杀】被闪避，你可以选择进行一次判定，若判定结果为黑色花色的牌，你可以抽取对方的一张牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="58" desc="SkillTip58">
+        &lt;font color=&quot;0xffffffff&quot;&gt;反击：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你被【杀】或【决斗】损血后，你可以选择立即对伤你的角色打出一张【杀】，若此【杀】为红色花色，则此【杀】不可回避。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="59" desc="SkillTip59">
+        &lt;font color=&quot;0xffffffff&quot;&gt;诀别：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你进入濒死状态时，你可以选定一名男性英雄且同时选择不向包括你自己在内的任何角色求【药】，则你阵亡后，你的所有牌（手牌或装备区的牌）都归入此角色的手牌，你判定区的牌是归入对方的判定区。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="60" desc="SkillTip60">
+        &lt;font color=&quot;0xffffffff&quot;&gt;狂禅：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;做为主公（或主将）时，你的血量上限不能增加1点血量。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="61" desc="SkillTip61">
+        &lt;font color=&quot;0xffffffff&quot;&gt;强运：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;在任意一名角色的回合内，每当你失去或者用掉最后一张手牌时，可以立即从牌堆摸两张牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="62" desc="SkillTip62">
+        &lt;font color=&quot;0xffffffff&quot;&gt;女权：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你对男性角色出【决斗】，对方需出两张【杀】当作一张【杀】；男性角色对你出【决斗】无效。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="63" desc="SkillTip63">
+        &lt;font color=&quot;0xffffffff&quot;&gt;三板斧：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你对其他角色出【杀】时： 若对方选择出0张【闪】，则对方掉2点血，你也要弃一张手牌；若对方选择出1张【闪】，则对方掉1点血，你也掉1点血；若对方选择出2张【闪】，则对方不掉血，你自己掉1点血。（每回合限用一次）&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="64" desc="SkillTip64">
+        &lt;font color=&quot;0xffffffff&quot;&gt;兵圣：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;在任意角色的判定牌生效前，你可以出一张黑色花色的牌（手牌或装备区的牌）替换原来的判定牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="65" desc="SkillTip65">
+        &lt;font color=&quot;0xffffffff&quot;&gt;洞察：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你不能成为黑桃花色锦囊的目标。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="66" desc="SkillTip66">
+        &lt;font color=&quot;0xffffffff&quot;&gt;鲁莽：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;除自己外任何人对你使用的单体非延时类锦囊，你可以选择视为决斗。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="67" desc="SkillTip67">
+        &lt;font color=&quot;0xffffffff&quot;&gt;勇闯：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;在决斗中，你的所有手牌均视为【杀】。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="68" desc="SkillTip68">
+        &lt;font color=&quot;0xffffffff&quot;&gt;看破：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你可以将你的任意一张黑色手牌当【无懈可击】使用。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="69" desc="SkillTip69">
+        &lt;font color=&quot;0xffffffff&quot;&gt;鸩杀：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当场上有角色进入濒死状态求【药】时，你可以对其(需在攻击范围内)使用【药】，此时该角色立即阵亡。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="70" desc="SkillTip70">
+        &lt;font color=&quot;0xffffffff&quot;&gt;蓄谋：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你回合结束时，可以选择摸取三张牌。若如此做，你将跳过你下一个回合。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="71" desc="SkillTip71">
+        &lt;font color=&quot;0xffffffff&quot;&gt;悼亡：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你可以选择获得阵亡角色的所有牌（包括手牌和装备牌）。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="72" desc="SkillTip72">
+        &lt;font color=&quot;0xffffffff&quot;&gt;姿容：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以选择弃掉1张牌（手牌或装备牌），指定一名女性角色，则在该女性角色的回合内该角色对其他角色出【杀】或【决斗】伤害+1。（每回合限用一次）&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="73" desc="SkillTip73">
+        &lt;font color=&quot;0xffffffff&quot;&gt;鬼斧：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;到你出牌时，可以指定一名角色(除自己以外)装备区内的一张牌，将其弃掉，同时自己和对方各摸取一张牌。（每回合限用一次）&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="74" desc="SkillTip74">
+        &lt;font color=&quot;0xffffffff&quot;&gt;神工：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;到你出牌时，可以选定场上任意一名角色的装备区的牌，出自己的一张手牌复制该装备，同时可以选择装备上自己或其他角色的装备区。（每回合限用一次）&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="75" desc="SkillTip75">
+        &lt;font color=&quot;0xffffffff&quot;&gt;天香：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当一名角色需要判定时，你可以弃掉一张牌（手牌或装备牌），则取消该判定。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="76" desc="SkillTip76">
+        &lt;font color=&quot;0xffffffff&quot;&gt;国色：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你没有装备防具时，你默认视为装备玉如意。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="77" desc="SkillTip77">
+        &lt;font color=&quot;0xffffffff&quot;&gt;轻敏：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你不能成为【探囊取物】的目标。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="78" desc="SkillTip78">
+        &lt;font color=&quot;0xffffffff&quot;&gt;单骑：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;默认视为你装备着一匹距离为1的进攻马（装备进攻马后，攻击范围在原来距离上再加1）。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="79" desc="SkillTip79">
+        &lt;font color=&quot;0xffffffff&quot;&gt;削藩：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你做为主公（或主将）时，本局内所有“君”阵营的武将（除自己外）均视为“臣”阵营。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="80" desc="SkillTip80">
+        &lt;font color=&quot;0xffffffff&quot;&gt;明察：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当其他角色成功对其自己使用【药】回复血量时，你可以选择弃掉一张牌并给自己回复1点血。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="81" desc="SkillTip81">
+        &lt;font color=&quot;0xffffffff&quot;&gt;看破：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;到你出牌时，可以弃掉两张不同花色的手牌，指定任意一名角色，使其血量与你相同（若该角色血量大于你的血量，造成血量差的伤害，否则受到血量差的回复效果）。（每回合限用一次）&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="82" desc="SkillTip82">
+        &lt;font color=&quot;0xffffffff&quot;&gt;兵圣：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;手牌上限+1。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="83" desc="SkillTip83">
+        &lt;font color=&quot;0xffffffff&quot;&gt;威强：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;任意角色出【五谷丰登】时，你都是第一个拿牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="84" desc="SkillTip84">
+        &lt;font color=&quot;0xffffffff&quot;&gt;睿德：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当有角色弃牌时，你可以选择任意数量的手牌替换掉别人相同数量的弃牌，若如此做，则直到你的回合前你不能成为黑色锦囊的目标（每轮限用一次）。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="85" desc="SkillTip85">
+        &lt;font color=&quot;0xffffffff&quot;&gt;超脱：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;在任意角色的判定牌生效前，你可以出一张黑色花色的牌（手牌或装备区的牌）替换原来的判定牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="86" desc="SkillTip86">
+        &lt;font color=&quot;0xffffffff&quot;&gt;后主：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;每当你使用或打出一张【闪】时（结算前），可令任意一名角色判定：若为黑桃花色，你对该角色造成2点伤害。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="87" desc="SkillTip87">
+        &lt;font color=&quot;0xffffffff&quot;&gt;斗神：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;到你摸牌时，你可以选择放弃摸牌并进行一次判定：你获得此判定牌并且此回合内可以将任意一张与判定牌不同颜色的手牌当【决斗】使用&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="88" desc="SkillTip88">
+        &lt;font color=&quot;0xffffffff&quot;&gt;羞花：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;除弃牌阶段外，当你的手牌数小于你当前已掉血量时，可立即将手牌数补至等同于你已掉血量值。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="89" desc="SkillTip89">
+        &lt;font color=&quot;0xffffffff&quot;&gt;丰艳：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;“君”阵营英雄的判定牌为黑色花色时，你可以获得该判定牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="90" desc="SkillTip90">
+        &lt;font color=&quot;0xffffffff&quot;&gt;非攻：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以做出如下两种选择：【防御】你可以给任意一名角色一张牌，则该角色本轮内不能对你出【杀】；【保护】你抽取该角色一张牌，则该角色本轮内不能成为【杀】的目标。（每回合限用一次）&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="91" desc="SkillTip91">
+        &lt;font color=&quot;0xffffffff&quot;&gt;兼爱：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你可以把【药】当【休养生息】使用。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="92" desc="SkillTip92">
+        &lt;font color=&quot;0xffffffff&quot;&gt;豹头：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，当出现以下两种情况时你对别的角色出的【杀】不可回避：（1）目标角色的手牌数大于或等于你的血量值；（2）目标角色的手牌数小于或等于你的攻击范围。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="93" desc="SkillTip93">
+        &lt;font color=&quot;0xffffffff&quot;&gt;离间：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以令所有男性角色依次对其距离最近的另外一名男性角色出【杀】（此时不能发动【杀】相关技能和武器技能），无法如此做者流失1点血。（每局限用一次）&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="94" desc="SkillTip94">
+        &lt;font color=&quot;0xffffffff&quot;&gt;闭月：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你每受到1点伤害时，可以令任意一名角色将手牌补至血量上限的张数。（最多只能5张）&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="95" desc="SkillTip95">
+        &lt;font color=&quot;0xffffffff&quot;&gt;妙笔：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你可以用红桃手牌当【五谷丰登】打出。（每回合限用一次）&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="96" desc="SkillTip96">
+        &lt;font color=&quot;0xffffffff&quot;&gt;谪仙：&lt;/font&gt;&lt;font color=&quot;0xff00c5ff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你处于濒死状态时，你可以丢弃你所有的牌（包括判定牌），取消所有在你身上的状态，然后摸三张牌且血量恢复到3点。（每局限用一次）&lt;/font&gt;&lt;b&gt;
+      </String>
+    </StrResPack>
+
+
+    <StrResPack id="11" desc="m_heroTips">
+      <String id="0" desc="HeroTip00">&lt;font color=&quot;0xff00ff6c&quot;&gt;秦始皇   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <!--<String id="1" desc="HeroTip01">&lt;font color=&quot;0xff00ff6c&quot;&gt;成吉思汗   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>-->
+      <String id="1" desc="HeroTip01">&lt;font color=&quot;0xff00ff6c&quot;&gt;铁木真   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="2" desc="HeroTip02">&lt;font color=&quot;0xff00ff6c&quot;&gt;刘邦   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血 &lt;/font&gt;</String>
+      <String id="3" desc="HeroTip03">&lt;font color=&quot;0xff00ff6c&quot;&gt;赵匡胤   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="4" desc="HeroTip04">&lt;font color=&quot;0xff00ff6c&quot;&gt;勾践   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="5" desc="HeroTip05">&lt;font color=&quot;0xff00ff6c&quot;&gt;朱元璋   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="6" desc="HeroTip06">&lt;font color=&quot;0xff00ff6c&quot;&gt;项羽   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="7" desc="HeroTip07">&lt;font color=&quot;0xff00ff6c&quot;&gt;李世民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="8" desc="HeroTip08">&lt;font color=&quot;0xff00ff6c&quot;&gt;武则天   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="9" desc="HeroTip09">&lt;font color=&quot;0xff00ff6c&quot;&gt;慕容   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="10" desc="HeroTip10">&lt;font color=&quot;0xff00ff6c&quot;&gt;曹操   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="11" desc="HeroTip11">&lt;font color=&quot;0xff00ff6c&quot;&gt;陈胜   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="12" desc="HeroTip12">&lt;font color=&quot;0xff00ff6c&quot;&gt;商鞅   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="13" desc="HeroTip13">&lt;font color=&quot;0xff00ff6c&quot;&gt;虞姬   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="14" desc="HeroTip14">&lt;font color=&quot;0xff00ff6c&quot;&gt;刘伯温   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="15" desc="HeroTip15">&lt;font color=&quot;0xff00ff6c&quot;&gt;岳飞   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="16" desc="HeroTip16">&lt;font color=&quot;0xff00ff6c&quot;&gt;孙武   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="17" desc="HeroTip17">&lt;font color=&quot;0xff00ff6c&quot;&gt;廉颇   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="18" desc="HeroTip18">&lt;font color=&quot;0xff00ff6c&quot;&gt;韩信   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="19" desc="HeroTip19">&lt;font color=&quot;0xff00ff6c&quot;&gt;褒姒   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="20" desc="HeroTip20">&lt;font color=&quot;0xff00ff6c&quot;&gt;花木兰   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="21" desc="HeroTip21">&lt;font color=&quot;0xff00ff6c&quot;&gt;关羽   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="22" desc="HeroTip22">&lt;font color=&quot;0xff00ff6c&quot;&gt;杨延昭   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="23" desc="HeroTip23">&lt;font color=&quot;0xff00ff6c&quot;&gt;澹台名   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="24" desc="HeroTip24">&lt;font color=&quot;0xff00ff6c&quot;&gt;秦琼   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="25" desc="HeroTip25">&lt;font color=&quot;0xff00ff6c&quot;&gt;武松   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="26" desc="HeroTip26">&lt;font color=&quot;0xff00ff6c&quot;&gt;赵飞燕   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="27" desc="HeroTip27">&lt;font color=&quot;0xff00ff6c&quot;&gt;宋江   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="28" desc="HeroTip28">&lt;font color=&quot;0xff00ff6c&quot;&gt;西施   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="29" desc="HeroTip29">&lt;font color=&quot;0xff00ff6c&quot;&gt;扁鹊   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="30" desc="HeroTip30">&lt;font color=&quot;0xff00ff6c&quot;&gt;陈圆圆   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="31" desc="HeroTip31">&lt;font color=&quot;0xff00ff6c&quot;&gt;李师师   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="32" desc="HeroTip32">&lt;font color=&quot;0xff00ff6c&quot;&gt;任桓之   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="33" desc="HeroTip33">&lt;font color=&quot;0xff00ff6c&quot;&gt;荆轲   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="34" desc="HeroTip34">&lt;font color=&quot;0xff00ff6c&quot;&gt;时迁   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="35" desc="HeroTip35">&lt;font color=&quot;0xff00ff6c&quot;&gt;鲁智深   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="36" desc="HeroTip36">&lt;font color=&quot;0xff00ff6c&quot;&gt;李逵   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="37" desc="HeroTip37">&lt;font color=&quot;0xff00ff6c&quot;&gt;程咬金   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="38" desc="HeroTip38">&lt;font color=&quot;0xff00ff6c&quot;&gt;诸葛亮   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="39" desc="HeroTip39">&lt;font color=&quot;0xff00ff6c&quot;&gt;李自成   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="40" desc="HeroTip40">&lt;font color=&quot;0xff00ff6c&quot;&gt;吕雉   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="41" desc="HeroTip41">&lt;font color=&quot;0xff00ff6c&quot;&gt;潘安   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="42" desc="HeroTip42">&lt;font color=&quot;0xff00ff6c&quot;&gt;鲁班   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="43" desc="HeroTip43">&lt;font color=&quot;0xff00ff6c&quot;&gt;小乔   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="44" desc="HeroTip44">&lt;font color=&quot;0xff00ff6c&quot;&gt;康熙   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="45" desc="HeroTip45">&lt;font color=&quot;0xff00ff6c&quot;&gt;刘彻   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="46" desc="HeroTip46">&lt;font color=&quot;0xff00ff6c&quot;&gt;李煜   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="47" desc="HeroTip47">&lt;font color=&quot;0xff00ff6c&quot;&gt;张飞   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="48" desc="HeroTip48">&lt;font color=&quot;0xff00ff6c&quot;&gt;杨玉环   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="49" desc="HeroTip49">&lt;font color=&quot;0xff00ff6c&quot;&gt;墨子 &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="50" desc="HeroTip50">&lt;font color=&quot;0xff00ff6c&quot;&gt;林冲   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="51" desc="HeroTip51">&lt;font color=&quot;0xff00ff6c&quot;&gt;貂蝉   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="52" desc="HeroTip52">&lt;font color=&quot;0xff00ff6c&quot;&gt;李白   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff00ff6c&quot;&gt;体力：3血&lt;/font&gt;</String>
+    </StrResPack>
+
+    <StrResPack id="12" desc="m_equipTips">
+
+      <String id="0" desc="equipmentTip00">
+        &lt;font color=&quot;0xffffffff&quot;&gt;玉如意&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;每当你需要出【闪】的时候，你可以选择进行一次判定：如果判定为红色花色的牌，则视为你出了一张【闪】；如果判定为黑色花色的牌，则视为你判定失败，依旧要出【闪】。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="1" desc="equipmentTip01">
+        &lt;font color=&quot;0xffffffff&quot;&gt;进攻马   赤兔&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;攻击别的角色的距离缩短了1。距离是可以从左右两边都算起。每一名角色算作1的距离。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="2" desc="equipmentTip02">
+        &lt;font color=&quot;0xffffffff&quot;&gt;进攻马   的卢&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;攻击别的角色的距离缩短了1。距离是可以从左右两边都算起。每一名角色算作1的距离。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="3" desc="equipmentTip03">
+        &lt;font color=&quot;0xffffffff&quot;&gt;进攻马   乌骓&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;攻击别的角色的距离缩短了1。距离是可以从左右两边都算起。每一名角色算作1的距离。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="4" desc="equipmentTip04">
+        &lt;font color=&quot;0xffffffff&quot;&gt;防御马   忽雷驳&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你与别的角色的距离增加了1，别的角色需要更大的攻击范围才能攻击到你。距离是可以从左右两边算起。每一名角色算作1的距离。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="5" desc="equipmentTip05">
+        &lt;font color=&quot;0xffffffff&quot;&gt;防御马   追风&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你与别的角色的距离增加了1，别的角色需要更大的攻击范围才能攻击到你。距离是可以从左右两边算起。每一名角色算作1的距离。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="6" desc="equipmentTip06">
+        &lt;font color=&quot;0xffffffff&quot;&gt;防御马   蹑影&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你与别的角色的距离增加了1，别的角色需要更大的攻击范围才能攻击到你。距离是可以从左右两边算起。每一名角色算作1的距离。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="7" desc="equipmentTip07">
+        &lt;font color=&quot;0xffffffff&quot;&gt;虎符&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;攻击距离：1&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以出任意张【杀】。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="8" desc="equipmentTip08">
+        &lt;font color=&quot;0xffffffff&quot;&gt;龙鳞刀&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;攻击距离：2&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你出的【杀】令对方命中，准备掉血时，你可以选择不让对方掉血，而弃掉对方两张牌（包括手牌、装备牌和判定区的牌）。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="9" desc="equipmentTip09">
+        &lt;font color=&quot;0xffffffff&quot;&gt;鱼肠剑&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;攻击距离：2&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;对别的角色出【杀】时，无视该角色的防具。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="10" desc="equipmentTip10">
+        &lt;font color=&quot;0xffffffff&quot;&gt;盘龙棍&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;攻击距离：3&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你出的【杀】被【闪】抵消后，你可以立即对该角色再出【杀】，直到【杀】生效或你不愿意出【杀】为止。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="11" desc="equipmentTip11">
+        &lt;font color=&quot;0xffffffff&quot;&gt;芦叶枪&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;攻击距离：3&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你需要出【杀】时，你可以将两张手牌弃掉，然后当作【杀】来使用。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="12" desc="equipmentTip12">
+        &lt;font color=&quot;0xffffffff&quot;&gt;博浪锤&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;攻击距离：3&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;如果对方出【闪】抵消你出的【杀】，则你可以选择弃掉两张牌（手牌或者装备区的牌），使对方掉1点血。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="13" desc="equipmentTip13">
+        &lt;font color=&quot;0xffffffff&quot;&gt;狼牙棒&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;攻击距离：4&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你出的【杀】是你的最后一张手牌时，你可以让这张【杀】指定至多3名角色（除开自己外），然后按出牌顺序结算之。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="14" desc="equipmentTip14">
+        &lt;font color=&quot;0xffffffff&quot;&gt;霸王弓&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;攻击距离：5&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当你对别的角色出【杀】使他掉血时，你可以抽取他装备区的一匹马然后弃掉。 &lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="15" desc="equipmentTip15">
+        &lt;font color=&quot;0xffffffff&quot;&gt;短刀&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;攻击距离：2&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="16" desc="equipmentTip16">
+        &lt;font color=&quot;0xffffffff&quot;&gt;剑&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;攻击距离：3&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="17" desc="equipmentTip17">
+        &lt;font color=&quot;0xffffffff&quot;&gt;枪&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;攻击距离：4&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="18" desc="equipmentTip18">
+        &lt;font color=&quot;0xffffffff&quot;&gt;弓&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;攻击距离：5&lt;/font&gt;&lt;b&gt;
+      </String>
+
+    </StrResPack>
+
+    <StrResPack id="13" desc="m_sackTips">
+
+      <String id="0" desc="sackTip0">
+        &lt;font color=&quot;0xffffffff&quot;&gt;探囊取物&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;可以对与你距离为1的角色使用，你可以摸取一张该角色的牌（手牌或装备区的牌或判定区的牌）。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="1" desc="sackTip1">
+        &lt;font color=&quot;0xffffffff&quot;&gt;釜底抽薪&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;可以对任意距离的角色使用，抽取该角色一张牌（手牌或装备区的牌或判定区的牌）后弃掉。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="2" desc="sackTip2">
+        &lt;font color=&quot;0xffffffff&quot;&gt;五谷丰登&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出此牌时，按照存活的角色数，摸取相应张牌亮出来，从出牌人开始每人依次选择拿一张牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="3" desc="sackTip3">
+        &lt;font color=&quot;0xffffffff&quot;&gt;无中生有&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出此牌时，你可以立即再摸取两张牌&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="4" desc="sackTip4">
+        &lt;font color=&quot;0xffffffff&quot;&gt;决斗&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以对除你外任意一名角色出【决斗】。由该角色开始，你和他/她轮流出【杀】。【决斗】的两名角色，首先不出【杀】的角色将掉1点血，不掉血的一方视为该伤害的来源。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="5" desc="sackTip5">
+        &lt;font color=&quot;0xffffffff&quot;&gt;烽火狼烟&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出此牌后，从出牌角色的下家开始，按出牌顺序每名角色都需要出【杀】，没有出【杀】的玩家将掉1点血。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="6" desc="sackTip6">
+        &lt;font color=&quot;0xffffffff&quot;&gt;万箭齐发&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出此牌后，从出牌角色的下家开始，按出牌顺序每名角色都需要出【闪】，没有出【闪】的玩家将掉1点血。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="7" desc="sackTip7">
+        &lt;font color=&quot;0xffffffff&quot;&gt;手捧雷&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;延时类锦囊。出牌时，你可以出【手捧雷】，此时将【手捧雷】横置于你的判定区里。到下一轮你摸牌前，【手捧雷】开始判定：如果判定为黑桃2—黑桃9之间的牌，则你将掉3点血，同时【手捧雷】被弃掉；如果不是黑桃2—黑桃9之间的牌，则移到下一个玩家的判定区里。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="8" desc="sackTip8">
+        &lt;font color=&quot;0xffffffff&quot;&gt;休养生息&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出此牌后，从出牌角色开始按出牌顺序每名角色恢复1点血。满血的角色不能再恢复，死亡的也不能复活。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="9" desc="sackTip9">
+        &lt;font color=&quot;0xffffffff&quot;&gt;无懈可击&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;在目标锦囊生效前，抵消它对一名角色产生的锦囊效果。任何锦囊都可以被抵消。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="10" desc="sackTip10">
+        &lt;font color=&quot;0xffffffff&quot;&gt;借刀杀人&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，对除自己外任何一名装备区有武器的角色A使用，令A对另一名角色（可以是自己）出【杀】，如果角色A不出【杀】，则角色A的武器将收入你的手牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="11" desc="sackTip11">
+        &lt;font color=&quot;0xffffffff&quot;&gt;画地为牢&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;延时类锦囊。出牌时，对其他任何一名角色出【画地为牢】，此时该锦囊将横置于该角色的判定区里。【画地为牢】在该角色摸牌前开始判定：如果判定为红桃花色的牌，则你可以摸牌然后出牌；如果不是红桃，则摸牌后不能出牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+
+    </StrResPack>
+
+    <StrResPack id="14" desc="m_baseCardTips">
+      <String id="0" desc="BaseCardTip0">
+        &lt;font color=&quot;0xffffffff&quot;&gt;杀&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;你可以对别的角色出【杀】。【杀】的伤害是1，默认的攻击距离也是1。【杀】可以被【闪】或者别的英雄技能抵挡掉。每回合只能出1次【杀】。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="1" desc="BaseCardTipTip1">
+        &lt;font color=&quot;0xffffffff&quot;&gt;闪&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;当别的角色对你出【杀】时，你可以出【闪】抵挡掉。每回合出【闪】次数不限。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="2" desc="BaseCardTipTip2">
+        &lt;font color=&quot;0xffffffff&quot;&gt;药&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff9ac9de&quot;&gt;出牌时，你可以出【药】来恢复1点血量（不得超过血量上限）或者在别的角色进入濒死状态时出【药】救活他，帮他恢复1点血。&lt;/font&gt;&lt;b&gt;
+      </String>
+    </StrResPack>
+    
+    
+    <StrResPack id="15" desc="Login_erro_text">
+      <String id="1" desc="Login_erro_text1">
+        QQ号码或密码错误，请重试。
+      </String>
+      <String id="2" desc="Login_erro_text2">
+        QQ号码或密码错误，请重试。
+      </String>
+      <String id="6" desc="Login_erro_text6">
+        QQ号码或密码错误，请重试。
+      </String>
+      <String id="151" desc="Login_erro_text151">
+        网络连接失败，请稍后再试。
+      </String>
+      <String id="152" desc="Login_erro_text152">
+        登录超时，请重试。
+      </String>
+      <String id="153" desc="Login_erro_text153">
+        网络连接失败，请稍后再试。
+      </String>
+    </StrResPack>
+
+    <StrResPack id="16" desc="m_determinTips">
+
+      <String id="0" desc="DeterminCardTip0">
+        &lt;font color=&quot;0xff00ff6c&quot;&gt;门神&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff3b9fb7&quot;&gt;对其打出的&lt;/font&gt;&lt;font color=&quot;0xff059b5f&quot;&gt;杀&lt;/font&gt;&lt;font color=&quot;0xff3b9fb7&quot;&gt;和&lt;/font&gt;&lt;font color=&quot;0xff059b5f&quot;&gt;决斗&lt;/font&gt;&lt;font color=&quot;0xff3b9fb7&quot;&gt;均视为对秦琼打出，直到秦琼下个回合开始。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="1" desc="DeterminCardTip1">
+        &lt;font color=&quot;0xff00ff6c&quot;&gt;侠胆&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xff3b9fb7&quot;&gt;本回合内攻击范围无限；可以额外使用一张&lt;/font&gt;&lt;font color=&quot;0xff059b5f&quot;&gt;杀&lt;/font&gt;&lt;font color=&quot;0xff3b9fb7&quot;&gt;；使用&lt;/font&gt;&lt;font color=&quot;0xff059b5f&quot;&gt;杀&lt;/font&gt;&lt;font color=&quot;0xff3b9fb7&quot;&gt;时可以额外指定一个目标。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="2" desc="DeterminCardTip2">
+        &lt;font color=&quot;0xff00ff6c&quot;&gt;将跳过下一行动回合&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="3" desc="DeterminCardTip3">
+        &lt;font color=&quot;0xff00ff6c&quot;&gt;行动回合【杀】或【决斗】伤害+1&lt;/font&gt;&lt;b&gt;
+      </String>
+
+    </StrResPack>
+
+    <StrResPack id="17" desc="m_help_heroTips">
+      <String id="0" desc="HeroTip00">&lt;font color=&quot;0xffffffff&quot;&gt;秦始皇   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="1" desc="HeroTip01">&lt;font color=&quot;0xffffffff&quot;&gt;铁木真   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="2" desc="HeroTip02">&lt;font color=&quot;0xffffffff&quot;&gt;刘邦   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血 &lt;/font&gt;</String>
+      <String id="3" desc="HeroTip03">&lt;font color=&quot;0xffffffff&quot;&gt;赵匡胤   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="4" desc="HeroTip04">&lt;font color=&quot;0xffffffff&quot;&gt;勾践   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="5" desc="HeroTip05">&lt;font color=&quot;0xffffffff&quot;&gt;朱元璋   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="6" desc="HeroTip06">&lt;font color=&quot;0xffffffff&quot;&gt;项羽   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="7" desc="HeroTip07">&lt;font color=&quot;0xffffffff&quot;&gt;李世民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="8" desc="HeroTip08">&lt;font color=&quot;0xffffffff&quot;&gt;武则天   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="9" desc="HeroTip09">&lt;font color=&quot;0xffffffff&quot;&gt;慕容   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="10" desc="HeroTip10">&lt;font color=&quot;0xffffffff&quot;&gt;曹操   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="11" desc="HeroTip11">&lt;font color=&quot;0xffffffff&quot;&gt;陈胜   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="12" desc="HeroTip12">&lt;font color=&quot;0xffffffff&quot;&gt;商鞅   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="13" desc="HeroTip13">&lt;font color=&quot;0xffffffff&quot;&gt;虞姬   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="14" desc="HeroTip14">&lt;font color=&quot;0xffffffff&quot;&gt;刘伯温   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="15" desc="HeroTip15">&lt;font color=&quot;0xffffffff&quot;&gt;岳飞   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="16" desc="HeroTip16">&lt;font color=&quot;0xffffffff&quot;&gt;孙武   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="17" desc="HeroTip17">&lt;font color=&quot;0xffffffff&quot;&gt;廉颇   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="18" desc="HeroTip18">&lt;font color=&quot;0xffffffff&quot;&gt;韩信   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="19" desc="HeroTip19">&lt;font color=&quot;0xffffffff&quot;&gt;褒姒   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="20" desc="HeroTip20">&lt;font color=&quot;0xffffffff&quot;&gt;花木兰   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="21" desc="HeroTip21">&lt;font color=&quot;0xffffffff&quot;&gt;关羽   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="22" desc="HeroTip22">&lt;font color=&quot;0xffffffff&quot;&gt;杨延昭   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="23" desc="HeroTip23">&lt;font color=&quot;0xffffffff&quot;&gt;澹台名   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="24" desc="HeroTip24">&lt;font color=&quot;0xffffffff&quot;&gt;秦琼   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="25" desc="HeroTip25">&lt;font color=&quot;0xffffffff&quot;&gt;武松   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="26" desc="HeroTip26">&lt;font color=&quot;0xffffffff&quot;&gt;赵飞燕   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="27" desc="HeroTip27">&lt;font color=&quot;0xffffffff&quot;&gt;宋江   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="28" desc="HeroTip28">&lt;font color=&quot;0xffffffff&quot;&gt;西施   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="29" desc="HeroTip29">&lt;font color=&quot;0xffffffff&quot;&gt;扁鹊   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="30" desc="HeroTip30">&lt;font color=&quot;0xffffffff&quot;&gt;陈圆圆   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="31" desc="HeroTip31">&lt;font color=&quot;0xffffffff&quot;&gt;李师师   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="32" desc="HeroTip32">&lt;font color=&quot;0xffffffff&quot;&gt;任桓之   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="33" desc="HeroTip33">&lt;font color=&quot;0xffffffff&quot;&gt;荆轲   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="34" desc="HeroTip34">&lt;font color=&quot;0xffffffff&quot;&gt;时迁   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="35" desc="HeroTip35">&lt;font color=&quot;0xffffffff&quot;&gt;鲁智深   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="36" desc="HeroTip36">&lt;font color=&quot;0xffffffff&quot;&gt;李逵   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="37" desc="HeroTip37">&lt;font color=&quot;0xffffffff&quot;&gt;程咬金   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="38" desc="HeroTip38">&lt;font color=&quot;0xffffffff&quot;&gt;诸葛亮   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="39" desc="HeroTip39">&lt;font color=&quot;0xffffffff&quot;&gt;李自成   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="40" desc="HeroTip40">&lt;font color=&quot;0xffffffff&quot;&gt;吕雉   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="41" desc="HeroTip41">&lt;font color=&quot;0xffffffff&quot;&gt;潘安   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="42" desc="HeroTip42">&lt;font color=&quot;0xffffffff&quot;&gt;鲁班   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="43" desc="HeroTip43">&lt;font color=&quot;0xffffffff&quot;&gt;小乔   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="44" desc="HeroTip44">&lt;font color=&quot;0xffffffff&quot;&gt;康熙   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="45" desc="HeroTip45">&lt;font color=&quot;0xffffffff&quot;&gt;刘彻   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="46" desc="HeroTip46">&lt;font color=&quot;0xffffffff&quot;&gt;李煜   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：君   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="47" desc="HeroTip47">&lt;font color=&quot;0xffffffff&quot;&gt;张飞   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="48" desc="HeroTip48">&lt;font color=&quot;0xffffffff&quot;&gt;杨玉环   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="49" desc="HeroTip49">&lt;font color=&quot;0xffffffff&quot;&gt;墨子 &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：臣   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="50" desc="HeroTip50">&lt;font color=&quot;0xffffffff&quot;&gt;林冲   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：4血&lt;/font&gt;</String>
+      <String id="51" desc="HeroTip51">&lt;font color=&quot;0xffffffff&quot;&gt;貂蝉   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+      <String id="52" desc="HeroTip52">&lt;font color=&quot;0xffffffff&quot;&gt;李白   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;阵营：民   &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;体力：3血&lt;/font&gt;</String>
+    </StrResPack>
+
+    <StrResPack id="18" desc="m_help_skillTips">
+      <String id="0" desc="SkillTip00">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;疏财：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以把自己的手牌发给任意角色,发两张或两张以上就自己恢复1点血,但是最多只能恢复1点。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="1" desc="SkillTip01">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;激将(主公技)：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;君阵营专属主公技，阵营为君的角色作为主公的时候可以使用。&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你需要出【杀】时，你可以发动【激将】。所有臣阵营角色按行动顺序依次选择是否出一张【杀】“提供”给你（视为由你出的【杀】），直到有一名角色或没有任何角色决定如此做时为止。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="2" desc="SkillTip02">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;傲剑：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你可以选择将红色花色的牌（手牌或装备区的牌）当作【杀】来用。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="3" desc="SkillTip03">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;天狼：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你每回合出【杀】的数量不受限制。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="4" desc="SkillTip04">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;占卜：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;到你回合时，可以先摸再观看最多5张牌（当人数少于5人时，为相应人数的牌），然后可以自由调整这5张牌的摆放顺序，再放回牌堆。可以将一部分放在牌堆顶，其余的放在牌堆底。然后进入判定-摸牌-出牌阶段。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="5" desc="SkillTip05">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;归隐：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你手里没牌的时候，其他人不可以主动出【杀】或者【决斗】攻击你。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="6" desc="SkillTip06">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;武穆：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你可以将【杀】当作【闪】来使用，【闪】当作【杀】来使用。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="7" desc="SkillTip07">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;骑射：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;默认视为你装备着一匹距离为1的进攻马（装备进攻马后，攻击范围在原来距离上再加1）。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="8" desc="SkillTip08">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;刺客：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你对别的角色出【杀】时可以选择做一次判定：若判定牌为红色花色，则此【杀】不可回避，直接命中；若判定牌为黑色花色，则此【杀】可回避，但如果对方没有出【闪】，则命中后可以选择弃掉对方一张牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="9" desc="SkillTip09">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;妙计：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;每当你使用一张非延时类锦囊牌时，（在锦囊牌结算前）你可以马上从牌堆中摸取一张牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="10" desc="SkillTip10">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;飞贼：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你使用【探囊取物】不受距离限制。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="11" desc="SkillTip11">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;驭人：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以选择弃掉自己任意数量的手牌和装备区的牌，立即从牌堆重新摸取相同数量的牌。每回合限使用一次。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="12" desc="SkillTip12">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;救援(主公技)：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;民势力专属主公技，属性为民的角色作为主公的时候可以使用。&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;“君”阵营角色在你濒死状态下对你使用【药】时，你额外恢复1点血。其他阵营角色对你出【药】无法多恢复1点血。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="13" desc="SkillTip13">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;释权：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你的任意一张黑色花色的牌（手牌或装备区的牌），都可以当作【釜底抽薪】来使用。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="14" desc="SkillTip14">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;隐忍：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;只要在自己出牌时没对别的玩家出过任何一张【杀】，则本回合结束时你可以不用弃牌（手牌上限为20张）。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="15" desc="SkillTip15">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;负荆：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以选择主动掉1点血，然后执行以下两项行动中的一项：1.自己马上从牌堆摸两张牌；2.指定伤你的角色马上从牌堆摸两张牌，则你的回合内该角色不能再使用【药】救你。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="16" desc="SkillTip16">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;兵仙：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;轮到你摸牌时，你可以摸三张牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="17" desc="SkillTip17">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;攻心：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以让任何一人指定一种花色，然后该玩家选择你的一张手牌并亮出。如果牌的花色和之前指定的相符，则对方获得你这张手牌；如果不符，对方掉1点血，然后获得你这张手牌。每回合限用一次。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="18" desc="SkillTip18">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;魅惑：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;在你出牌时，你可以将你方片花色的牌（手牌或者装备区的牌）当作【画地为牢】使用。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="19" desc="SkillTip19">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;沉鱼：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;有人对你出【杀】时，你可以弃掉一张牌（手牌或者装备区的牌）把这张【杀】转移给你攻击范围内的一名角色，但不能转移给对你出【杀】的这名角色。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="20" desc="SkillTip20">
+        &lt;font color=&quot;0xFF5f9b05&quot;&gt;千千：&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="21" desc="SkillTip21">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;?运：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="22" desc="SkillTip22">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;集权：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你掉血的时候，你可以选择马上获得让你掉血的那张牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="23" desc="SkillTip23">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;护主(主公技)：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;臣势力专属主公技，阵营为臣的角色作为主公的时候可以使用。&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你需要出一张【闪】时，你可以发动护主。所有“民”阵营角色按行动顺序依次选择是否出一张【闪】“提供”给你（视为由你出的【闪】），直到有一名角色或没有任何角色决定如此做时为止。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="24" desc="SkillTip24">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;法家：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你掉血以后可以抽取伤你的角色的一张牌，可以是对方的手牌，也可以是装备区的牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="25" desc="SkillTip25">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;变法：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;在任意玩家的判定牌生效前，你可以出一张牌（手牌或装备区的牌），替代原来的判定牌，从而改变判定结果。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="26" desc="SkillTip26">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;复仇：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你掉血以后可以选择进行一次判定,如果不是红桃,伤你的角色就必须选择掉1点血或者弃掉两张手牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="27" desc="SkillTip27">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;起义：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;在轮到你摸牌时，可以选择放弃摸牌，从两名（最多就是两名）其他玩家手里，每名角色抽一张牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="28" desc="SkillTip28">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;醉酒：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;在你摸牌时，如果你选择只摸一张牌，那本回合对别人出【杀】或【决斗】造成的的伤害为2（默认伤害为1）。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="29" desc="SkillTip29">
+        &lt;font color=&quot;0xFF5f9b05&quot;&gt;法?：&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="30" desc="SkillTip30">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;舍身：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你每掉1点血就能从牌堆中摸两张牌,可将这两张牌任意分配给其它角色，也可以自己留着。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="31" desc="SkillTip31">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;轻影：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;黑色花色手牌可以被你当做【闪】使用。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="32" desc="SkillTip32">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;玉步：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;到你摸牌前，你可以选择进行判定，如果判定牌是黑色花色的牌，就可以选择继续判定，直到判定出红色花色的牌为止。所有黑色花色的判定牌均收入你的手牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="33" desc="SkillTip33">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;回春：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你的回合外，能将你的红色花色的牌（手牌或者装备区的牌）来当作【药】使用。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="34" desc="SkillTip34">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;疗伤：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，能弃掉一张手牌，给任意一名角色恢复1点血。每回合限使用一次。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="35" desc="SkillTip35">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;霸王：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你出【杀】时，被杀对象需出两张【闪】才能抵消掉；决斗时你出一张【杀】，则对手需出两张【杀】。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="36" desc="SkillTip36">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;红颜：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以弃掉一张牌（手牌或者装备区的牌），来指定两个男性的角色进行【决斗】（此【决斗】不能被【无懈可击】抵消掉），你选定的第一个男性角色就是【决斗】中先要出【杀】的角色。每回合限用一次。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="37" desc="SkillTip37">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;楚楚：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;回合结束时，你可以摸一张牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="38" desc="SkillTip38">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;治愈：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以弃掉任意两张手牌，然后指定一名血量不满的男性角色，你和他可以各恢复1点血。每回合限用一次。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="39" desc="SkillTip39">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;迷离：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;每当你失去装备区中的一张牌，能马上摸两张牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="40" desc="SkillTip40">
+        &lt;font color=&quot;0xFF5f9b05&quot;&gt;狂狂：&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="41" desc="SkillTip41">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;曼舞：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;每当你受到伤害时，你可以弃一张红桃手牌来转移此伤害给任意一名角色，然后该角色摸X张牌；X为该角色当前已损失的体力值。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="42" desc="SkillTip42">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;红妆：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你的黑桃花色牌均视为红桃花色牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="43" desc="SkillTip43">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;控局：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你的手牌数不大于满血的血量时，是可以不用弃牌的（其他角色默认情况下手牌数不大于当前血量）；当你的手牌数小于满血的血量时，是不能被【探囊取物】或【釜底抽薪】；当你的手牌数大于你的满血的血量时，你不能被【画地为牢】。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="44" desc="SkillTip44">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;底力：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;摸牌时，你的摸牌数等于2+你当前掉血数。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="45" desc="SkillTip45">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;神偷：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你所有梅花花色的手牌都可以当作【探囊取物】使用。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="46" desc="SkillTip46">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;绝杀：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以选择自减一点血或弃掉一张手牌上的（或装备区内的）武器牌，指定一个目标（需在攻击范围内）直接掉1点血。每回合限用一次。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="47" desc="SkillTip47">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;侠胆：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以和任何一名角色拼点。若你赢，则本回合你的攻击范围无限、可以出两张【杀】、且每次出【杀】时可以指定最多两个目标。若你没赢，你本回合不能出【杀】。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="48" desc="SkillTip48">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;门神：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;回合结束阶段，你可以指定一个角色，则到你的下个回合开始为止，所有对该角色的【杀】和【决斗】，均视为对你打出。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="49" desc="SkillTip49">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;补刀：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;在你的回合外，有角色（该角色需在你的攻击范围内）被【杀】掉血后，你能对该角色打出一张【杀】，只要你的【杀】使该角色掉血了，你就可以继续出【杀】。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="50" desc="SkillTip50">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;易装：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以弃掉两张手牌，选定一个本局中阵亡的男性英雄，则失去你的所有技能，获得该男性英雄的所有技能，同时花木兰的血量上限变为该男性英雄的血量上限。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="51" desc="SkillTip51">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;烽火：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以选择弃掉一张装备区的牌，视为出一张【烽火狼烟】。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="52" desc="SkillTip52">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;兵圣：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="53" desc="SkillTip53">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;奸雄：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以出一张牌（手牌或装备区的牌），当作你本回合内前一张出的牌来使用。每回合限用一次。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="54" desc="SkillTip54">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;蝶魂：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当别的角色或你自己出的锦囊牌默认是指定多个角色时（也包括你自己），你可以跳过此锦囊，并立即从牌堆里摸一张牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="55" desc="SkillTip55">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;迁都：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以选择弃掉两张黑色花色的手牌，选定任意一名存活的角色，和该角色对调位置。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="56" desc="SkillTip56">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;图强：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;在自己的回合外，你每出一张【闪】，可立即从牌堆摸一张牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="57" desc="SkillTip57">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;强掠：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;如果你打出的【杀】被闪避，你可以选择进行一次判定，若判定结果为黑色花色的牌，你可以抽取对方的一张牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="58" desc="SkillTip58">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;反击：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你被【杀】或【决斗】损血后，你可以选择立即对伤你的角色打出一张【杀】，若此【杀】为红色花色，则此【杀】不可回避。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="59" desc="SkillTip59">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;诀别：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你进入濒死状态时，你可以选定一名男性英雄且同时选择不向包括你自己在内的任何角色求【药】，则你阵亡后，你的所有牌（手牌或装备区的牌）都归入此角色的手牌，你判定区的牌是归入对方的判定区。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="60" desc="SkillTip60">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;狂禅：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;做为主公（或主将）时，你的血量上限不能增加1点血量。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="61" desc="SkillTip61">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;强运：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;在任意一名角色的回合内，每当你失去或者用掉最后一张手牌时，可以立即从牌堆摸两张牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="62" desc="SkillTip62">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;女权：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你对男性角色出【决斗】，对方需出两张【杀】当作一张【杀】；男性角色对你出【决斗】无效。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="63" desc="SkillTip63">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;三板斧：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你对其他角色出【杀】时： 若对方选择出0张【闪】，则对方掉2点血，你也要弃一张手牌；若对方选择出1张【闪】，则对方掉1点血，你也掉1点血；若对方选择出2张【闪】，则对方不掉血，你自己掉1点血。（每回合限用一次）&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="64" desc="SkillTip64">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;兵圣：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;在任意角色的判定牌生效前，你可以出一张黑色花色的牌（手牌或装备区的牌）替换原来的判定牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="65" desc="SkillTip65">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;洞察：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你不能成为黑桃花色锦囊的目标。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="66" desc="SkillTip66">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;鲁莽：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;除自己外任何人对你使用的单体非延时类锦囊，你可以选择视为决斗。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="67" desc="SkillTip67">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;勇闯：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;在决斗中，你的所有手牌均视为【杀】。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="68" desc="SkillTip68">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;看破：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你可以将你的任意一张黑色手牌当【无懈可击】使用。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="69" desc="SkillTip69">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;鸩杀：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当场上有角色进入濒死状态求【药】时，你可以对其(需在攻击范围内)使用【药】，此时该角色立即阵亡。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="70" desc="SkillTip70">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;蓄谋：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你回合结束时，可以选择摸取三张牌。若如此做，你将跳过你下一个回合。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="71" desc="SkillTip71">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;悼亡：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你可以选择获得阵亡角色的所有牌（包括手牌和装备牌）。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="72" desc="SkillTip72">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;姿容：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以选择弃掉1张牌（手牌或装备牌），指定一名女性角色，则在该女性角色的回合内该角色对其他角色出【杀】或【决斗】伤害+1。（每回合限用一次）&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="73" desc="SkillTip73">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;鬼斧：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;到你出牌时，可以指定一名角色(除自己以外)装备区内的一张牌，将其弃掉，同时自己和对方各摸取一张牌。（每回合限用一次）&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="74" desc="SkillTip74">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;神工：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;到你出牌时，可以选定场上任意一名角色的装备区的牌，出自己的一张手牌复制该装备，同时可以选择装备上自己或其他角色的装备区。（每回合限用一次）&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="75" desc="SkillTip75">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;天香：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当一名角色需要判定时，你可以弃掉一张牌（手牌或装备牌），则取消该判定。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="76" desc="SkillTip76">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;国色：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你没有装备防具时，你默认视为装备玉如意。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="77" desc="SkillTip77">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;轻敏：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你不能成为【探囊取物】的目标。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="78" desc="SkillTip78">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;单骑：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;默认视为你装备着一匹距离为1的进攻马（装备进攻马后，攻击范围在原来距离上再加1）。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="79" desc="SkillTip79">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;削藩：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你做为主公（或主将）时，本局内所有“君”阵营的武将（除自己外）均视为“臣”阵营。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="80" desc="SkillTip80">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;明察：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当其他角色成功对其自己使用【药】回复血量时，你可以选择弃掉一张牌并给自己回复1点血。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="81" desc="SkillTip81">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;看破：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;到你出牌时，可以弃掉两张不同花色的手牌，指定任意一名角色，使其血量与你相同（若该角色血量大于你的血量，造成血量差的伤害，否则受到血量差的回复效果）。（每回合限用一次）&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="82" desc="SkillTip82">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;兵圣：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;手牌上限+1。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="83" desc="SkillTip83">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;威强：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;任意角色出【五谷丰登】时，你都是第一个拿牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="84" desc="SkillTip84">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;睿德：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当有角色弃牌时，你可以选择任意数量的手牌替换掉别人相同数量的弃牌，若如此做，则直到你的回合前你不能成为黑色锦囊的目标（每轮限用一次）。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="85" desc="SkillTip85">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;超脱：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;在任意角色的判定牌生效前，你可以出一张黑色花色的牌（手牌或装备区的牌）替换原来的判定牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="86" desc="SkillTip86">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;后主：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;每当你使用或打出一张【闪】时（结算前），可令任意一名角色判定：若为黑桃花色，你对该角色造成2点伤害。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="87" desc="SkillTip87">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;斗神：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;到你摸牌时，你可以选择放弃摸牌并进行一次判定：你获得此判定牌并且此回合内可以将任意一张与判定牌不同颜色的手牌当【决斗】使用&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="88" desc="SkillTip88">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;羞花：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;除弃牌阶段外，当你的手牌数小于你当前已掉血量时，可立即将手牌数补至等同于你已掉血量值。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="89" desc="SkillTip89">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;丰艳：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;“君”阵营英雄的判定牌为黑色花色时，你可以获得该判定牌。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="90" desc="SkillTip90">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;非攻：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以做出如下两种选择：【防御】你可以给任意一名角色一张牌，则该角色本轮内不能对你出【杀】；【保护】你抽取该角色一张牌，则该角色本轮内不能成为【杀】的目标。（每回合限用一次）&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="91" desc="SkillTip91">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;兼爱：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你可以把【药】当【休养生息】使用。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="92" desc="SkillTip92">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;豹头：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;被动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，当出现以下两种情况时你对别的角色出的【杀】不可回避：（1）目标角色的手牌数大于或等于你的血量值；（2）目标角色的手牌数小于或等于你的攻击范围。&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="93" desc="SkillTip93">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;离间：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以令所有男性角色依次对其距离最近的另外一名男性角色出【杀】（此时不能发动【杀】相关技能和武器技能），无法如此做者流失1点血。（每局限用一次）&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="94" desc="SkillTip94">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;闭月：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你每受到1点伤害时，可以令任意一名角色将手牌补至血量上限的张数。（最多只能5张）&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="95" desc="SkillTip95">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;妙笔：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你可以用红桃手牌当【五谷丰登】打出。（每回合限用一次）&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+      <String id="96" desc="SkillTip96">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;谪仙：&lt;/font&gt;&lt;font color=&quot;0xff4ebdff&quot;&gt;主动技&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你处于濒死状态时，你可以丢弃你所有的牌（包括判定牌），取消所有在你身上的状态，然后摸三张牌且血量恢复到3点。（每局限用一次）&lt;/font&gt;&lt;b&gt;&lt;b&gt;
+      </String>
+    </StrResPack>
+
+    <StrResPack id="19" desc="m_help_baseCardTips">
+      <String id="0" desc="BaseCardTip0">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;杀&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你可以对别的角色出【杀】。【杀】的伤害是1，默认的攻击距离也是1。【杀】可以被【闪】或者别的英雄技能抵挡掉。每回合只能出1次【杀】。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="1" desc="BaseCardTipTip1">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;闪&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当别的角色对你出【杀】时，你可以出【闪】抵挡掉。每回合出【闪】次数不限。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="2" desc="BaseCardTipTip2">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;药&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以出【药】来恢复1点血量（不得超过血量上限）或者在别的角色进入濒死状态时出【药】救活他，帮他恢复1点血。&lt;/font&gt;&lt;b&gt;
+      </String>
+    </StrResPack>
+
+    <StrResPack id="20" desc="m_help_equipTips">
+      <String id="0" desc="equipmentTip00">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;玉如意&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;每当你需要出【闪】的时候，你可以选择进行一次判定：如果判定为红色花色的牌，则视为你出了一张【闪】；如果判定为黑色花色的牌，则视为你判定失败，依旧要出【闪】。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="1" desc="equipmentTip01">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;进攻马   赤兔&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;攻击别的角色的距离缩短了1。距离是可以从左右两边都算起。每一名角色算作1的距离。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="2" desc="equipmentTip02">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;进攻马   的卢&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;攻击别的角色的距离缩短了1。距离是可以从左右两边都算起。每一名角色算作1的距离。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="3" desc="equipmentTip03">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;进攻马   乌骓&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;攻击别的角色的距离缩短了1。距离是可以从左右两边都算起。每一名角色算作1的距离。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="4" desc="equipmentTip04">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;防御马   忽雷驳&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你与别的角色的距离增加了1，别的角色需要更大的攻击范围才能攻击到你。距离是可以从左右两边算起。每一名角色算作1的距离。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="5" desc="equipmentTip05">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;防御马   追风&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你与别的角色的距离增加了1，别的角色需要更大的攻击范围才能攻击到你。距离是可以从左右两边算起。每一名角色算作1的距离。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="6" desc="equipmentTip06">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;防御马   蹑影&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;你与别的角色的距离增加了1，别的角色需要更大的攻击范围才能攻击到你。距离是可以从左右两边算起。每一名角色算作1的距离。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="7" desc="equipmentTip07">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;虎符&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;攻击距离：1&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以出任意张【杀】。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="8" desc="equipmentTip08">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;龙鳞刀&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;攻击距离：2&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你出的【杀】令对方命中，准备掉血时，你可以选择不让对方掉血，而弃掉对方两张牌（包括手牌、装备牌和判定区的牌）。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="9" desc="equipmentTip09">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;鱼肠剑&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;攻击距离：2&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;对别的角色出【杀】时，无视该角色的防具。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="10" desc="equipmentTip10">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;盘龙棍&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;攻击距离：3&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你出的【杀】被【闪】抵消后，你可以立即对该角色再出【杀】，直到【杀】生效或你不愿意出【杀】为止。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="11" desc="equipmentTip11">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;芦叶枪&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;攻击距离：3&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你需要出【杀】时，你可以将两张手牌弃掉，然后当作【杀】来使用。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="12" desc="equipmentTip12">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;博浪锤&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;攻击距离：3&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;如果对方出【闪】抵消你出的【杀】，则你可以选择弃掉两张牌（手牌或者装备区的牌），使对方掉1点血。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="13" desc="equipmentTip13">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;狼牙棒&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;攻击距离：4&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你出的【杀】是你的最后一张手牌时，你可以让这张【杀】指定至多3名角色（除开自己外），然后按出牌顺序结算之。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="14" desc="equipmentTip14">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;霸王弓&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;攻击距离：5&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;当你对别的角色出【杀】使他掉血时，你可以抽取他装备区的一匹马然后弃掉。 &lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="15" desc="equipmentTip15">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;短刀&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;攻击距离：2&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="16" desc="equipmentTip16">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;剑&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;攻击距离：3&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="17" desc="equipmentTip17">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;枪&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;攻击距离：4&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="18" desc="equipmentTip18">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;弓&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;攻击距离：5&lt;/font&gt;&lt;b&gt;
+      </String>
+    </StrResPack>
+
+    <StrResPack id="21" desc="m_help_sackTips">
+
+      <String id="0" desc="sackTip0">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;探囊取物&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;可以对与你距离为1的角色使用，你可以摸取一张该角色的牌（手牌或装备区的牌或判定区的牌）。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="1" desc="sackTip1">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;釜底抽薪&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;可以对任意距离的角色使用，抽取该角色一张牌（手牌或装备区的牌或判定区的牌）后弃掉。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="2" desc="sackTip2">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;五谷丰登&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出此牌时，按照存活的角色数，摸取相应张牌亮出来，从出牌人开始每人依次选择拿一张牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="3" desc="sackTip3">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;无中生有&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出此牌时，你可以立即再摸取两张牌&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="4" desc="sackTip4">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;决斗&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，你可以对除你外任意一名角色出【决斗】。由该角色开始，你和他/她轮流出【杀】。【决斗】的两名角色，首先不出【杀】的角色将掉1点血，不掉血的一方视为该伤害的来源。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="5" desc="sackTip5">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;烽火狼烟&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出此牌后，从出牌角色的下家开始，按出牌顺序每名角色都需要出【杀】，没有出【杀】的玩家将掉1点血。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="6" desc="sackTip6">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;万箭齐发&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出此牌后，从出牌角色的下家开始，按出牌顺序每名角色都需要出【闪】，没有出【闪】的玩家将掉1点血。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="7" desc="sackTip7">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;手捧雷&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;延时类锦囊。出牌时，你可以出【手捧雷】，此时将【手捧雷】横置于你的判定区里。到下一轮你摸牌前，【手捧雷】开始判定：如果判定为黑桃2—黑桃9之间的牌，则你将掉3点血，同时【手捧雷】被弃掉；如果不是黑桃2—黑桃9之间的牌，则移到下一个玩家的判定区里。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="8" desc="sackTip8">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;休养生息&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出此牌后，从出牌角色开始按出牌顺序每名角色恢复1点血。满血的角色不能再恢复，死亡的也不能复活。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="9" desc="sackTip9">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;无懈可击&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;在目标锦囊生效前，抵消它对一名角色产生的锦囊效果。任何锦囊都可以被抵消。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="10" desc="sackTip10">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;借刀杀人&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;出牌时，对除自己外任何一名装备区有武器的角色A使用，令A对另一名角色（可以是自己）出【杀】，如果角色A不出【杀】，则角色A的武器将收入你的手牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+      <String id="11" desc="sackTip11">
+        &lt;font color=&quot;0xff4ebdff&quot;&gt;画地为牢&lt;/font&gt;&lt;b&gt;&lt;b&gt;&lt;font color=&quot;0xffbde6ff&quot;&gt;延时类锦囊。出牌时，对其他任何一名角色出【画地为牢】，此时该锦囊将横置于该角色的判定区里。【画地为牢】在该角色摸牌前开始判定：如果判定为红桃花色的牌，则你可以摸牌然后出牌；如果不是红桃，则摸牌后不能出牌。&lt;/font&gt;&lt;b&gt;
+      </String>
+
+    </StrResPack>
+    <StrResPack id="200000" desc="otherstrings">
+      <String id="0" desc="touch_to_close_tip">&lt;font color=&quot;0xff03e2ef&quot;&gt;点击空白处返回&lt;/font&gt;</String>
+      <String id="1" desc="Player">&lt;font color=&quot;0xff03e2ef&quot;&gt;玩家：&lt;/font&gt;</String>
+      <String id="2" desc="ask_to_exit_game">游戏中离开会加倍扣分，您确定要离开吗?</String>
+      <String id="3" desc="Uin_del_str">删除</String>
+      <String id="4" desc="InvalidAccount">请输入正确的QQ号码</String>
+      <String id="5" desc="InvalidPWD">请输入QQ密码</String>
+      <String id="6" desc="ask_to_logout">您要返回到登录界面吗?</String>
+      <String id="7" desc="login_err_id_str">错误ID:</String>
+      <String id="8" desc="clear_saved_pwd_msg">版本已升级，为了您的帐户安全，请重新输入密码。</String>
+    </StrResPack>
+	
+	<StrResPack id="200001" desc="help">
+      <String id="0" desc="on_game_start">长按头像可查看详细信息</String>
+      <String id="1" desc="on_equiped">长按装备可查看详细信息</String>
+      <String id="2" desc="on_select">长按牌面可查看详细信息</String>
+    </StrResPack>
+	
+  </StringRes>
+
+  
+</QUF>

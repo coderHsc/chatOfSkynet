@@ -1,0 +1,51 @@
+
+<dict>
+	cocos2d.x.version: quick-cocos2d-x 2.2.5
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.vendor: NVIDIA Corporation
+	gl.renderer: GeForce GTX 650/PCIe/SSE2
+	gl.version: 4.3.0
+	gl.max_texture_size: 16384
+	gl.max_texture_units: 192
+	gl.supports_PVRTC: false
+	gl.supports_NPOT: true
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+</dict>
+lua_loadChunksFromZIP() - load zip file: D:\codeTools\quick-cocos2d-x-2.2.5\lib\framework_precompiled\framework_precompiled.zip
+lua_loadChunksFromZIP() - loaded chunks count: 108
+------------------------------------------------
+LOAD LUA FILE: C:/Users/hushencheng/Desktop/loadingScene/scripts/main.lua
+------------------------------------------------
+[0.2896] [INFO] 
+[0.2899] [INFO] # DEBUG                        = 1
+[0.2904] [INFO] #
+[0.2909] [INFO] # device.platform              = windows
+[0.2912] [INFO] # device.model                 = unknown
+[0.2916] [INFO] # device.language              = cn
+[0.2921] [INFO] # device.writablePath          = C:\Users\hushencheng\Desktop\loadingScene\
+[0.2928] [INFO] # device.cachePath             = C:\Users\hushencheng\Desktop\loadingScene\
+[0.2936] [INFO] # device.directorySeparator    = \
+[0.2939] [INFO] # device.pathSeparator         = ;
+[0.2948] [INFO] #
+[0.2970] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
+[0.2974] [INFO] # CONFIG_SCREEN_WIDTH          = 480.00
+[0.2978] [INFO] # CONFIG_SCREEN_HEIGHT         = 320.00
+[0.2982] [INFO] # display.widthInPixels        = 960.00
+[0.2985] [INFO] # display.heightInPixels       = 640.00
+[0.2988] [INFO] # display.contentScaleFactor   = 2.00
+[0.2992] [INFO] # display.width                = 480.00
+[0.2995] [INFO] # display.height               = 320.00
+[0.2998] [INFO] # display.cx                   = 240.00
+[0.3001] [INFO] # display.cy                   = 160.00
+[0.3005] [INFO] # display.left                 = 0.00
+[0.3010] [INFO] # display.right                = 480.00
+[0.3013] [INFO] # display.top                  = 320.00
+[0.3017] [INFO] # display.bottom               = 0.00
+[0.3020] [INFO] # display.c_left               = -240.00
+[0.3023] [INFO] # display.c_right              = 240.00
+[0.3026] [INFO] # display.c_top                = 160.00
+[0.3030] [INFO] # display.c_bottom             = -160.00
+[0.3033] [INFO] #

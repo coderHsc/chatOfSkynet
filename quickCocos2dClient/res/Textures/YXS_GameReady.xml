@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by tina (EMBRACE) -->
+<QUF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QUF.xsd">
+    <RootView btnok="Button_login_Login" btnesc="Panel_Btn_exit">
+        <!--background-->
+        <TitlePanel id="ready_background" ctrlid="22001" rect="0,0,960,640" render="login_background" />
+        <TitlePanel id="ready_background_name0" ctrlid="51002003" rect="16,40,38,92" render="background_name0" />
+        <TitlePanel id="ready_background_name1" ctrlid="51002004" rect="800,112,48,106" render="background_name1" />
+        <TitlePanel id="ready_background_name2" ctrlid="51002005" rect="100,150,42,90" render="background_name2" />
+        <TitlePanel id="ready_background_name3" ctrlid="51002006" rect="62,570,34,66" render="background_name3" />
+        <TitlePanel id="ready_background_name4" ctrlid="51002007" rect="150,70,42,134" render="background_name4" />
+        <TitlePanel id="ready_background_name5" ctrlid="51002008" rect="750,520,32,66" render="background_name5" />
+        <TitlePanel id="ready_background_name6" ctrlid="51002009" rect="750,72,44,94" render="background_name6" />
+        <TitlePanel id="Panel_GameReady" ctrlid="22000" rect="0,0,960,640" margin="0,1,0,0">
+            <ReadyTouchView id="ReadyPlayerlayout" ctrlid="700" rect="0,0,960,640" />
+            <YXS_Login_btn id="BackButtom" ctrlid="500" rect="14,520,122,112" render="session_new_back_btn" />
+            <YXS_NewUI_Menu id="Ready_menu_btn" ctrlid="20110614" rect="824,520,122,112" render="session_new_menu_btn">
+                <TextButton id="Reday_Button_help" ctrlid="20110615" rect="0,0,122,62" render="menu_helpbtn_render" show="false" />
+                <TextButton id="Ready_Button_config" ctrlid="20110616" rect="0,0,122,62" render="menu_settingbtn_render" show="false" />
+                <TextButton id="Ready_Button_chat" ctrlid="51002010" rect="0,0,122,62" render="menu_chatbtn_render" show="false" />
+            </YXS_NewUI_Menu>
+            <!--<TitlePanel id="Time_Ctrl_Background_RD" ctrlid="336650616" rect="12,290,40,20" show="false">
+        <Label id="Time_Ctrl_RD" ctrlid="33665617" rect="0,3,40,14" caption="10:24" render="Time_Ctrl_Render" viewalign="center"/>
+      </TitlePanel>-->
+            <!--选将按钮!-->
+            <TextButton id="SelHero_Btn" ctrlid="110106" caption="选将" rect="0,0,186,80" render="common_btn" show="false" />
+            <!--end选将按钮!-->
+            <!--结算界面!-->
+            <TitlePanel id="Balance" ctrlid="110300" rect="0,0,960,640" penetrate="true" show="false">
+                <TitlePanel id="Balance_view_bk" ctrlid="110301" render="common_bk9" rect="180,72,602,520">
+                    <Label id="Balance_prize_text" ctrlid="110304" caption="恭喜，你获得碎片1个" render="Balance_Label" rect="60,40,280,50" rich="true" />
+                    <Box id="Balance_line" ctrlid="110307" rect="0,0,500,4" show="false" />
+                </TitlePanel>
+                <TitlePanel id="Balance_view" ctrlid="110305" rect="190,48,580,430" ownerdraw="true" />
+                <TitlePanel id="Balance_Rest_View" ctrlid="110306" rect="0,0,960,640" />
+            </TitlePanel>
+            <!--end结算界面!-->
+            <!--选将卡界面!-->
+            <TitlePanel id="selheroRoot" ctrlid="110110" rect="0,0,960,640">
+                <TitlePanel id="selheroRest" ctrlid="110111" rect="0,0,960,640" />
+                <TitlePanel id="selhero_prop" ctrlid="110100" rect="54,20,850,610">
+                    <TitlePanel id="selhero_prop_bk" ctrlid="110101" render="common_bk9" rect="0,0,850,610">
+                        <Label id="selhero_prop_text" ctrlid="110102" caption="选将" viewalign="center" color="255,255,255" rect="0,10,850,50" />
+                    </TitlePanel>
+                    <TitlePanel id="selhero_prop_view" ctrlid="110103" rect="0,0,850,610" ownerdraw="true" />
+                    <TextButton id="selhero_prop_Btn_OK" ctrlid="110104" caption="确定" rect="640,508,190,64" render="common_btn" />
+                </TitlePanel>
+            </TitlePanel>
+            <!--end选将卡界面!-->
+        </TitlePanel>
+        <Label id="cickuserbtn" ctrlid="800" rect="0,0,0,0" show="false" />
+        <TitlePanel id="ReadyTimer" ctrlid="110400" rect="0,0,960,640" penetrate="true" ownerdraw="true" />
+    </RootView>
+    <!--Render-->
+    <Render>
+        <FanRender id="new_payer1">
+            <FanObj id="background" fantasy="sprite|60000000|frame|100" />
+            <FanObj id="ready" fantasy="sprite|60000000|frame|103" />
+            <FanObj id="ready_bg" fantasy="sprite|60000000|frame|111" />
+        </FanRender>
+        <FanRender id="new_payer2">
+            <FanObj id="background" fantasy="sprite|60000000|frame|101" />
+            <FanObj id="ready" fantasy="sprite|60000000|frame|103" />
+            <FanObj id="ready_bg" fantasy="sprite|60000000|frame|111" />
+        </FanRender>
+        <FanRender id="new_payerFan">
+            <FanObj id="nobody_bg" fantasy="sprite|60000000|frame|101" />
+            <FanObj id="ready" fantasy="sprite|60000000|frame|103" />
+            <FanObj id="ready_bg" fantasy="sprite|60000000|frame|111" />
+            <!--
+      <FanObj id="HeadFan" fantasy="sprite|60000001|frame|120001" />
+      <FanObj id="anybody_bg" fantasy="sprite|60000000|frame|100" />
+      -->
+        </FanRender>
+        <FanRender id="new_payerZhong">
+            <FanObj id="nobody_bg" fantasy="sprite|60000000|frame|101" />
+            <FanObj id="ready" fantasy="sprite|60000000|frame|103" />
+            <FanObj id="ready_bg" fantasy="sprite|60000000|frame|111" />
+            <!--
+      <FanObj id="HeadZhong" fantasy="sprite|60000001|frame|120176" />
+      <FanObj id="anybody_bg" fantasy="sprite|60000000|frame|100" />
+      -->
+        </FanRender>
+        <FanBtnRender id="StartGameBtn">
+            <FanObj id="button" fantasy="sprite|60000000|frame|201" />
+            <FanObj id="buttonpressed" fantasy="sprite|60000000|frame|202" />
+            <FanObj id="buttondisable" fantasy="sprite|60000000|frame|203" />
+        </FanBtnRender>
+        <Label id="NickNameLabel" font="20|STFONT|" color="255,255,255" ColorChange="false" />
+        <Label id="UserInfoLabel" font="20|STFONT|" color="127,127,127" ColorChange="false" />
+        <Label id="Balance_Label" font="20|STFONT|" color="255,255,255" ColorChange="false" />
+    </Render>
+    <!--Fantasy-->
+    <Fantasy>
+        <Sprite id="60000000" desc="YXS_READY" img="YXS_READY">
+            <Module id="100" src="0,238,352,126" desc="new_payer1" />
+            <Module id="101" src="0,238,352,126" desc="new_payer2" />
+            <Module id="103" src="476,266,110,80" desc="ready" />
+            <Module id="104" src="312,432,44,44" desc="BALANCE_WIN" />
+            <Module id="105" src="358,432,44,44" desc="BALANCE_LOSE" />
+            <Module id="106" src="216,478,214,70" desc="BALANCE_TEXT_LORD_WIN" />
+            <Module id="107" src="216,550,214,70" desc="BALANCE_TEXT_FAN_WIN" />
+            <Module id="108" src="648,478,214,70" desc="BALANCE_TEXT_JIAN_WIN" />
+            <Module id="109" src="648,550,214,70" desc="BALANCE_TEXT_ZHONG_WIN" />
+            <Module id="110" src="474,238,36,26" desc="SMALL_DIAMOND" />
+            <Module id="111" src="590,386,352,126" desc="new_payer_ready" />
+            <Frame id="201" desc="start_btn">
+                <FModule id="0" objid="2001" src="470,2,308,110" />
+            </Frame>
+            <Frame id="202" desc="start_btn_pressed">
+                <FModule id="0" objid="2002" src="470,116,308,110" />
+            </Frame>
+            <Frame id="203" desc="start_btn_disable">
+                <FModule id="0" objid="2002" src="0,366,308,110" />
+            </Frame>
+            <Frame id="301" desc="change_btn">
+                <FModule id="0" objid="3001" src="238,2,228,228" />
+            </Frame>
+            <Frame id="302" desc="change_btn_pressed">
+                <FModule id="0" objid="3002" src="4,2,228,228" />
+            </Frame>
+            <Frame id="304" desc="change_image_text">
+                <FModule id="0" objid="3004" src="354,236,118,64" dest="58,114,118,64" />
+            </Frame>
+            <Frame id="305" desc="change_image_text_pressed">
+                <FModule id="0" objid="3005" src="354,302,118,64" dest="58,114,118,64" />
+            </Frame>
+            <Frame id="306" desc="change_scene5_text">
+                <FModule id="0" objid="3006" src="780,4,150,50" dest="34,56,150,50" />
+            </Frame>
+            <Frame id="307" desc="change_scene5_text_pressed">
+                <FModule id="0" objid="3007" src="780,170,150,50" dest="34,56,150,50" />
+            </Frame>
+            <Frame id="308" desc="change_scene5new_text">
+                <FModule id="0" objid="3008" src="780,54,150,50" dest="34,56,150,50" />
+            </Frame>
+            <Frame id="309" desc="change_scene5new_text_pressed">
+                <FModule id="0" objid="3009" src="780,222,150,50" dest="34,56,150,50" />
+            </Frame>
+            <Frame id="310" desc="change_scene8_text">
+                <FModule id="0" objid="3010" src="780,116,150,50" dest="34,56,150,50" />
+            </Frame>
+            <Frame id="311" desc="change_scene8_text_pressed">
+                <FModule id="0" objid="3011" src="780,284,150,50" dest="34,56,150,50" />
+            </Frame>
+            <Frame id="312" desc="change_scene3v3_text">
+                <FModule id="0" objid="3012" src="780,330,150,50" dest="34,56,150,50" />
+            </Frame>
+            <Frame id="313" desc="change_scene3v3_text_pressed">
+                <FModule id="0" objid="3013" src="626,330,150,50" dest="34,56,150,50" />
+            </Frame>
+            <Module id="12010" src="742,266,38,60" desc="YXS_READY_NUM_0" />
+            <Module id="12011" src="354,368,38,60" desc="YXS_READY_NUM_1" />
+            <Module id="12012" src="392,368,38,60" desc="YXS_READY_NUM_2" />
+            <Module id="12013" src="430,368,38,60" desc="YXS_READY_NUM_3" />
+            <Module id="12014" src="468,368,38,60" desc="YXS_READY_NUM_4" />
+            <Module id="12015" src="506,368,38,60" desc="YXS_READY_NUM_5" />
+            <Module id="12016" src="590,266,38,60" desc="YXS_READY_NUM_6" />
+            <Module id="12017" src="628,266,38,60" desc="YXS_READY_NUM_7" />
+            <Module id="12018" src="666,266,38,60" desc="YXS_READY_NUM_8" />
+            <Module id="12019" src="704,266,38,60" desc="YXS_READY_NUM_9" />
+            <Module id="12020" src="0,550,214,70" desc="user_info" />
+        </Sprite>
+    </Fantasy>
+</QUF>

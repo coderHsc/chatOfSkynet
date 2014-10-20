@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by tina (EMBRACE) -->
+<QUF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QUF.xsd">
+    <RootView btnok="Button_login_Login" btnesc="Panel_Btn_exit">
+        <TitlePanel id="Panel_BK" ctrlid="1100098" rect="0,0,1024,768" render="Common_BK_ipad_render" />
+    </RootView>
+</QUF>
