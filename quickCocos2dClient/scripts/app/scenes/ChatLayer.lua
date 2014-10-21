@@ -1,7 +1,21 @@
+
+
 local ChatLayer = class("ChatLayer", function()
     return display.newNode("ChatLayer")
 end)
 
+-- package.cpath = "luaclib/?.so"
+-- package.path  = "lualib/?.lua;examples/?.lua"
+-- local socket = require "clientsocket"
+-- local bit32 = require "bit32"
+-- local proto = require "proto"
+-- local sproto = require "sproto"
+
+
+-- local host = sproto.new(proto.s2c):host "package"
+-- local request = host:attach(sproto.new(proto.c2s))
+
+-- local fd = assert(socket.connect("127.0.0.1", 8888))
 
 local chatList      = nil 
 local contentHeight = display.height/13

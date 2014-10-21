@@ -1,3 +1,4 @@
+
 local LoadingLayer = class("LoadingLayer", function()
     return display.newNode("LoadingLayer")
 end)

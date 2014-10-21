@@ -17,35 +17,35 @@
 lua_loadChunksFromZIP() - load zip file: D:\codeTools\quick-cocos2d-x-2.2.5\lib\framework_precompiled\framework_precompiled.zip
 lua_loadChunksFromZIP() - loaded chunks count: 108
 ------------------------------------------------
-LOAD LUA FILE: C:/Users/hushencheng/Desktop/loadingScene/scripts/main.lua
+LOAD LUA FILE: C:/Users/hushencheng/Desktop/chatOfSkynet/quickCocos2dClient/scripts/main.lua
 ------------------------------------------------
-[0.2896] [INFO] 
-[0.2899] [INFO] # DEBUG                        = 1
-[0.2904] [INFO] #
-[0.2909] [INFO] # device.platform              = windows
-[0.2912] [INFO] # device.model                 = unknown
-[0.2916] [INFO] # device.language              = cn
-[0.2921] [INFO] # device.writablePath          = C:\Users\hushencheng\Desktop\loadingScene\
-[0.2928] [INFO] # device.cachePath             = C:\Users\hushencheng\Desktop\loadingScene\
-[0.2936] [INFO] # device.directorySeparator    = \
-[0.2939] [INFO] # device.pathSeparator         = ;
-[0.2948] [INFO] #
-[0.2970] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
-[0.2974] [INFO] # CONFIG_SCREEN_WIDTH          = 480.00
-[0.2978] [INFO] # CONFIG_SCREEN_HEIGHT         = 320.00
-[0.2982] [INFO] # display.widthInPixels        = 960.00
-[0.2985] [INFO] # display.heightInPixels       = 640.00
-[0.2988] [INFO] # display.contentScaleFactor   = 2.00
-[0.2992] [INFO] # display.width                = 480.00
-[0.2995] [INFO] # display.height               = 320.00
-[0.2998] [INFO] # display.cx                   = 240.00
-[0.3001] [INFO] # display.cy                   = 160.00
-[0.3005] [INFO] # display.left                 = 0.00
-[0.3010] [INFO] # display.right                = 480.00
-[0.3013] [INFO] # display.top                  = 320.00
-[0.3017] [INFO] # display.bottom               = 0.00
-[0.3020] [INFO] # display.c_left               = -240.00
-[0.3023] [INFO] # display.c_right              = 240.00
-[0.3026] [INFO] # display.c_top                = 160.00
-[0.3030] [INFO] # display.c_bottom             = -160.00
-[0.3033] [INFO] #
+[0.3190] [INFO] 
+[0.3194] [INFO] # DEBUG                        = 1
+[0.3200] [INFO] #
+[0.3204] [INFO] # device.platform              = windows
+[0.3207] [INFO] # device.model                 = unknown
+[0.3210] [INFO] # device.language              = cn
+[0.3214] [INFO] # device.writablePath          = C:\Users\hushencheng\Desktop\chatOfSkynet\quickCocos2dClient\
+[0.3220] [INFO] # device.cachePath             = C:\Users\hushencheng\Desktop\chatOfSkynet\quickCocos2dClient\
+[0.3226] [INFO] # device.directorySeparator    = \
+[0.3230] [INFO] # device.pathSeparator         = ;
+[0.3233] [INFO] #
+[0.3249] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
+[0.3252] [INFO] # CONFIG_SCREEN_WIDTH          = 480.00
+[0.3257] [INFO] # CONFIG_SCREEN_HEIGHT         = 320.00
+[0.3261] [INFO] # display.widthInPixels        = 960.00
+[0.3265] [INFO] # display.heightInPixels       = 640.00
+[0.3269] [INFO] # display.contentScaleFactor   = 2.00
+[0.3273] [INFO] # display.width                = 480.00
+[0.3277] [INFO] # display.height               = 320.00
+[0.3282] [INFO] # display.cx                   = 240.00
+[0.3287] [INFO] # display.cy                   = 160.00
+[0.3291] [INFO] # display.left                 = 0.00
+[0.3295] [INFO] # display.right                = 480.00
+[0.3298] [INFO] # display.top                  = 320.00
+[0.3303] [INFO] # display.bottom               = 0.00
+[0.3306] [INFO] # display.c_left               = -240.00
+[0.3310] [INFO] # display.c_right              = 240.00
+[0.3314] [INFO] # display.c_top                = 160.00
+[0.3319] [INFO] # display.c_bottom             = -160.00
+[0.3322] [INFO] #
