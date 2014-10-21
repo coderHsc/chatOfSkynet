@@ -1,7 +1,22 @@
 
+
+
 local LoadingLayer = class("LoadingLayer", function()
     return display.newNode("LoadingLayer")
 end)
+
+package.cpath = "././././skynet/luaclib/?.so"
+package.path  = "././././skynet/lualib/?.lua;examples/?.lua"
+local socket = require "clientsocket"
+local bit32 = require "bit32"
+local proto = require "proto"
+local sproto = require "sproto"
+
+
+local host = sproto.new(proto.s2c):host "package"
+local request = host:attach(sproto.new(proto.c2s))
+
+local fd = assert(socket.connect("127.0.0.1", 8888))
 
 function LoadingLayer:ctor()
 	local back = display.newSprite("HelloWorld.png")
