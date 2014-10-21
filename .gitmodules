@@ -1,0 +1,3 @@
+[submodule "skynetServer"]
+	path = skynetServer
+	url = https://github.com/cloudwu/skynet
