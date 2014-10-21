@@ -1,5 +1,8 @@
+package.path = "./chatOfServer/?.lua;" .. package.path
+
 local skynet = require "skynet"
 local netpack = require "netpack"
+local proto = require "proto"
 
 local CMD = {}
 local SOCKET = {}
@@ -7,24 +10,16 @@ local gate
 local agent = {}
 
 function SOCKET.open(fd, addr)
+	skynet.error("New client from : " .. addr)
 	agent[fd] = skynet.newservice("agent")
-	skynet.call(agent[fd], "lua", "start", gate, fd)
-	skynet.call(agent[fd], "xfs", "start a new agent")
+	skynet.call(agent[fd], "lua", "start", gate, fd, proto)
 end
-
-skynet.register_protocol {--试验注册新lua协议
-	name = "xfs",
-	id = 12,
-	pack = skynet.pack,
-	unpack = skynet.unpack,
-}
 
 local function close_agent(fd)
 	local a = agent[fd]
 	if a then
 		skynet.kill(a)
 		agent[fd] = nil
-		ok, result = pcall(skynet.call,"talkbox", "lua", "rmUser", fd)--断开连接是处理用户
 	end
 end
 
@@ -39,7 +34,6 @@ function SOCKET.error(fd, msg)
 end
 
 function SOCKET.data(fd, msg)
-	-- print("[data]",fd, msg)
 end
 
 function CMD.start(conf)
@@ -57,5 +51,6 @@ skynet.start(function()
 			skynet.ret(skynet.pack(f(subcmd, ...)))
 		end
 	end)
+	print("watchdog.start")
 	gate = skynet.newservice("gate")
 end)
