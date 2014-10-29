@@ -1,5 +1,8 @@
 
 require("app.scenes.messageManager")
+require("app.scenes.socketManager")
+require "app.scenes.protobuf"
+protobuf.register_file "res/talkbox.pb"
 
 local LoginLayer = class("LoginLayer", function()
     return display.newNode("LoginLayer")
@@ -40,20 +43,10 @@ function LoginLayer:ctor()
 	self:addChild(self.passEditBox)
 
 
-	require "app.scenes.protobuf"
-   	protobuf.register_file "res/talkbox.pb"
+	
+	socketManager:initSocket()
 
-	if not self._socket then
-        self._socket = cc.net.SocketTCP.new("192.168.106.134", 10101, false)
-        self._socket:addEventListener(cc.net.SocketTCP.EVENT_CONNECTED, handler(self, self.onStatus))
-        self._socket:addEventListener(cc.net.SocketTCP.EVENT_CLOSE, handler(self,self.onStatus))
-        self._socket:addEventListener(cc.net.SocketTCP.EVENT_CLOSED, handler(self,self.onStatus))
-        self._socket:addEventListener(cc.net.SocketTCP.EVENT_CONNECT_FAILURE, handler(self,self.onStatus))
-        self._socket:addEventListener(cc.net.SocketTCP.EVENT_DATA, handler(self,self.onData))
-    end
-    self._socket:connect()
 
-	--ttf
 	local labelTTF = ui.newTTFLabel({  
         text 	= "",  
         size 	= 25,  
@@ -77,14 +70,18 @@ function LoginLayer:ctor()
 				labelTTF:setString(tostring("请输入密码"))
 				return
 			end
+			
+			-----------------------------------------------------------
    			stringbuffer = protobuf.encode("talkbox.talk_create",
                     {
                       userid = 1,
-                      name = self.nameEditBox:getText(),
+                      name = tostring(self.nameEditBox:getText()),
                     })
-   			local message = messageManager.getProcessMessage(1,1003,stringbuffer)
-
-    		self._socket:send(message:getPack())
+   			print("self.nameEditBox:getText()",self.nameEditBox:getText())
+   			local message = messageManager:getProcessMessage(1,1003,stringbuffer)
+   			socketManager:sendMessage(message)
+   			-----------------------------------------------------------
+    		
 
         	local nextScene = require("app.scenes.ChatScene"):new()
         	local kEffect = {"splitCols","splitRows"}
@@ -120,22 +117,5 @@ function LoginLayer:onEdit(event, editbox)
 	-- 从输入框返回
 	end
 end
-function LoginLayer:onData(__event)
-    local maxLen,version,messageId,msg = messageManager.unpackMessage(__event.data)
-    print("socket receive raw data:", maxLen,version,messageId,msg)
-end
-
-function LoginLayer:onStatus(__event)
-    printInfo("socket status: %s", __event.name)
-    -- local stringbuffer = protobuf.encode("talkbox.talk_create",
-    --                 {
-    --                   userid = 13,
-    --                   name = "2",
-                     
-    --                 })
-    -- local message = messageManager.getProcessMessage (1,1003,stringbuffer)
-    -- self._socket:send(message:getPack())
-end
-
 
 return LoginLayer

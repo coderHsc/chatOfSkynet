@@ -1,5 +1,6 @@
 
-
+require("app.scenes.messageManager")
+require("app.scenes.socketManager")
 local ChatLayer = class("ChatLayer", function()
     return display.newNode("ChatLayer")
 end)
@@ -89,6 +90,16 @@ function ChatLayer:ctor()
   --     curY = curY - contentHeight
   --   	chatList:addChild(self:createTTFLabel(text,curX,curY))
   -- end
+
+  -----------------------------------------------------------
+        stringbuffer = protobuf.encode("talkbox.talk_create",
+                    {
+                      userid = 1,
+                      name = tostring("zhangsan"),
+                    })
+        local message = messageManager:getProcessMessage(1,1003,stringbuffer)
+        socketManager:sendMessage(message)
+        -----------------------------------------------------------
 
 end
 
