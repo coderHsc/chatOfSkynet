@@ -19,38 +19,38 @@ lua_loadChunksFromZIP() - loaded chunks count: 108
 ------------------------------------------------
 LOAD LUA FILE: C:/Users/hushencheng/Desktop/chatOfSkynet/quickCocos2dClient/scripts/main.lua
 ------------------------------------------------
-[0.2714] [INFO] 
-[0.2719] [INFO] # DEBUG                        = 1
-[0.2724] [INFO] #
-[0.2730] [INFO] # device.platform              = windows
-[0.2736] [INFO] # device.model                 = unknown
-[0.2741] [INFO] # device.language              = cn
-[0.2746] [INFO] # device.writablePath          = C:\Users\hushencheng\Desktop\chatOfSkynet\quickCocos2dClient\
-[0.2753] [INFO] # device.cachePath             = C:\Users\hushencheng\Desktop\chatOfSkynet\quickCocos2dClient\
-[0.2759] [INFO] # device.directorySeparator    = \
-[0.2764] [INFO] # device.pathSeparator         = ;
-[0.2767] [INFO] #
-[0.2816] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
-[0.2820] [INFO] # CONFIG_SCREEN_WIDTH          = 480.00
-[0.2825] [INFO] # CONFIG_SCREEN_HEIGHT         = 320.00
-[0.2829] [INFO] # display.widthInPixels        = 960.00
-[0.2833] [INFO] # display.heightInPixels       = 640.00
-[0.2837] [INFO] # display.contentScaleFactor   = 2.00
-[0.2842] [INFO] # display.width                = 480.00
-[0.2846] [INFO] # display.height               = 320.00
-[0.2851] [INFO] # display.cx                   = 240.00
-[0.2860] [INFO] # display.cy                   = 160.00
-[0.2868] [INFO] # display.left                 = 0.00
-[0.2873] [INFO] # display.right                = 480.00
-[0.2878] [INFO] # display.top                  = 320.00
-[0.2882] [INFO] # display.bottom               = 0.00
-[0.2887] [INFO] # display.c_left               = -240.00
-[0.2891] [INFO] # display.c_right              = 240.00
-[0.2895] [INFO] # display.c_top                = 160.00
-[0.2900] [INFO] # display.c_bottom             = -160.00
-[0.2904] [INFO] #
-[LUA ERROR] [string "C:/Users/hushencheng/Desktop/chatOfSkynet/quickCocos2dClient/scripts/app/scenes/LoadingLayer.lua"]:10: module 'clientsocket' not found:
-	no field package.preload['clientsocket']
-	no file '././././skynet/lualib/clientsocket.lua'
-	no file 'examples/clientsocket.lua'
-	no file '././././skynet/luaclib/clientsocket.so'
+[0.3762] [INFO] 
+[0.3767] [INFO] # DEBUG                        = 1
+[0.3772] [INFO] #
+[0.3777] [INFO] # device.platform              = windows
+[0.3780] [INFO] # device.model                 = unknown
+[0.3784] [INFO] # device.language              = cn
+[0.3788] [INFO] # device.writablePath          = C:\Users\hushencheng\Desktop\chatOfSkynet\quickCocos2dClient\
+[0.3797] [INFO] # device.cachePath             = C:\Users\hushencheng\Desktop\chatOfSkynet\quickCocos2dClient\
+[0.3806] [INFO] # device.directorySeparator    = \
+[0.3810] [INFO] # device.pathSeparator         = ;
+[0.3813] [INFO] #
+[0.3830] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
+[0.3834] [INFO] # CONFIG_SCREEN_WIDTH          = 480.00
+[0.3842] [INFO] # CONFIG_SCREEN_HEIGHT         = 320.00
+[0.3848] [INFO] # display.widthInPixels        = 960.00
+[0.3852] [INFO] # display.heightInPixels       = 640.00
+[0.3857] [INFO] # display.contentScaleFactor   = 2.00
+[0.3862] [INFO] # display.width                = 480.00
+[0.3867] [INFO] # display.height               = 320.00
+[0.3871] [INFO] # display.cx                   = 240.00
+[0.3876] [INFO] # display.cy                   = 160.00
+[0.3880] [INFO] # display.left                 = 0.00
+[0.3884] [INFO] # display.right                = 480.00
+[0.3890] [INFO] # display.top                  = 320.00
+[0.3894] [INFO] # display.bottom               = 0.00
+[0.3899] [INFO] # display.c_left               = -240.00
+[0.3904] [INFO] # display.c_right              = 240.00
+[0.3911] [INFO] # display.c_top                = 160.00
+[0.3916] [INFO] # display.c_bottom             = -160.00
+[0.3922] [INFO] #
+[0.5506] [INFO] socket status: SOCKET_TCP_CONNECTED
+[0.6787] socket receive raw data:  30  1  0  Welcome to skynet中文
+
+[7.3161] socket receive raw data:  17  1  1008  3333333
+[7.5315] socket receive raw data:  8  1  1000  
