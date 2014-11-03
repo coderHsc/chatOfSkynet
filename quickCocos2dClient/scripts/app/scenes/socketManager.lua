@@ -1,6 +1,8 @@
 
 require("app.scenes.messageManager")
 require "app.scenes.protobuf"
+
+
 protobuf.register_file "res/talkbox.pb"
 
 socketManager = {}
@@ -25,10 +27,44 @@ end
 function socketManager:onData(__event)
     local maxLen,version,messageId,msg = messageManager:unpackMessage(__event.data)
 
-    if messageId == 1008 then 
-    	stringbuffer = protobuf.decode("talkbox.talk_create",msg)
+    print("msg:", msg)
+    print("messageId",messageId)
+    if messageId == 0 then 
+    	print("socket receive raw data:", msg)
+
+    elseif messageId == 1000 then 
+    	--local stringbuffer = protobuf.decode("talkbox.talk_result",msg)
+        --self.nextScene:getChatLayer():createText(msg)
+    	--if stringbuffer.id==0 then
+    	--	print("创建用户成功")
+    	--elseif stringbuffer.id==1 then 
+    	--	print("服务端解析请求创建用户的protocbuf失败")
+
+    	--elseif stringbuffer.id==2 then 
+    	--	print("创建用户失败，名字已经存在")
+    	--elseif stringbuffer.id==3 then 
+    	--	print("服务端解析请求发送内容的protocbuf失败")
+    	--end
+    	--print("stringbuffer:", stringbuffer.id)
+    elseif messageId == 1010 then 
+
+        local stringbuffer = protobuf.decode("talkbox.talk_message",msg)
+        self.nextScene:getChatLayer():createText(msg.msg)
+
+    elseif messageId ==1008 then 
+
+
+    	local stringbuffer = protobuf.decode("talkbox.talk_create",msg)
+
+        self.nextScene = require("app.scenes.ChatScene"):new()
+        local kEffect = {"splitCols","splitRows"}
+        local transtion = display.wrapSceneWithTransition(self.nextScene,kEffect[math.random(1,table.nums(kEffect))],.5)
+        display.replaceScene(transtion)
+        self.nextScene:getChatLayer():createText(stringbuffer.userid .. stringbuffer.name)
     	print("socket receive raw data:", maxLen,version,messageId,stringbuffer.userid,stringbuffer.name)
     end
+
+
 end
 
 function socketManager:onStatus(__event)

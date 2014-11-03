@@ -15,4 +15,9 @@ function ChatScene:init()
     self:addChild(chat_layer_)
 end
 
+function ChatScene:getChatLayer()
+   return chat_layer_
+end
+
+
 return ChatScene

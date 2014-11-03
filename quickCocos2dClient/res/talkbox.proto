@@ -21,5 +21,5 @@ message talk_message
 {
 	required int32 fromuserid = 1;	//角色名id
 	required int32 touserid = 2;	//角色名id
-	required string msg = 3;	//角色名长度
+	required string msg = 3;	    //角色名长度
 }

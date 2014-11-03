@@ -47,7 +47,19 @@ function ChatLayer:ctor()
           local text = self.chatEditBox:getText()
           curY = curY - contentHeight
           chatList:addChild(self:createTTFLabel(text,curX,curY))
-          --maxChatIndex
+
+          print("come in ")
+          ---------------------------------------------------------------------
+          stringbuffer = protobuf.encode("talkbox.talk_message",
+                    {
+                      fromuserid = 7,
+                      touserid =7,
+                      msg = text,
+                    })
+          --print("self.nameEditBox:getText()",self.nameEditBox:getText())
+          local message = messageManager:getProcessMessage(1,1005,stringbuffer)
+          socketManager:sendMessage(message)
+          -----------------------------------------------------------------------
         	
    		end
 
@@ -92,15 +104,20 @@ function ChatLayer:ctor()
   -- end
 
   -----------------------------------------------------------
-        stringbuffer = protobuf.encode("talkbox.talk_create",
-                    {
-                      userid = 1,
-                      name = tostring("zhangsan"),
-                    })
-        local message = messageManager:getProcessMessage(1,1003,stringbuffer)
-        socketManager:sendMessage(message)
+       -- stringbuffer = protobuf.encode("talkbox.talk_create",
+       --             {
+       --               userid = 1,
+       --               name = tostring("zhangsan"),
+      --              })
+       -- local message = messageManager:getProcessMessage(1,1003,stringbuffer)
+       -- socketManager:sendMessage(message)
         -----------------------------------------------------------
 
+end
+
+function ChatLayer:createText(text)
+   curY = curY - contentHeight
+   chatList:addChild(self:createTTFLabel(text,curX,curY))
 end
 
 function ChatLayer:createTTFLabel(text,posx,posy)

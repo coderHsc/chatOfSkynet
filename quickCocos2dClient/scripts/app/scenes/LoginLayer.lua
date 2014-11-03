@@ -42,11 +42,6 @@ function LoginLayer:ctor()
 	self.passEditBox:setFont("Arial", 18);
 	self:addChild(self.passEditBox)
 
-
-	
-	socketManager:initSocket()
-
-
 	local labelTTF = ui.newTTFLabel({  
         text 	= "",  
         size 	= 25,  
@@ -57,6 +52,7 @@ function LoginLayer:ctor()
     })  
     self:addChild(labelTTF)  
 
+    socketManager:initSocket()
 	--clicked join
 	local function onClicked(tag)  
         if tag == 1 then  
@@ -70,24 +66,22 @@ function LoginLayer:ctor()
 				labelTTF:setString(tostring("请输入密码"))
 				return
 			end
-			
+			--socketManager:initSocket()
+			-----------------------------------------------------------
 			-----------------------------------------------------------
    			stringbuffer = protobuf.encode("talkbox.talk_create",
                     {
-                      userid = 1,
+                      userid = 4,
                       name = tostring(self.nameEditBox:getText()),
                     })
-   			print("self.nameEditBox:getText()",self.nameEditBox:getText())
+   			--print("self.nameEditBox:getText()",self.nameEditBox:getText())
    			local message = messageManager:getProcessMessage(1,1003,stringbuffer)
    			socketManager:sendMessage(message)
-   			-----------------------------------------------------------
-    		
 
-        	local nextScene = require("app.scenes.ChatScene"):new()
-        	local kEffect = {"splitCols","splitRows"}
-        	local transtion = display.wrapSceneWithTransition(nextScene,kEffect[math.random(1,table.nums(kEffect))],.5)
-   			display.replaceScene(transtion)
- 
+
+
+   			-----------------------------------------------------------
+    	
         end
    
     end  

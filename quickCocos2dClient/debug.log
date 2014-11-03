@@ -19,36 +19,49 @@ lua_loadChunksFromZIP() - loaded chunks count: 108
 ------------------------------------------------
 LOAD LUA FILE: C:/Users/hushencheng/Desktop/chatOfSkynet/quickCocos2dClient/scripts/main.lua
 ------------------------------------------------
-[0.3843] [INFO] 
-[0.3847] [INFO] # DEBUG                        = 1
-[0.3852] [INFO] #
-[0.3858] [INFO] # device.platform              = windows
-[0.3864] [INFO] # device.model                 = unknown
-[0.3867] [INFO] # device.language              = cn
-[0.3873] [INFO] # device.writablePath          = C:\Users\hushencheng\Desktop\chatOfSkynet\quickCocos2dClient\
-[0.3882] [INFO] # device.cachePath             = C:\Users\hushencheng\Desktop\chatOfSkynet\quickCocos2dClient\
-[0.3890] [INFO] # device.directorySeparator    = \
-[0.3893] [INFO] # device.pathSeparator         = ;
-[0.3897] [INFO] #
-[0.3916] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
-[0.3920] [INFO] # CONFIG_SCREEN_WIDTH          = 480.00
-[0.3925] [INFO] # CONFIG_SCREEN_HEIGHT         = 320.00
-[0.3931] [INFO] # display.widthInPixels        = 960.00
-[0.3935] [INFO] # display.heightInPixels       = 640.00
-[0.3939] [INFO] # display.contentScaleFactor   = 2.00
-[0.3943] [INFO] # display.width                = 480.00
-[0.3947] [INFO] # display.height               = 320.00
-[0.3952] [INFO] # display.cx                   = 240.00
-[0.3956] [INFO] # display.cy                   = 160.00
-[0.3967] [INFO] # display.left                 = 0.00
-[0.3973] [INFO] # display.right                = 480.00
-[0.3977] [INFO] # display.top                  = 320.00
-[0.3982] [INFO] # display.bottom               = 0.00
-[0.3987] [INFO] # display.c_left               = -240.00
-[0.3991] [INFO] # display.c_right              = 240.00
-[0.3997] [INFO] # display.c_top                = 160.00
-[0.4001] [INFO] # display.c_bottom             = -160.00
-[0.4004] [INFO] #
-[0.5409] [INFO] socket status: SOCKET_TCP_CONNECTED
-[6.4240] self.nameEditBox:getText()  343434343
-[6.4663] socket receive raw data:  19  1  1008  28  343434343
+[0.3190] [INFO] 
+[0.3199] [INFO] # DEBUG                        = 1
+[0.3203] [INFO] #
+[0.3209] [INFO] # device.platform              = windows
+[0.3218] [INFO] # device.model                 = unknown
+[0.3221] [INFO] # device.language              = cn
+[0.3227] [INFO] # device.writablePath          = C:\Users\hushencheng\Desktop\chatOfSkynet\quickCocos2dClient\
+[0.3234] [INFO] # device.cachePath             = C:\Users\hushencheng\Desktop\chatOfSkynet\quickCocos2dClient\
+[0.3240] [INFO] # device.directorySeparator    = \
+[0.3244] [INFO] # device.pathSeparator         = ;
+[0.3248] [INFO] #
+[0.3266] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
+[0.3269] [INFO] # CONFIG_SCREEN_WIDTH          = 480.00
+[0.3273] [INFO] # CONFIG_SCREEN_HEIGHT         = 320.00
+[0.3278] [INFO] # display.widthInPixels        = 960.00
+[0.3282] [INFO] # display.heightInPixels       = 640.00
+[0.3287] [INFO] # display.contentScaleFactor   = 2.00
+[0.3293] [INFO] # display.width                = 480.00
+[0.3300] [INFO] # display.height               = 320.00
+[0.3304] [INFO] # display.cx                   = 240.00
+[0.3308] [INFO] # display.cy                   = 160.00
+[0.3312] [INFO] # display.left                 = 0.00
+[0.3316] [INFO] # display.right                = 480.00
+[0.3320] [INFO] # display.top                  = 320.00
+[0.3323] [INFO] # display.bottom               = 0.00
+[0.3327] [INFO] # display.c_left               = -240.00
+[0.3330] [INFO] # display.c_right              = 240.00
+[0.3333] [INFO] # display.c_top                = 160.00
+[0.3337] [INFO] # display.c_bottom             = -160.00
+[0.3340] [INFO] #
+[0.4806] [INFO] socket status: SOCKET_TCP_CONNECTED
+[0.6085] msg:  Welcome to skynet中文
+
+[0.6095] messageId  0
+[0.6101] socket receive raw data:  Welcome to skynet中文
+
+[3.4238] msg:  4343434
+[3.4241] messageId  1008
+[3.4305] socket receive raw data:  17  1  1008  7  4343434
+[3.6551] msg:  
+[3.6560] messageId  1000
+[7.4065] come in 
+[7.5056] msg:  3434343
+[7.5061] messageId  1010
+[7.6223] msg:  
+[7.6227] messageId  1000
