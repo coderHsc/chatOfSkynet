@@ -13,7 +13,12 @@ local maxLen        = nil
 local maxChatIndex  = 1
 local curX = display.cx
 local curY = display.height
+
+
 function ChatLayer:ctor()
+  self.id = nil 
+  self.name =nil
+  self.chatList = nil 
 	local back = display.newSprite("HelloWorld.png")
 	back:setPosition(ccp(display.cx ,display.cy ))
 	self:addChild(back)
@@ -42,25 +47,23 @@ function ChatLayer:ctor()
 
 	local function onClicked(tag)  
         if tag == 1 then  
-        	--print("sdsdd")
-        	--print("xxx",self.chatEditBox:getText())
           local text = self.chatEditBox:getText()
           curY = curY - contentHeight
           chatList:addChild(self:createTTFLabel(text,curX,curY))
 
-          print("come in ")
+          self:sendMsg(text)
+
           ---------------------------------------------------------------------
-          stringbuffer = protobuf.encode("talkbox.talk_message",
-                    {
-                      fromuserid = 7,
-                      touserid =7,
-                      msg = text,
-                    })
-          --print("self.nameEditBox:getText()",self.nameEditBox:getText())
-          local message = messageManager:getProcessMessage(1,1005,stringbuffer)
-          socketManager:sendMessage(message)
+          -- stringbuffer = protobuf.encode("talkbox.talk_message",
+          --           {
+          --             fromuserid = 7,
+          --             touserid =7,
+          --             msg = text,
+          --           })
+          -- --print("self.nameEditBox:getText()",self.nameEditBox:getText())
+          -- local message = messageManager:getProcessMessage(1,1005,stringbuffer)
+          -- socketManager:sendMessage(message)
           -----------------------------------------------------------------------
-        	
    		end
 
    	end
@@ -115,9 +118,60 @@ function ChatLayer:ctor()
 
 end
 
+function ChatLayer:getChatList()
+
+
+   stringbuffer = protobuf.encode("talkbox.talk_users.talk_user",
+    {
+                userid = self.id,
+                name   = self.name,
+    })
+   local message = messageManager:getProcessMessage(1,1001,stringbuffer)
+   socketManager:sendMessage(message)
+
+
+end
+
+function ChatLayer:sendMsg(text)
+
+    for k,v in pairs(self.chatList) do 
+      print("ChatLayer:sendMsg",v.userid,v.name)
+      local stringbuffer = protobuf.encode("talkbox.talk_message",
+       {
+          fromuserid = self.id,
+          touserid =v.userid,
+          msg = text,
+        })
+      --print("self.nameEditBox:getText()",self.nameEditBox:getText())
+      local message = messageManager:getProcessMessage(1,1010,stringbuffer)
+      socketManager:sendMessage(message)
+
+    end
+
+end
+
+function ChatLayer:updateChatList(chatList)
+    self.chatList = chatList
+
+end
+
 function ChatLayer:createText(text)
-   curY = curY - contentHeight
-   chatList:addChild(self:createTTFLabel(text,curX,curY))
+
+   if self.name ~= nil then 
+      curY = curY - contentHeight
+      local str = self.name .. ":" .. text 
+      chatList:addChild(self:createTTFLabel(str,curX,curY))
+
+    end
+end
+
+function ChatLayer:setId(id)
+  self.id = id
+
+end
+
+function ChatLayer:setName( name )
+   self.name = name 
 end
 
 function ChatLayer:createTTFLabel(text,posx,posy)

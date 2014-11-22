@@ -1,7 +1,7 @@
 
 require("app.scenes.messageManager")
 require "app.scenes.protobuf"
-
+require("app.scenes.ChatScene")
 
 protobuf.register_file "res/talkbox.pb"
 
@@ -19,7 +19,9 @@ function socketManager:initSocket()
         self._socket:addEventListener(cc.net.SocketTCP.EVENT_DATA, handler(self,self.onData))
     end
     self._socket:connect()
+    
 end
+
 function socketManager:sendMessage(msg)
 	self._socket:send(msg:getPack())
 end
@@ -27,40 +29,56 @@ end
 function socketManager:onData(__event)
     local maxLen,version,messageId,msg = messageManager:unpackMessage(__event.data)
 
-    print("msg:", msg)
     print("messageId",messageId)
     if messageId == 0 then 
-    	print("socket receive raw data:", msg)
+        
+    	--print("socket receive raw data:", msg)
+        if self.nextScene~=nil then 
+            self.nextScene:getChatLayer():createText(msg)
+        end
 
     elseif messageId == 1000 then 
-    	--local stringbuffer = protobuf.decode("talkbox.talk_result",msg)
-        --self.nextScene:getChatLayer():createText(msg)
-    	--if stringbuffer.id==0 then
-    	--	print("创建用户成功")
-    	--elseif stringbuffer.id==1 then 
-    	--	print("服务端解析请求创建用户的protocbuf失败")
+        local stringbuffer = protobuf.decode("talkbox.talk_result",msg)
 
-    	--elseif stringbuffer.id==2 then 
-    	--	print("创建用户失败，名字已经存在")
-    	--elseif stringbuffer.id==3 then 
-    	--	print("服务端解析请求发送内容的protocbuf失败")
-    	--end
-    	--print("stringbuffer:", stringbuffer.id)
+        print("stringbuffer.id",stringbuffer.id)
+
+        if stringbuffer.id==10 then
+            print("创建用户成功")
+            
+            local kEffect = {"splitCols","splitRows"}
+            print("self.nextScene",self.nextScene)
+            local transtion = display.wrapSceneWithTransition(self.nextScene,kEffect[math.random(1,table.nums(kEffect))],.5)
+            display.replaceScene(transtion)
+
+            self.nextScene:getChatLayer():createText("新用户进来")
+            self.nextScene:getChatLayer():getChatList()
+
+        elseif stringbuffer.id==1 then 
+            print("服务端解析请求创建用户的protocbuf失败")
+        elseif stringbuffer.id==2 then
+            print("创建用户失败，名字已经存在")
+
+        elseif  stringbuffer.id==3 then
+            print("服务端解析请求发送内容的protocbuf失败")
+        end
+
+    elseif messageId == 1002 then 
+        local stringbuffer = protobuf.decode("talkbox.talk_users",msg)
+
+        self.nextScene:getChatLayer():updateChatList(stringbuffer.users)
+
     elseif messageId == 1010 then 
-
         local stringbuffer = protobuf.decode("talkbox.talk_message",msg)
+
         self.nextScene:getChatLayer():createText(msg.msg)
 
     elseif messageId ==1008 then 
-
-
     	local stringbuffer = protobuf.decode("talkbox.talk_create",msg)
-
         self.nextScene = require("app.scenes.ChatScene"):new()
-        local kEffect = {"splitCols","splitRows"}
-        local transtion = display.wrapSceneWithTransition(self.nextScene,kEffect[math.random(1,table.nums(kEffect))],.5)
-        display.replaceScene(transtion)
-        self.nextScene:getChatLayer():createText(stringbuffer.userid .. stringbuffer.name)
+        self.nextScene:getChatLayer():setId(stringbuffer.userid)
+        self.nextScene:getChatLayer():setName(stringbuffer.name)
+        
+        
     	print("socket receive raw data:", maxLen,version,messageId,stringbuffer.userid,stringbuffer.name)
     end
 
@@ -68,7 +86,7 @@ function socketManager:onData(__event)
 end
 
 function socketManager:onStatus(__event)
-    printInfo("socket status: %s", __event.name)
+    print("socket status: %s", __event.name)
     -- local stringbuffer = protobuf.encode("talkbox.talk_create",
     --                 {
     --                   userid = 13,
