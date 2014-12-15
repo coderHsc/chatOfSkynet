@@ -1,9 +1,10 @@
 
 require("app.scenes.messageManager")
 require("app.scenes.socketManager")
-local ChatLayer = class("ChatLayer", function()
-    return display.newNode("ChatLayer")
-end)
+-- local ChatLayer = class("ChatLayer", function()
+--     return display.newNode("ChatLayer")
+-- end)
+ChatLayer={}
 
 
 local chatList      = nil 
@@ -14,14 +15,25 @@ local maxChatIndex  = 1
 local curX = display.cx
 local curY = display.height
 
+function ChatLayer:instance()
+  local o = _G.ChatLayer  
+    if o then return o end  
+    o = {}  
+    _G.ChatLayer = o  
+    setmetatable(o, self)  
+    self.__index = self  
+    return o  
 
-function ChatLayer:ctor()
+end
+function ChatLayer:new()
+
+  self.chatLayer = display.newNode("ChatLayer")
   self.id = nil 
   self.name =nil
   self.chatList = nil 
 	local back = display.newSprite("HelloWorld.png")
 	back:setPosition(ccp(display.cx ,display.cy ))
-	self:addChild(back)
+	self.chatLayer:addChild(back)
 	self.chatEditBox = ui.newEditBox(
 		{
 			image    = "green_edit.png",
@@ -35,13 +47,13 @@ function ChatLayer:ctor()
 	self.chatEditBox:setPlaceholderFontColor(display.COLOR_WHITE)
 	self.chatEditBox:setMaxLength(8)
 	self.chatEditBox:setFont("Arial", 18)
-	self:addChild(self.chatEditBox)
+	self.chatLayer:addChild(self.chatEditBox)
 
 
   chatList = display.newNode()
   local rect = CCRect(0,display.height*0.2,display.width,display.height)
   local ClippingRect = display.newClippingRegionNode(rect)
-  self:addChild(ClippingRect,4)
+  self.chatLayer:addChild(ClippingRect,4)
   ClippingRect:addChild(chatList,1)
   maxLen = 4400
 
@@ -52,7 +64,7 @@ function ChatLayer:ctor()
           chatList:addChild(self:createTTFLabel(text,curX,curY))
 
           self:sendMsg(text)
-
+          
           ---------------------------------------------------------------------
           -- stringbuffer = protobuf.encode("talkbox.talk_message",
           --           {
@@ -78,7 +90,7 @@ function ChatLayer:ctor()
 	}) 
 
 	local menu = ui.newMenu({item})  
-	self:addChild(menu)  
+	self.chatLayer:addChild(menu)  
 
   --
 	--SliderBar
@@ -93,7 +105,7 @@ function ChatLayer:ctor()
         :setSliderSize(20, display.height-30)
         :setSliderValue(0)
         :align(display.CENTER_TOP, display.width - 20 , display.cy + display.height/2)
-        :addTo(self)
+        :addTo(self.chatLayer)
 
   --chat list 
 
@@ -118,13 +130,16 @@ function ChatLayer:ctor()
 
 end
 
-function ChatLayer:getChatList()
+function ChatLayer:getLayer()
+  return self.chatLayer 
+end
 
+function ChatLayer:getChatList()
 
    stringbuffer = protobuf.encode("talkbox.talk_users.talk_user",
     {
-                userid = self.id,
-                name   = self.name,
+        userid = self.id,
+        name   = self.name,
     })
    local message = messageManager:getProcessMessage(1,1001,stringbuffer)
    socketManager:sendMessage(message)
@@ -133,20 +148,28 @@ function ChatLayer:getChatList()
 end
 
 function ChatLayer:sendMsg(text)
+    
+    -- self:getChatList()
+    -- if self.chatList ~= nil then 
+    --   for k,v in pairs(self.chatList) do 
+    --     print("ChatLayer:sendMsg",v.userid,v.name)
 
-    for k,v in pairs(self.chatList) do 
-      print("ChatLayer:sendMsg",v.userid,v.name)
-      local stringbuffer = protobuf.encode("talkbox.talk_message",
-       {
-          fromuserid = self.id,
-          touserid =v.userid,
-          msg = text,
-        })
-      --print("self.nameEditBox:getText()",self.nameEditBox:getText())
-      local message = messageManager:getProcessMessage(1,1010,stringbuffer)
-      socketManager:sendMessage(message)
+        print("xxxxxxxxxxxxx",text,DataManager.getId())
+          local str = protobuf.encode("talkbox.talk_message",
+           {
+              touserid = -1,
+              msg = "hello world",
+              fromuserid = DataManager.getId(),
+            
+            })
+          local message = messageManager:getProcessMessage(1,1005,str)
+      
+          socketManager:sendMessage(message)
+      
 
-    end
+          print("send over",message)
+    --   end
+    -- end
 
 end
 
@@ -157,6 +180,8 @@ end
 
 function ChatLayer:createText(text)
 
+  print("create text",text)
+   self.name = DataManager.getName()
    if self.name ~= nil then 
       curY = curY - contentHeight
       local str = self.name .. ":" .. text 
@@ -166,6 +191,8 @@ function ChatLayer:createText(text)
 end
 
 function ChatLayer:setId(id)
+
+  print("selfId",id)
   self.id = id
 
 end
@@ -196,4 +223,4 @@ end
 
 
 
-return ChatLayer
+--return ChatLayer

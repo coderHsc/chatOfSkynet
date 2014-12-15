@@ -67,19 +67,20 @@ function LoginLayer:ctor()
 				return
 			end
 			--socketManager:initSocket()
+			DataManager.setId(self.passEditBox:getText())
+        	DataManager.setName(tostring(self.nameEditBox:getText()))
 			-----------------------------------------------------------
 			-----------------------------------------------------------
    			stringbuffer = protobuf.encode("talkbox.talk_create",
                     {
-                      userid = 4,
+                      userid = self.passEditBox:getText(),
                       name = tostring(self.nameEditBox:getText()),
                     })
    			--print("self.nameEditBox:getText()",self.nameEditBox:getText())
    			local message = messageManager:getProcessMessage(1,1003,stringbuffer)
    			socketManager:sendMessage(message)
 
-
-
+   			
    			-----------------------------------------------------------
     	
         end

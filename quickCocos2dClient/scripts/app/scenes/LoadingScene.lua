@@ -1,3 +1,4 @@
+require("app.scenes.LoadingLayer")
 local LoadingScene = class("LoadingScene", function()
     return display.newScene("LoadingScene")
 end)
@@ -9,8 +10,10 @@ function LoadingScene:ctor()
 end
 
 function LoadingScene:init()
-	loading_layer_ = require("app.scenes.LoadingLayer"):new()
-    self:addChild(loading_layer_)
+	local loadingLayer=LoadingLayer:instance()
+	local loadingLayer=LoadingLayer:instance()
+	loadingLayer:new()
+    self:addChild(loadingLayer:getLayer())
 end
 
 return LoadingScene

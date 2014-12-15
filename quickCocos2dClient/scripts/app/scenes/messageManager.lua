@@ -6,12 +6,12 @@ local ByteArray = require("framework.cc.utils.ByteArray")
 messageManager = {}
 
 function messageManager:getProcessMessage(version,messageId,protobufMessage)
-    local packA = string.pack(">hiz",version,messageId,stringbuffer)
+    local packA = string.pack(">hiz",version,messageId,protobufMessage)
     local byteArrayA = ByteArray.new()
     byteArrayA:writeBuf(packA)
     local packAlen = byteArrayA:getLen()
 
-    local packB = string.pack(">hhiz",packAlen,version,messageId,stringbuffer)
+    local packB = string.pack(">hhiz",packAlen,version,messageId,protobufMessage)
     local byteArrayB = ByteArray.new()
     byteArrayB:writeBuf(packB)
     return byteArrayB

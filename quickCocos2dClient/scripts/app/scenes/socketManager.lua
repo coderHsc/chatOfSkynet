@@ -2,14 +2,16 @@
 require("app.scenes.messageManager")
 require "app.scenes.protobuf"
 require("app.scenes.ChatScene")
+require("app.scenes.DataManager")
+local Scheduler = require("framework.scheduler")
 
 protobuf.register_file "res/talkbox.pb"
 
 socketManager = {}
 
 self = socketManager
-
-function socketManager:initSocket()
+local nextScene = nil 
+function socketManager:initSocket() 
 	if not self._socket then
         self._socket = cc.net.SocketTCP.new("192.168.106.134", 10101, false)
         self._socket:addEventListener(cc.net.SocketTCP.EVENT_CONNECTED, handler(self, self.onStatus))
@@ -23,7 +25,7 @@ function socketManager:initSocket()
 end
 
 function socketManager:sendMessage(msg)
-	self._socket:send(msg:getPack())
+    self._socket:send(msg:getPack())
 end
 
 function socketManager:onData(__event)
@@ -32,9 +34,9 @@ function socketManager:onData(__event)
     print("messageId",messageId)
     if messageId == 0 then 
         
-    	--print("socket receive raw data:", msg)
-        if self.nextScene~=nil then 
-            self.nextScene:getChatLayer():createText(msg)
+    	print("socket receive raw data:", msg)
+        if nextScene~=nil then 
+            nextScene:getChatLayer():createText(msg)
         end
 
     elseif messageId == 1000 then 
@@ -44,14 +46,13 @@ function socketManager:onData(__event)
 
         if stringbuffer.id==10 then
             print("创建用户成功")
-            
+            nextScene = require("app.scenes.ChatScene"):new()
             local kEffect = {"splitCols","splitRows"}
-            print("self.nextScene",self.nextScene)
-            local transtion = display.wrapSceneWithTransition(self.nextScene,kEffect[math.random(1,table.nums(kEffect))],.5)
+            print("self.nextScene",nextScene)
+            local transtion = display.wrapSceneWithTransition(nextScene,kEffect[math.random(1,table.nums(kEffect))],.5)
             display.replaceScene(transtion)
-
-            self.nextScene:getChatLayer():createText("新用户进来")
-            self.nextScene:getChatLayer():getChatList()
+            --self.nextScene:getChatLayer():createText("新用户进来")
+            --self.nextScene:getChatLayer():getChatList()
 
         elseif stringbuffer.id==1 then 
             print("服务端解析请求创建用户的protocbuf失败")
@@ -65,20 +66,25 @@ function socketManager:onData(__event)
     elseif messageId == 1002 then 
         local stringbuffer = protobuf.decode("talkbox.talk_users",msg)
 
-        self.nextScene:getChatLayer():updateChatList(stringbuffer.users)
+        for k , v in pairs(stringbuffer.users) do
+            print("vvvvvvvvvvv",v.userid,v.name)
+        end
+        
+        nextScene:getChatLayer():updateChatList(stringbuffer.users)
 
     elseif messageId == 1010 then 
+
+      
         local stringbuffer = protobuf.decode("talkbox.talk_message",msg)
 
-        self.nextScene:getChatLayer():createText(msg.msg)
+        print("stringbufferstringbuffer",stringbuffer.msg,nextScene)
+
+        nextScene:getChatLayer():createText(stringbuffer.msg)
 
     elseif messageId ==1008 then 
     	local stringbuffer = protobuf.decode("talkbox.talk_create",msg)
-        self.nextScene = require("app.scenes.ChatScene"):new()
-        self.nextScene:getChatLayer():setId(stringbuffer.userid)
-        self.nextScene:getChatLayer():setName(stringbuffer.name)
-        
-        
+       
+
     	print("socket receive raw data:", maxLen,version,messageId,stringbuffer.userid,stringbuffer.name)
     end
 

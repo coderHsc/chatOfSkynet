@@ -1,3 +1,4 @@
+
 local ChatScene = class("ChatScene", function()
     return display.newScene("ChatScene")
 end)
@@ -5,14 +6,15 @@ end)
 local chat_layer_ = nil 
 
 function ChatScene:ctor()
-    
     self:init()
 end
 
 function ChatScene:init()
-	
-	chat_layer_ = require("app.scenes.ChatLayer"):new()
-    self:addChild(chat_layer_)
+	require("app.scenes.ChatLayer")
+	chat_layer_ = ChatLayer:instance()
+	ChatLayer:new()
+
+    self:addChild(chat_layer_:getLayer())
 end
 
 function ChatScene:getChatLayer()
